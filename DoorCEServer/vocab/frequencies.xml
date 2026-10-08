@@ -1,0 +1,2618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frequencies table.id="frequency"
+             original.entries.date="2009-03-31"
+             current.entries.date="2025-03-06"
+             ref.administration="cat.admin.xml"
+             table.structure.version="01-02.95-20250213"
+             version="20250319-0">
+   <record id="FRQ001"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>TRIENNIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">тригодишен</lg.version>
+         <lg.version lg="ces" gender.grammar="F">tříletá</lg.version>
+         <lg.version lg="ces" gender.grammar="M">tříletý</lg.version>
+         <lg.version lg="ces" gender.grammar="N">tříleté</lg.version>
+         <lg.version lg="dan" gender.grammar="N">treårligt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">treårlig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">dreijährliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">dreijährlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">dreijährliches</lg.version>
+         <lg.version lg="ell" script="Greek">τριετής</lg.version>
+         <lg.version lg="eng">triennial</lg.version>
+         <lg.version lg="est">iga kolme aasta järel</lg.version>
+         <lg.version lg="fin">kolmivuotinen</lg.version>
+         <lg.version lg="fra" gender.grammar="F">triennale</lg.version>
+         <lg.version lg="fra" gender.grammar="M">triennal</lg.version>
+         <lg.version lg="gle">tríbhliantúil</lg.version>
+         <lg.version lg="hrv">trijenale</lg.version>
+         <lg.version lg="hun">háromévenkénti</lg.version>
+         <lg.version lg="ita">triennale</lg.version>
+         <lg.version lg="lav">reizi trīs gados</lg.version>
+         <lg.version lg="lit">trimetis</lg.version>
+         <lg.version lg="mlt">triennali</lg.version>
+         <lg.version lg="nld">driejaarlijks</lg.version>
+         <lg.version lg="nno">kvart tredje år</lg.version>
+         <lg.version lg="nob">hvert tredje år</lg.version>
+         <lg.version lg="nor">hvert tredje år</lg.version>
+         <lg.version lg="pol" gender.grammar="F">trzyletnia</lg.version>
+         <lg.version lg="pol" gender.grammar="M">trzyletni</lg.version>
+         <lg.version lg="pol" gender.grammar="N">trzyletnie</lg.version>
+         <lg.version lg="por">trienal</lg.version>
+         <lg.version lg="ron" gender.grammar="F">trienală</lg.version>
+         <lg.version lg="ron" gender.grammar="M">trienal</lg.version>
+         <lg.version lg="slk" gender.grammar="F">trojročná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">trojročný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">trojročné</lg.version>
+         <lg.version lg="slv">trienale</lg.version>
+         <lg.version lg="spa">trienal</lg.version>
+         <lg.version lg="swe">vart tredje år</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">на три години</lg.version>
+            <lg.version lg="ces">jednou za tří roky</lg.version>
+            <lg.version lg="est">kolme aasta tagant</lg.version>
+            <lg.version lg="slk">raz za tri roky</lg.version>
+            <lg.version lg="slv">na tri leta</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">D</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">h</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs every three years.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ002"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>BIENNIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">двегодишен</lg.version>
+         <lg.version lg="ces" gender.grammar="F">dvouletá</lg.version>
+         <lg.version lg="ces" gender.grammar="M">dvouletý</lg.version>
+         <lg.version lg="ces" gender.grammar="N">dvouleté</lg.version>
+         <lg.version lg="dan" gender.grammar="N">toårigt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">toårig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">zweijährliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">zweijährlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">zweijährliches</lg.version>
+         <lg.version lg="ell" script="Greek">διετής</lg.version>
+         <lg.version lg="eng">biennial</lg.version>
+         <lg.version lg="est">iga kahe aasta järel</lg.version>
+         <lg.version lg="fin">kaksivuotinen</lg.version>
+         <lg.version lg="fra" gender.grammar="F">biennale</lg.version>
+         <lg.version lg="fra" gender.grammar="M">biennal</lg.version>
+         <lg.version lg="gle">dhébhliantúil</lg.version>
+         <lg.version lg="hrv">bijenale</lg.version>
+         <lg.version lg="hun">kétévenkénti</lg.version>
+         <lg.version lg="ita">biennale</lg.version>
+         <lg.version lg="lav">reizi divos gados</lg.version>
+         <lg.version lg="lit">kas dvejus metus</lg.version>
+         <lg.version lg="mlt">biennali</lg.version>
+         <lg.version lg="nld">tweejaarlijks</lg.version>
+         <lg.version lg="nno">annakvart år</lg.version>
+         <lg.version lg="nob">annethvert år</lg.version>
+         <lg.version lg="nor">annethvert år</lg.version>
+         <lg.version lg="pol" gender.grammar="F">dwuletnia</lg.version>
+         <lg.version lg="pol" gender.grammar="M">dwuletni</lg.version>
+         <lg.version lg="pol" gender.grammar="N">dwuletnie</lg.version>
+         <lg.version lg="por">bienal</lg.version>
+         <lg.version lg="ron" gender.grammar="F">bienală</lg.version>
+         <lg.version lg="ron" gender.grammar="M">bienal</lg.version>
+         <lg.version lg="slk" gender.grammar="F">dvojročná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">dvojročný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">dvojročné</lg.version>
+         <lg.version lg="slv">bienale</lg.version>
+         <lg.version lg="spa">bienal</lg.version>
+         <lg.version lg="swe">vartannat år</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">на две години</lg.version>
+            <lg.version lg="ces">jednou za dva roky</lg.version>
+            <lg.version lg="est">kahe aasta tagant</lg.version>
+            <lg.version lg="slk">raz za dva roky</lg.version>
+            <lg.version lg="slv">na dve leti</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">G</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">g</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs every two years.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ003"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>ANNUAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="F">годишна</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="M">годишен</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="N">годишно</lg.version>
+         <lg.version lg="ces">roční</lg.version>
+         <lg.version lg="dan" gender.grammar="N">årligt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">årlig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">jährliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">jährlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">jährliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">ετήσια</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">ετήσιος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">ετήσιο</lg.version>
+         <lg.version lg="eng">annual</lg.version>
+         <lg.version lg="est">aastane</lg.version>
+         <lg.version lg="fin">vuotuinen</lg.version>
+         <lg.version lg="fra" gender.grammar="F">annuelle</lg.version>
+         <lg.version lg="fra" gender.grammar="M">annuel</lg.version>
+         <lg.version lg="gle">bliantúil</lg.version>
+         <lg.version lg="hrv">godišnje</lg.version>
+         <lg.version lg="hun">évenkénti</lg.version>
+         <lg.version lg="ita">annuale</lg.version>
+         <lg.version lg="lav">reizi gadā</lg.version>
+         <lg.version lg="lit">kasmetinis</lg.version>
+         <lg.version lg="mlt">annwali</lg.version>
+         <lg.version lg="nld">jaarlijks</lg.version>
+         <lg.version lg="nno">årleg</lg.version>
+         <lg.version lg="nob">årlig</lg.version>
+         <lg.version lg="nor">årlig</lg.version>
+         <lg.version lg="pol" gender.grammar="F">roczna</lg.version>
+         <lg.version lg="pol" gender.grammar="M">roczny</lg.version>
+         <lg.version lg="pol" gender.grammar="N">roczne</lg.version>
+         <lg.version lg="por">anual</lg.version>
+         <lg.version lg="ron" gender.grammar="F">anuală</lg.version>
+         <lg.version lg="ron" gender.grammar="M">anual</lg.version>
+         <lg.version lg="slk">každý rok</lg.version>
+         <lg.version lg="slk" gender.grammar="F">ročná</lg.version>
+         <lg.version lg="slk" gender.grammar="N">ročné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">letna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">letni</lg.version>
+         <lg.version lg="slv" gender.grammar="N">letno</lg.version>
+         <lg.version lg="spa">anual</lg.version>
+         <lg.version lg="swe">årlig</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">1 година</lg.version>
+            <lg.version lg="bul" script="Cyrillic" gender.grammar="F">ежегодна</lg.version>
+            <lg.version lg="bul" script="Cyrillic" gender.grammar="M">ежегоден</lg.version>
+            <lg.version lg="bul" script="Cyrillic" gender.grammar="N">ежегодно</lg.version>
+            <lg.version lg="ces">jednou za rok</lg.version>
+            <lg.version lg="dan">en gang om året</lg.version>
+            <lg.version lg="deu">jedes Jahr</lg.version>
+            <lg.version lg="ell" script="Greek">ανά έτος</lg.version>
+            <lg.version lg="eng">1 year</lg.version>
+            <lg.version lg="est">kord aastas</lg.version>
+            <lg.version lg="est">üks kord aastas</lg.version>
+            <lg.version lg="fra">tous les ans</lg.version>
+            <lg.version lg="gle">1 bhliain</lg.version>
+            <lg.version lg="hrv">godišnji</lg.version>
+            <lg.version lg="hrv">jedanput godišnje</lg.version>
+            <lg.version lg="hun">1 évenkénti</lg.version>
+            <lg.version lg="ita">1 anno</lg.version>
+            <lg.version lg="lav">reizi gadā</lg.version>
+            <lg.version lg="lit">kas 1 m.</lg.version>
+            <lg.version lg="mlt">sena</lg.version>
+            <lg.version lg="nld">1 jaar</lg.version>
+            <lg.version lg="por">1 ano</lg.version>
+            <lg.version lg="ron">un an</lg.version>
+            <lg.version lg="slk">raz za rok</lg.version>
+            <lg.version lg="slv">letno</lg.version>
+            <lg.version lg="slv">vsako leto</lg.version>
+            <lg.version lg="spa">un año</lg.version>
+            <lg.version lg="swe">en gång om året</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">ANN</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">a</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals up to one year.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs once a year.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ004"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>ANNUAL_2</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">два пъти на година</lg.version>
+         <lg.version lg="ces">pololetní</lg.version>
+         <lg.version lg="dan" gender.grammar="N">halvårligt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">halvårlig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">halbjährliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">halbjährlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">halbjährliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">εξαμηνιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">εξαμηνιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">εξαμηνιαίο</lg.version>
+         <lg.version lg="eng">semiannual</lg.version>
+         <lg.version lg="est">pooleaastane</lg.version>
+         <lg.version lg="fin">puolivuotinen</lg.version>
+         <lg.version lg="fra" gender.grammar="F">semestrielle</lg.version>
+         <lg.version lg="fra" gender.grammar="M">semestriel</lg.version>
+         <lg.version lg="gle">leathbhliantúil</lg.version>
+         <lg.version lg="hrv">polugodišnje</lg.version>
+         <lg.version lg="hun">félévenkénti</lg.version>
+         <lg.version lg="ita">semestrale</lg.version>
+         <lg.version lg="lav">reizi pusgadā</lg.version>
+         <lg.version lg="lit">kas pusę metų</lg.version>
+         <lg.version lg="mlt">kull sitt xhur</lg.version>
+         <lg.version lg="nld">halfjaarlijks</lg.version>
+         <lg.version lg="nno">halvårleg</lg.version>
+         <lg.version lg="nob">halvårlig</lg.version>
+         <lg.version lg="nor">halvårlig</lg.version>
+         <lg.version lg="pol" gender.grammar="F">półroczna</lg.version>
+         <lg.version lg="pol" gender.grammar="M">półroczny</lg.version>
+         <lg.version lg="pol" gender.grammar="N">półroczne</lg.version>
+         <lg.version lg="por">semianual</lg.version>
+         <lg.version lg="ron" gender.grammar="F">semestrială</lg.version>
+         <lg.version lg="ron" gender.grammar="M">semestrial</lg.version>
+         <lg.version lg="slk">každých 6 mesiacov</lg.version>
+         <lg.version lg="slk" gender.grammar="F">polročná</lg.version>
+         <lg.version lg="slk" gender.grammar="N">polročné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">polletna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">polletni</lg.version>
+         <lg.version lg="slv" gender.grammar="N">polletno</lg.version>
+         <lg.version lg="spa">semestral</lg.version>
+         <lg.version lg="swe">halvårs</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">6 месеца</lg.version>
+            <lg.version lg="bul" script="Cyrillic">два пъти годишно</lg.version>
+            <lg.version lg="ces">dvakrát za rok</lg.version>
+            <lg.version lg="ces">každých 6 měsíců</lg.version>
+            <lg.version lg="dan">hvert halve år</lg.version>
+            <lg.version lg="deu">alle 6 Monate</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 6 μήνες</lg.version>
+            <lg.version lg="eng">6 months</lg.version>
+            <lg.version lg="eng">half-yearly</lg.version>
+            <lg.version lg="est">iga 6 kuu järel</lg.version>
+            <lg.version lg="est">kaks korda aastas</lg.version>
+            <lg.version lg="fra">tous les six mois</lg.version>
+            <lg.version lg="gle">6 mhí</lg.version>
+            <lg.version lg="hrv">dvaput godišnje</lg.version>
+            <lg.version lg="hrv">polugodišnji</lg.version>
+            <lg.version lg="hun">6 havonkénti</lg.version>
+            <lg.version lg="hun">évente kétszeri</lg.version>
+            <lg.version lg="ita">6 mesi</lg.version>
+            <lg.version lg="lav">reizi pusgadā</lg.version>
+            <lg.version lg="lit">kas 6 mėn.</lg.version>
+            <lg.version lg="mlt">6 xhur</lg.version>
+            <lg.version lg="nld">6 maanden</lg.version>
+            <lg.version lg="por">6 meses</lg.version>
+            <lg.version lg="por">semestral</lg.version>
+            <lg.version lg="ron">6 luni</lg.version>
+            <lg.version lg="slk">raz za pol roka</lg.version>
+            <lg.version lg="slv">polletno</lg.version>
+            <lg.version lg="slv">vsakega pol leta</lg.version>
+            <lg.version lg="spa">seis meses</lg.version>
+            <lg.version lg="swe">var sjätte månad</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">S</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">f</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to six months.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs twice a year.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ005"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>ANNUAL_3</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">три пъти на година</lg.version>
+         <lg.version lg="ces">třikrát do roka</lg.version>
+         <lg.version lg="dan">tre gange årligt</lg.version>
+         <lg.version lg="deu">dreimal im Jahr</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">τετραμηνιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">τετραμηνιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">τετραμηνιαίο</lg.version>
+         <lg.version lg="eng">three times a year</lg.version>
+         <lg.version lg="est">kolm korda aastas</lg.version>
+         <lg.version lg="fin">kolme kertaa vuodessa</lg.version>
+         <lg.version lg="fra">trois fois par an</lg.version>
+         <lg.version lg="gle">trí uair sa bhliain</lg.version>
+         <lg.version lg="hrv">triput godišnje</lg.version>
+         <lg.version lg="hun">évente háromszori</lg.version>
+         <lg.version lg="ita">tre volte all'anno</lg.version>
+         <lg.version lg="lav">trīsreiz gadā</lg.version>
+         <lg.version lg="lit">tris kartus per metus</lg.version>
+         <lg.version lg="mlt">tliet darbiet fis-sena</lg.version>
+         <lg.version lg="nld">drie keer per jaar</lg.version>
+         <lg.version lg="nno">tre gongar per år</lg.version>
+         <lg.version lg="nob">tre ganger per år</lg.version>
+         <lg.version lg="nor">tre ganger per år</lg.version>
+         <lg.version lg="pol">trzy razy w roku</lg.version>
+         <lg.version lg="por">três vezes por ano</lg.version>
+         <lg.version lg="ron">de trei ori pe an</lg.version>
+         <lg.version lg="slk">trikrát do roka</lg.version>
+         <lg.version lg="slv">trikrat na leto</lg.version>
+         <lg.version lg="spa">cuatrimestral</lg.version>
+         <lg.version lg="swe">tre gånger per år</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">три пъти годишно</lg.version>
+            <lg.version lg="ces">třikrát za rok</lg.version>
+            <lg.version lg="slv">trikrat letno</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">F</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">t</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs three times a year.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ006"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>QUARTERLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">тримесечен</lg.version>
+         <lg.version lg="ces">čtvrtletní</lg.version>
+         <lg.version lg="dan">kvartalsvis</lg.version>
+         <lg.version lg="deu" gender.grammar="F">vierteljährliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">vierteljährlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">vierteljährliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">τριμηνιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">τριμηνιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">τριμηνιαίο</lg.version>
+         <lg.version lg="eng">quarterly</lg.version>
+         <lg.version lg="est">kvartaalne</lg.version>
+         <lg.version lg="fin">vuosineljänsittäin</lg.version>
+         <lg.version lg="fra" gender.grammar="F">trimestrielle</lg.version>
+         <lg.version lg="fra" gender.grammar="M">trimestriel</lg.version>
+         <lg.version lg="gle">ráitheachán</lg.version>
+         <lg.version lg="hrv">tromjesečno</lg.version>
+         <lg.version lg="hun">negyedévenkénti</lg.version>
+         <lg.version lg="ita">trimestrale</lg.version>
+         <lg.version lg="lav">reizi trīs mēnešos</lg.version>
+         <lg.version lg="lit">kas ketvirtį</lg.version>
+         <lg.version lg="mlt">kull tliet xhur</lg.version>
+         <lg.version lg="nld">driemaandelijks</lg.version>
+         <lg.version lg="nno">kvartalsvis</lg.version>
+         <lg.version lg="nob">kvartalsvis</lg.version>
+         <lg.version lg="nor">kvartalsvis</lg.version>
+         <lg.version lg="pol">kwartalnik</lg.version>
+         <lg.version lg="por">trimestral</lg.version>
+         <lg.version lg="ron" gender.grammar="F">trimestrială</lg.version>
+         <lg.version lg="ron" gender.grammar="M">trimestrial</lg.version>
+         <lg.version lg="slk">každé 3 mesiace</lg.version>
+         <lg.version lg="slk" gender.grammar="F">štvrťročná</lg.version>
+         <lg.version lg="slk" gender.grammar="N">štvrťročné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">četrtletna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">četrtletni</lg.version>
+         <lg.version lg="slv" gender.grammar="N">četrtletno</lg.version>
+         <lg.version lg="spa">trimestral</lg.version>
+         <lg.version lg="swe">kvartalsvis</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">3 месеца</lg.version>
+            <lg.version lg="bul" script="Cyrillic">на три месеца</lg.version>
+            <lg.version lg="ces">jednou za 3 měsíce</lg.version>
+            <lg.version lg="ces">jednou za čtvrt roku</lg.version>
+            <lg.version lg="dan">en gang hver tredje måned</lg.version>
+            <lg.version lg="deu">alle 3 Monate</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 3 μήνες</lg.version>
+            <lg.version lg="eng">3 months</lg.version>
+            <lg.version lg="est">iga 3 kuu järel</lg.version>
+            <lg.version lg="est">iga kolme kuu järel (tagant)</lg.version>
+            <lg.version lg="fra">tous les trois mois</lg.version>
+            <lg.version lg="gle">3 mhí</lg.version>
+            <lg.version lg="gle">ráthiúil</lg.version>
+            <lg.version lg="hrv">svaka 3 mjeseca</lg.version>
+            <lg.version lg="hrv">tromjesečni</lg.version>
+            <lg.version lg="hun">3 havonkénti</lg.version>
+            <lg.version lg="ita">3 mesi</lg.version>
+            <lg.version lg="lav">reizi 3 mēnešos</lg.version>
+            <lg.version lg="lit">kas 3 mėn.</lg.version>
+            <lg.version lg="mlt">3 xhur</lg.version>
+            <lg.version lg="nld">3 maanden</lg.version>
+            <lg.version lg="pol">kwartalnie</lg.version>
+            <lg.version lg="por">3 meses</lg.version>
+            <lg.version lg="ron">3 luni</lg.version>
+            <lg.version lg="slk">raz za štvrť roka</lg.version>
+            <lg.version lg="slv">četrtletno</lg.version>
+            <lg.version lg="spa">tres meses</lg.version>
+            <lg.version lg="swe">var tredje månad</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">T</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">q</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to every three months.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs every three months.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ007"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>BIMONTHLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">двухмесечен</lg.version>
+         <lg.version lg="ces">dvouměsíční</lg.version>
+         <lg.version lg="dan">hver anden måned</lg.version>
+         <lg.version lg="deu" gender.grammar="F">zweimonatliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">zweimonatlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">zweimonatliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">διμηνιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">διμηνιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">διμηνιαίο</lg.version>
+         <lg.version lg="eng">bimonthly</lg.version>
+         <lg.version lg="est">kord kahe kuu jooksul</lg.version>
+         <lg.version lg="fin">kahdesti kuussa</lg.version>
+         <lg.version lg="fra" gender.grammar="F">bimestrielle</lg.version>
+         <lg.version lg="fra" gender.grammar="M">bimestriel</lg.version>
+         <lg.version lg="gle">gach dhá mhí</lg.version>
+         <lg.version lg="hrv">dvomjesečno</lg.version>
+         <lg.version lg="hun">kéthavonkénti</lg.version>
+         <lg.version lg="ita">bimestrale</lg.version>
+         <lg.version lg="lav">reizi divos mēnešos</lg.version>
+         <lg.version lg="lit">kas du mėnesius</lg.version>
+         <lg.version lg="mlt">bimensili</lg.version>
+         <lg.version lg="nld">tweemaandelijks</lg.version>
+         <lg.version lg="nno">annakvar månad</lg.version>
+         <lg.version lg="nob">annenhver måned</lg.version>
+         <lg.version lg="nor">annenhver måned</lg.version>
+         <lg.version lg="pol">dwumiesięcznik</lg.version>
+         <lg.version lg="por">quinzenal</lg.version>
+         <lg.version lg="ron" gender.grammar="F">bilunară</lg.version>
+         <lg.version lg="ron" gender.grammar="M">bilunar</lg.version>
+         <lg.version lg="slk" gender.grammar="F">dvojmesačná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">dvojmesačný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">dvojmesačné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">dvomesečna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">dvomesečen</lg.version>
+         <lg.version lg="slv" gender.grammar="N">dvomesečno</lg.version>
+         <lg.version lg="spa">bimestral</lg.version>
+         <lg.version lg="swe">varannan månad</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">на два месеца</lg.version>
+            <lg.version lg="ces">jednou za dva měsíce</lg.version>
+            <lg.version lg="est">iga kahe kuu järel (tagant)</lg.version>
+            <lg.version lg="hrv">dvomjesečni</lg.version>
+            <lg.version lg="pol">co dwa miesiące</lg.version>
+            <lg.version lg="slk">raz za dva mesiace</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">BIM</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">b</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs every two months.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ008"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>MONTHLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">месечен</lg.version>
+         <lg.version lg="ces">měsíční</lg.version>
+         <lg.version lg="dan" gender.grammar="N">månedligt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">månedlig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">monatliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">monatlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">monatliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">μηνιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">μηνιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">μηνιαίο</lg.version>
+         <lg.version lg="eng">monthly</lg.version>
+         <lg.version lg="est">igakuine</lg.version>
+         <lg.version lg="fin">kuukausittainen</lg.version>
+         <lg.version lg="fra" gender.grammar="F">mensuelle</lg.version>
+         <lg.version lg="fra" gender.grammar="M">mensuel</lg.version>
+         <lg.version lg="gle">míosúil</lg.version>
+         <lg.version lg="hrv">mjesečno</lg.version>
+         <lg.version lg="hun">havonkénti</lg.version>
+         <lg.version lg="ita">mensile</lg.version>
+         <lg.version lg="lav">reizi mēnesī</lg.version>
+         <lg.version lg="lit">kas mėnesį</lg.version>
+         <lg.version lg="mlt">mensili</lg.version>
+         <lg.version lg="nld">maandelijks</lg.version>
+         <lg.version lg="nno">månadleg</lg.version>
+         <lg.version lg="nob">månedlig</lg.version>
+         <lg.version lg="nor">månedlig</lg.version>
+         <lg.version lg="pol">miesięcznik</lg.version>
+         <lg.version lg="por">mensal</lg.version>
+         <lg.version lg="ron" gender.grammar="F">lunară</lg.version>
+         <lg.version lg="ron" gender.grammar="M">lunar</lg.version>
+         <lg.version lg="slk" gender.grammar="F">mesačná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">mesačný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">mesačné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">mesečna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">mesečen</lg.version>
+         <lg.version lg="slv" gender.grammar="N">mesečno</lg.version>
+         <lg.version lg="spa">mensual</lg.version>
+         <lg.version lg="swe">månatligen</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">на всеки месец</lg.version>
+            <lg.version lg="ces">jednou za měsíc</lg.version>
+            <lg.version lg="est">kord kuus</lg.version>
+            <lg.version lg="hrv">mjesečni</lg.version>
+            <lg.version lg="pol">co miesiąc</lg.version>
+            <lg.version lg="slk">raz za mesiac</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">M</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">m</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs once a month.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ009"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>MONTHLY_2</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на половин месец</lg.version>
+         <lg.version lg="ces">dvakrát za měsíc</lg.version>
+         <lg.version lg="dan">to gange månedligt</lg.version>
+         <lg.version lg="deu">zweimal im Monat</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">δεκαπενθήμερη</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">δεκαπενθήμερος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">δεκαπενθήμερο</lg.version>
+         <lg.version lg="eng">semimonthly</lg.version>
+         <lg.version lg="est">kaks korda kuus</lg.version>
+         <lg.version lg="fin">kaksi kertaa kuukaudessa</lg.version>
+         <lg.version lg="fra" gender.grammar="F">bimensuelle</lg.version>
+         <lg.version lg="fra" gender.grammar="M">bimensuel</lg.version>
+         <lg.version lg="gle">leath-míosúil</lg.version>
+         <lg.version lg="hrv">dvaput mjesečno</lg.version>
+         <lg.version lg="hun">félhavonkénti</lg.version>
+         <lg.version lg="ita">bimensile</lg.version>
+         <lg.version lg="lav">divreiz mēnesī</lg.version>
+         <lg.version lg="lit">dukart per mėnesį</lg.version>
+         <lg.version lg="mlt">darbtejn fix-xahar</lg.version>
+         <lg.version lg="nld">twee keer per maand</lg.version>
+         <lg.version lg="nno">to gongar i månaden</lg.version>
+         <lg.version lg="nob">to ganger i måneden</lg.version>
+         <lg.version lg="nor">to ganger i måneden</lg.version>
+         <lg.version lg="pol">dwukrotnie w miesiącu</lg.version>
+         <lg.version lg="por">duas vezes por mês</lg.version>
+         <lg.version lg="ron">se două ori pe lună</lg.version>
+         <lg.version lg="slk">dvakrát mesačne</lg.version>
+         <lg.version lg="slv">dvakrat na mesec</lg.version>
+         <lg.version lg="spa">bimensual</lg.version>
+         <lg.version lg="swe">två gånger per månad</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="hun">havonta kétszeri</lg.version>
+            <lg.version lg="slv">dvakrat mesečno</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">E</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">s</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs twice a month.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ010"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>BIWEEKLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на две седмици</lg.version>
+         <lg.version lg="ces">čtrnáctidenní</lg.version>
+         <lg.version lg="dan">hver fjortende dag</lg.version>
+         <lg.version lg="deu" gender.grammar="F">zweiwöchentliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">zweiwöchentlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">zweiwöchentliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">δισεβδομαδιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">δισεβδομαδιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">δισεβδομαδιαίο</lg.version>
+         <lg.version lg="eng">biweekly</lg.version>
+         <lg.version lg="est">kahenädalane</lg.version>
+         <lg.version lg="fin">joka toinen viikko</lg.version>
+         <lg.version lg="fra">tous les quinze jours</lg.version>
+         <lg.version lg="gle">gach coicís</lg.version>
+         <lg.version lg="hrv">polumjesečno</lg.version>
+         <lg.version lg="hun">kéthetenkénti</lg.version>
+         <lg.version lg="ita">quindicinale</lg.version>
+         <lg.version lg="lav">reizi divās nedēļās</lg.version>
+         <lg.version lg="lit">kas dvi savaites</lg.version>
+         <lg.version lg="mlt">ta’ kull ħmistax</lg.version>
+         <lg.version lg="nld">veertiendaags</lg.version>
+         <lg.version lg="nno">kvar fjortande dag</lg.version>
+         <lg.version lg="nob">hver fjortende dag</lg.version>
+         <lg.version lg="nor">hver fjortende dag</lg.version>
+         <lg.version lg="pol">dwutygodnik</lg.version>
+         <lg.version lg="por">quinzenal</lg.version>
+         <lg.version lg="ron">la fiecare două săptămâni</lg.version>
+         <lg.version lg="slk" gender.grammar="F">dvojtýždenná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">dvojtýždenný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">dvojtýždenné</lg.version>
+         <lg.version lg="slv">vsakih štirinajst dni</lg.version>
+         <lg.version lg="spa">quincenal</lg.version>
+         <lg.version lg="swe">var fjortonde dag</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="ces">jednou za čtrnáct dní</lg.version>
+            <lg.version lg="eng">fortnightly</lg.version>
+            <lg.version lg="est">iga kahe nädala järel (tagant)</lg.version>
+            <lg.version lg="fin">kahdesti viikossa tapahtuva</lg.version>
+            <lg.version lg="pol">co dwa tygodnie</lg.version>
+            <lg.version lg="slk">raz za dva týždne</lg.version>
+            <lg.version lg="swe">varannan vecka</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">SEMIM</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">e</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs every two weeks.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ011"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>MONTHLY_3</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">три пъти месечно</lg.version>
+         <lg.version lg="ces">třikrát za měsíc</lg.version>
+         <lg.version lg="dan">tre gange månedligt</lg.version>
+         <lg.version lg="deu">dreimal im Monat</lg.version>
+         <lg.version lg="ell" script="Greek">τρεις φορές τον μήνα</lg.version>
+         <lg.version lg="eng">three times a month</lg.version>
+         <lg.version lg="est">kolm korda kuus</lg.version>
+         <lg.version lg="fin">kolme kertaa kuukaudessa</lg.version>
+         <lg.version lg="fra">trois fois par mois</lg.version>
+         <lg.version lg="gle">trí uair sa mhí</lg.version>
+         <lg.version lg="hrv">triput mjesečno</lg.version>
+         <lg.version lg="hun">havonta háromszori</lg.version>
+         <lg.version lg="ita">tre volte al mese</lg.version>
+         <lg.version lg="lav">trīsreiz mēnesī</lg.version>
+         <lg.version lg="lit">tris kartus per mėnesį</lg.version>
+         <lg.version lg="mlt">tliet darbiet fix-xahar</lg.version>
+         <lg.version lg="nld">drie keer per maand</lg.version>
+         <lg.version lg="nno">tre gongar i månaden</lg.version>
+         <lg.version lg="nob">tre ganger i måneden</lg.version>
+         <lg.version lg="nor">tre ganger i måneden</lg.version>
+         <lg.version lg="pol">trzy razy w miesiącu</lg.version>
+         <lg.version lg="por">três vezes por mês</lg.version>
+         <lg.version lg="ron">de trei ori pe lună</lg.version>
+         <lg.version lg="slk">trikrát mesačne</lg.version>
+         <lg.version lg="slv">trikrat na mesec</lg.version>
+         <lg.version lg="spa">tres veces por mes</lg.version>
+         <lg.version lg="swe">tre gånger per månad</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="ell" script="Greek" gender.grammar="F">δεκαήμερη</lg.version>
+            <lg.version lg="ell" script="Greek" gender.grammar="M">δεκαήμερος</lg.version>
+            <lg.version lg="ell" script="Greek" gender.grammar="N">δεκαήμερο</lg.version>
+            <lg.version lg="gle">trí uair in aghaidh na míosa</lg.version>
+            <lg.version lg="slv">trikrat mesečno</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">J</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">j</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs three times a month.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ012"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>WEEKLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="F">седмична</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="M">седмичен</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="N">седмично</lg.version>
+         <lg.version lg="ces">týdenní</lg.version>
+         <lg.version lg="dan" gender.grammar="N">ugentligt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">ugentlig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">wöchentliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">wöchentlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">wöchentliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">εβδομαδιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">εβδομαδιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">εβδομαδιαίο</lg.version>
+         <lg.version lg="eng">weekly</lg.version>
+         <lg.version lg="est">nädalane</lg.version>
+         <lg.version lg="fin">viikoittainen</lg.version>
+         <lg.version lg="fra">hebdomadaire</lg.version>
+         <lg.version lg="gle">in aghaidh na seachtaine</lg.version>
+         <lg.version lg="hrv">tjedni</lg.version>
+         <lg.version lg="hun">hetenkénti</lg.version>
+         <lg.version lg="ita">settimanale</lg.version>
+         <lg.version lg="lav">reizi nedēļā</lg.version>
+         <lg.version lg="lit">kas savaitę</lg.version>
+         <lg.version lg="mlt">kull ġimgħa</lg.version>
+         <lg.version lg="nld">wekelijks</lg.version>
+         <lg.version lg="nno">kvar veke</lg.version>
+         <lg.version lg="nob">ukentlig</lg.version>
+         <lg.version lg="nor">ukentlig</lg.version>
+         <lg.version lg="pol">tygodnik</lg.version>
+         <lg.version lg="por" gender.grammar="F">hebdomadária</lg.version>
+         <lg.version lg="por" gender.grammar="M">hebdomadário</lg.version>
+         <lg.version lg="ron" gender.grammar="F">săptămânală</lg.version>
+         <lg.version lg="ron" gender.grammar="M">săptămânal</lg.version>
+         <lg.version lg="slk" gender.grammar="F">týždenná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">týždenný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">týždenné</lg.version>
+         <lg.version lg="slv">tedensko</lg.version>
+         <lg.version lg="spa">semanal</lg.version>
+         <lg.version lg="swe">veckovis</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="ces">jednou za týden</lg.version>
+            <lg.version lg="est">üks kord nädalas</lg.version>
+            <lg.version lg="gle">seachtainiúil</lg.version>
+            <lg.version lg="hrv">tjedno</lg.version>
+            <lg.version lg="pol">cotygodniowy</lg.version>
+            <lg.version lg="ron">o dată pe săptămână</lg.version>
+            <lg.version lg="slk">jedenkrát týždenne</lg.version>
+            <lg.version lg="slv">enkrat na teden</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">H</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">w</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs once a week.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ013"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>WEEKLY_2</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">дваж на седмица</lg.version>
+         <lg.version lg="ces">dvakrát týdně</lg.version>
+         <lg.version lg="dan">to gange ugentligt</lg.version>
+         <lg.version lg="deu">zweimal pro Woche</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">διεβδομαδιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">διεβδομαδιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">διεβδομαδιαίο</lg.version>
+         <lg.version lg="eng">semiweekly</lg.version>
+         <lg.version lg="est">kaks korda nädalas</lg.version>
+         <lg.version lg="fin">kaksi kertaa viikossa</lg.version>
+         <lg.version lg="fra">bihebdomadaire</lg.version>
+         <lg.version lg="gle">dhá uair in aghaidh na seachtaine</lg.version>
+         <lg.version lg="hrv">dvaput tjedno</lg.version>
+         <lg.version lg="hun">hetente kétszeri</lg.version>
+         <lg.version lg="ita">bisettimanale</lg.version>
+         <lg.version lg="lav">divreiz nedēļā</lg.version>
+         <lg.version lg="lit">dukart per savaitę</lg.version>
+         <lg.version lg="mlt">darbtejn fil-ġimgħa</lg.version>
+         <lg.version lg="nld">twee keer per week</lg.version>
+         <lg.version lg="nno">to gongar i veka</lg.version>
+         <lg.version lg="nob">to ganger i uken</lg.version>
+         <lg.version lg="nor">to ganger i uken</lg.version>
+         <lg.version lg="pol">dwa razy w tygodniu</lg.version>
+         <lg.version lg="por">duas vezes por semana</lg.version>
+         <lg.version lg="ron">de două ori pe săptămână</lg.version>
+         <lg.version lg="slk">dvakrát týždenne</lg.version>
+         <lg.version lg="slv">dvakrat tedensko</lg.version>
+         <lg.version lg="spa">bisemanal</lg.version>
+         <lg.version lg="swe">två gånger per vecka</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">два пъти на седмица</lg.version>
+            <lg.version lg="fin">kahdesti viikossa</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">C</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">c</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs twice a week.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ014"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>WEEKLY_3</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">три пъти на седмица</lg.version>
+         <lg.version lg="ces">třikrát týdně</lg.version>
+         <lg.version lg="dan">tre gange ugentligt</lg.version>
+         <lg.version lg="deu">dreimal pro Woche</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">τριεβδομαδιαία</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">τριεβδομαδιαίος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">τριεβδομαδιαίο</lg.version>
+         <lg.version lg="eng">three times a week</lg.version>
+         <lg.version lg="est">kolm korda nädalas</lg.version>
+         <lg.version lg="fin">kolme kertaa viikossa</lg.version>
+         <lg.version lg="fra">trois fois par semaine</lg.version>
+         <lg.version lg="gle">trí uair in aghaidh na seachtaine</lg.version>
+         <lg.version lg="hrv">triput tjedno</lg.version>
+         <lg.version lg="hun">hetente háromszori</lg.version>
+         <lg.version lg="ita">tre volte a settimana</lg.version>
+         <lg.version lg="lav">trīsreiz nedēļā</lg.version>
+         <lg.version lg="lit">tris kartus per savaitę</lg.version>
+         <lg.version lg="mlt">tliet darbiet fil-ġimgħa</lg.version>
+         <lg.version lg="nld">drie keer per week</lg.version>
+         <lg.version lg="nno">tre gongar i veka</lg.version>
+         <lg.version lg="nob">tre ganger i uken</lg.version>
+         <lg.version lg="nor">tre ganger i uken</lg.version>
+         <lg.version lg="pol">trzy razy w tygodniu</lg.version>
+         <lg.version lg="por">três vezes por semana</lg.version>
+         <lg.version lg="ron">de trei ori pe săptămână</lg.version>
+         <lg.version lg="slk">trikrát týždenne</lg.version>
+         <lg.version lg="slv">trikrat tedensko</lg.version>
+         <lg.version lg="spa">tres veces por semana</lg.version>
+         <lg.version lg="swe">tre gånger per vecka</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">три пъти седмично</lg.version>
+            <lg.version lg="gle">faoi thrí sa tseachtain</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">I</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">i</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs three times a week.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ015"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>DAILY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="F">ежедневна</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="M">ежедневен</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="N">ежедневно</lg.version>
+         <lg.version lg="ces">denní</lg.version>
+         <lg.version lg="dan" gender.grammar="N">dagligt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">daglig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">tägliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">täglich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">tägliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">ημερήσια</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">ημερήσιος</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">ημερήσιο</lg.version>
+         <lg.version lg="eng">daily</lg.version>
+         <lg.version lg="est">päevane</lg.version>
+         <lg.version lg="fin">päivittäin</lg.version>
+         <lg.version lg="fra" gender.grammar="F">quotidienne</lg.version>
+         <lg.version lg="fra" gender.grammar="M">quotidien</lg.version>
+         <lg.version lg="gle">laethúil</lg.version>
+         <lg.version lg="hrv">dnevni</lg.version>
+         <lg.version lg="hun">naponkénti</lg.version>
+         <lg.version lg="ita" gender.grammar="F">quotidiana</lg.version>
+         <lg.version lg="ita" gender.grammar="M">quotidiano</lg.version>
+         <lg.version lg="lav">katru dienu</lg.version>
+         <lg.version lg="lit" gender.grammar="F">kasdieninė</lg.version>
+         <lg.version lg="lit" gender.grammar="M">kasdieninis</lg.version>
+         <lg.version lg="mlt">kuljum</lg.version>
+         <lg.version lg="nld">dagelijks</lg.version>
+         <lg.version lg="nno">dagleg</lg.version>
+         <lg.version lg="nob">daglig</lg.version>
+         <lg.version lg="nor">daglig</lg.version>
+         <lg.version lg="pol">dziennik</lg.version>
+         <lg.version lg="por" gender.grammar="F">diária</lg.version>
+         <lg.version lg="por" gender.grammar="M">diário</lg.version>
+         <lg.version lg="ron" gender.grammar="F">zilnică</lg.version>
+         <lg.version lg="ron" gender.grammar="M">zilnic</lg.version>
+         <lg.version lg="slk">každých 24 hodín</lg.version>
+         <lg.version lg="slk" gender.grammar="F">denná</lg.version>
+         <lg.version lg="slk" gender.grammar="N">denné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">dnevna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">dnevni</lg.version>
+         <lg.version lg="slv" gender.grammar="N">dnevno</lg.version>
+         <lg.version lg="spa" gender.grammar="F">diaria</lg.version>
+         <lg.version lg="spa" gender.grammar="M">diario</lg.version>
+         <lg.version lg="swe">dagligen</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">24 часа</lg.version>
+            <lg.version lg="ces">jednou denně</lg.version>
+            <lg.version lg="ces">každých 24 hodin</lg.version>
+            <lg.version lg="dan">en gang om dagen</lg.version>
+            <lg.version lg="deu">alle 24 Stunden</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 24 ώρες</lg.version>
+            <lg.version lg="eng">24 hours</lg.version>
+            <lg.version lg="est">iga 24 tunni järel</lg.version>
+            <lg.version lg="est">igal päeval</lg.version>
+            <lg.version lg="fra">tous les jours</lg.version>
+            <lg.version lg="gle">24 uair an chloig</lg.version>
+            <lg.version lg="hrv">dnevno</lg.version>
+            <lg.version lg="hrv">svaka 24 sata</lg.version>
+            <lg.version lg="hun">24 óránkénti</lg.version>
+            <lg.version lg="ita">24 ore</lg.version>
+            <lg.version lg="lav">reizi dienā</lg.version>
+            <lg.version lg="lit">kas 24 val.</lg.version>
+            <lg.version lg="mlt">24 siegħa</lg.version>
+            <lg.version lg="nld">24 uur</lg.version>
+            <lg.version lg="pol" gender.grammar="F">codzienna</lg.version>
+            <lg.version lg="pol" gender.grammar="M">codzienny</lg.version>
+            <lg.version lg="pol" gender.grammar="N">codzienne</lg.version>
+            <lg.version lg="por">24 horas</lg.version>
+            <lg.version lg="ron">24 de ore</lg.version>
+            <lg.version lg="ron" gender.grammar="F">cotidiană</lg.version>
+            <lg.version lg="ron" gender.grammar="M">cotidian</lg.version>
+            <lg.version lg="slk">denne</lg.version>
+            <lg.version lg="slv">vsakih 24 ur</lg.version>
+            <lg.version lg="spa">veinticuatro horas</lg.version>
+            <lg.version lg="swe">en gång om dagen</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">Q</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">d</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to 24 hours.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs once a day.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ016"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>UPDATE_CONT</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">постоянно се актуализира</lg.version>
+         <lg.version lg="ces" gender.grammar="F">průběžně aktualizovaná</lg.version>
+         <lg.version lg="ces" gender.grammar="M">průběžně aktualizovaný</lg.version>
+         <lg.version lg="ces" gender.grammar="N">průběžně aktualizované</lg.version>
+         <lg.version lg="dan">opdateres løbende</lg.version>
+         <lg.version lg="deu">ständige Aktualisierung</lg.version>
+         <lg.version lg="ell" script="Greek">ενημερώνεται συνεχώς</lg.version>
+         <lg.version lg="eng">continuously updated</lg.version>
+         <lg.version lg="est">ajakohastatakse pidevalt</lg.version>
+         <lg.version lg="fin">päivitetään jatkuvasti</lg.version>
+         <lg.version lg="fra">mise à jour continuelle</lg.version>
+         <lg.version lg="gle">á leasú chun dáta go leanúnach</lg.version>
+         <lg.version lg="hrv">stalno ažuriraju</lg.version>
+         <lg.version lg="hun">folyamatosan frissített</lg.version>
+         <lg.version lg="ita">in continuo aggiornamento</lg.version>
+         <lg.version lg="lav">pastāvīgi tiek atjaunots</lg.version>
+         <lg.version lg="lit">nuolat atnaujinama</lg.version>
+         <lg.version lg="mlt">kontinwament aġġornata</lg.version>
+         <lg.version lg="nld">voortdurend geactualiseerd</lg.version>
+         <lg.version lg="nno">kontinuerleg oppdatert</lg.version>
+         <lg.version lg="nob">kontinuerlig oppdatert</lg.version>
+         <lg.version lg="nor">kontinuerlig oppdatert</lg.version>
+         <lg.version lg="pol" gender.grammar="F">stale aktualizowana</lg.version>
+         <lg.version lg="pol" gender.grammar="M">stale aktualizowany</lg.version>
+         <lg.version lg="pol" gender.grammar="N">stale aktualizowane</lg.version>
+         <lg.version lg="por" gender.grammar="F">continuamente atualizada</lg.version>
+         <lg.version lg="por" gender.grammar="M">continuamente atualizado</lg.version>
+         <lg.version lg="ron">actualizare continuă</lg.version>
+         <lg.version lg="slk" gender.grammar="F">priebežne aktualizovaná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">priebežne aktualizovaný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">priebežne aktualizované</lg.version>
+         <lg.version lg="slv" gender.grammar="F">nenehno posodobljena</lg.version>
+         <lg.version lg="slv" gender.grammar="M">nenehno posodobljen</lg.version>
+         <lg.version lg="slv" gender.grammar="N">nenehno posodobljeno</lg.version>
+         <lg.version lg="spa" gender.grammar="F">continuamente actualizada</lg.version>
+         <lg.version lg="spa" gender.grammar="M">continuamente actualizado</lg.version>
+         <lg.version lg="swe">uppdateras kontinuerligt</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">се актуализира постоянно</lg.version>
+            <lg.version lg="por">atualização continuada</lg.version>
+            <lg.version lg="slk">priebežne aktualizované</lg.version>
+            <lg.version lg="slv">sproti posodobljeno</lg.version>
+            <lg.version lg="spa">actualización continua</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">K</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">k</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event repeats without interruption.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ017"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>IRREG</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="F">неправилна</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="M">неправилен</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="N">неправилно</lg.version>
+         <lg.version lg="ces" gender.grammar="F">nepravidelná</lg.version>
+         <lg.version lg="ces" gender.grammar="M">nepravidelný</lg.version>
+         <lg.version lg="ces" gender.grammar="N">nepravidelné</lg.version>
+         <lg.version lg="dan" gender.grammar="N">uregelmæssigt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">uregelmæssig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">unregelmäßige</lg.version>
+         <lg.version lg="deu" gender.grammar="M">unregelmäßig</lg.version>
+         <lg.version lg="deu" gender.grammar="N">unregelmäßiges</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">μη τακτική</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">μη τακτικός</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">μη τακτικό</lg.version>
+         <lg.version lg="eng">irregular</lg.version>
+         <lg.version lg="est">ebakorrapärane</lg.version>
+         <lg.version lg="fin">epäsäännöllinen</lg.version>
+         <lg.version lg="fra" gender.grammar="F">irrégulière</lg.version>
+         <lg.version lg="fra" gender.grammar="M">irrégulier</lg.version>
+         <lg.version lg="gle">neamhrialta</lg.version>
+         <lg.version lg="hrv" gender.grammar="F">neredovita</lg.version>
+         <lg.version lg="hrv" gender.grammar="M">neredovit</lg.version>
+         <lg.version lg="hun">rendszertelen</lg.version>
+         <lg.version lg="ita">irregolare</lg.version>
+         <lg.version lg="lav">neregulāri</lg.version>
+         <lg.version lg="lit" gender.grammar="F">nereguliari</lg.version>
+         <lg.version lg="lit" gender.grammar="M">nereguliarus</lg.version>
+         <lg.version lg="mlt">irregolari</lg.version>
+         <lg.version lg="nld">onregelmatig</lg.version>
+         <lg.version lg="nno">uregelmessig</lg.version>
+         <lg.version lg="nob">uregelmessig</lg.version>
+         <lg.version lg="nor">uregelmessig</lg.version>
+         <lg.version lg="pol" gender.grammar="F">nieregularna</lg.version>
+         <lg.version lg="pol" gender.grammar="M">nieregularny</lg.version>
+         <lg.version lg="pol" gender.grammar="N">nieregularne</lg.version>
+         <lg.version lg="por">irregular</lg.version>
+         <lg.version lg="ron" gender.grammar="F">neregulată</lg.version>
+         <lg.version lg="ron" gender.grammar="M">neregulat</lg.version>
+         <lg.version lg="slk" gender.grammar="F">nepravidelná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">nepravidelný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">nepravidelné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">nepravilna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">nepravilen</lg.version>
+         <lg.version lg="slv" gender.grammar="N">nepravilno</lg.version>
+         <lg.version lg="spa">irregular</lg.version>
+         <lg.version lg="swe" gender.grammar="N">oregelbundet</lg.version>
+         <lg.version lg="swe" gender.grammar="U">oregelbunden</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul">неопределена честота</lg.version>
+            <lg.version lg="bul" script="Cyrillic">нередовно</lg.version>
+            <lg.version lg="ces">nepravidelně</lg.version>
+            <lg.version lg="ces">četnost nelze určit</lg.version>
+            <lg.version lg="dan">hyppigheden kan ikke fastslås</lg.version>
+            <lg.version lg="deu">keine feststellbare erscheinungshäufigkeit</lg.version>
+            <lg.version lg="ell">μη προσδιορίσιμη συχνότητα</lg.version>
+            <lg.version lg="eng">no determinable frequency</lg.version>
+            <lg.version lg="est">korrapäratu</lg.version>
+            <lg.version lg="est">määratlemata ilmumissagedus</lg.version>
+            <lg.version lg="fin">ei määriteltävää ilmestymistiheyttä</lg.version>
+            <lg.version lg="fra">périodicité ne peut pas être déterminée</lg.version>
+            <lg.version lg="gle">ní féidir an mhinicíocht a chinntiú</lg.version>
+            <lg.version lg="hrv">učestalost neodrediva</lg.version>
+            <lg.version lg="hun">meghatározhatatlan rendszerességű</lg.version>
+            <lg.version lg="ita">nessuna frequenza determinabile</lg.version>
+            <lg.version lg="lav">regularitāte nav nosakāma</lg.version>
+            <lg.version lg="lit">dažnumo apibrėžti negalima</lg.version>
+            <lg.version lg="mlt">frekwenza li ma tistax tiġi ddeterminata</lg.version>
+            <lg.version lg="nld">frequentie niet bepaalbaar</lg.version>
+            <lg.version lg="pol">częstotliwość trudna do określenia</lg.version>
+            <lg.version lg="por">periodicidade não determinável</lg.version>
+            <lg.version lg="ron">fără frecvență determinabilă</lg.version>
+            <lg.version lg="slk">bez stanoviteľnej frekvencie</lg.version>
+            <lg.version lg="slk">nepravidelne</lg.version>
+            <lg.version lg="slv">pogostost ni določljiva</lg.version>
+            <lg.version lg="spa">ninguna frecuencia determinable</lg.version>
+            <lg.version lg="swe">frekvens kan ej fastställas</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="OP_MARC21">#</op-mapped-code>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">IRR</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs at uneven intervals.</description>
+            <provenance>Dublin Core</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ018"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>UNKNOWN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="F">непозната</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="M">непознат</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="N">непознато</lg.version>
+         <lg.version lg="ces" gender.grammar="F">neznámá</lg.version>
+         <lg.version lg="ces" gender.grammar="M">neznámý</lg.version>
+         <lg.version lg="ces" gender.grammar="N">neznámé</lg.version>
+         <lg.version lg="dan">ubekendt</lg.version>
+         <lg.version lg="deu" gender.grammar="F">unbekannte</lg.version>
+         <lg.version lg="deu" gender.grammar="M">unbekannt</lg.version>
+         <lg.version lg="deu" gender.grammar="N">unbekanntes</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="F">άγνωστη</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">άγνωστος</lg.version>
+         <lg.version lg="eng">unknown</lg.version>
+         <lg.version lg="est">tundmatu</lg.version>
+         <lg.version lg="fin">tuntematon</lg.version>
+         <lg.version lg="fra" gender.grammar="F">inconnue</lg.version>
+         <lg.version lg="fra" gender.grammar="M">inconnu</lg.version>
+         <lg.version lg="gle">anaithnid</lg.version>
+         <lg.version lg="hrv" gender.grammar="F">nepoznata</lg.version>
+         <lg.version lg="hrv" gender.grammar="M">nepoznat</lg.version>
+         <lg.version lg="hun">ismeretlen</lg.version>
+         <lg.version lg="ita" gender.grammar="F">sconosciuta</lg.version>
+         <lg.version lg="ita" gender.grammar="M">sconosciuto</lg.version>
+         <lg.version lg="lav">nav zināms</lg.version>
+         <lg.version lg="lit" gender.grammar="F">nežinoma</lg.version>
+         <lg.version lg="lit" gender.grammar="M">nežinomas</lg.version>
+         <lg.version lg="mlt">mhux magħruf</lg.version>
+         <lg.version lg="nld">onbekend</lg.version>
+         <lg.version lg="nno">ukjent</lg.version>
+         <lg.version lg="nob">ukjent</lg.version>
+         <lg.version lg="nor">ukjent</lg.version>
+         <lg.version lg="pol" gender.grammar="F">nieznana</lg.version>
+         <lg.version lg="pol" gender.grammar="M">nieznany</lg.version>
+         <lg.version lg="pol" gender.grammar="N">nieznane</lg.version>
+         <lg.version lg="por" gender.grammar="F">desconhecida</lg.version>
+         <lg.version lg="por" gender.grammar="M">desconhecido</lg.version>
+         <lg.version lg="ron" gender.grammar="F">necunoscută</lg.version>
+         <lg.version lg="ron" gender.grammar="M">necunoscut</lg.version>
+         <lg.version lg="slk" gender.grammar="F">neznáma</lg.version>
+         <lg.version lg="slk" gender.grammar="M">neznámy</lg.version>
+         <lg.version lg="slk" gender.grammar="N">neznáme</lg.version>
+         <lg.version lg="slv" gender.grammar="F">nepoznana</lg.version>
+         <lg.version lg="slv" gender.grammar="M">nepoznan</lg.version>
+         <lg.version lg="slv" gender.grammar="N">nepoznano</lg.version>
+         <lg.version lg="spa" gender.grammar="F">desconocida</lg.version>
+         <lg.version lg="spa" gender.grammar="M">desconocido</lg.version>
+         <lg.version lg="swe">obekant</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="slk">neznáme</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">U</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">u</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs with unknown regularity.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ019"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-03-06">
+      <authority-code>OTHER</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="F">друга</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="M">друг</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="N">друго</lg.version>
+         <lg.version lg="ces">ostatní</lg.version>
+         <lg.version lg="dan" gender.grammar="N">andet</lg.version>
+         <lg.version lg="dan" gender.grammar="U">anden</lg.version>
+         <lg.version lg="deu" gender.grammar="F">andere</lg.version>
+         <lg.version lg="deu" gender.grammar="M">anderer</lg.version>
+         <lg.version lg="deu" gender.grammar="N">anderes</lg.version>
+         <lg.version lg="ell" script="Greek">άλλο</lg.version>
+         <lg.version lg="eng">other</lg.version>
+         <lg.version lg="est">muu</lg.version>
+         <lg.version lg="fin">muut</lg.version>
+         <lg.version lg="fra">autre</lg.version>
+         <lg.version lg="gle">eile</lg.version>
+         <lg.version lg="hrv">drugi</lg.version>
+         <lg.version lg="hun">egyéb</lg.version>
+         <lg.version lg="ita">altro</lg.version>
+         <lg.version lg="lav">citi</lg.version>
+         <lg.version lg="lit" gender.grammar="F">kita</lg.version>
+         <lg.version lg="lit" gender.grammar="M">kitas</lg.version>
+         <lg.version lg="mlt">oħra</lg.version>
+         <lg.version lg="nld">overige</lg.version>
+         <lg.version lg="nno">anna</lg.version>
+         <lg.version lg="nob">annet</lg.version>
+         <lg.version lg="nor">annet</lg.version>
+         <lg.version lg="pol">inne</lg.version>
+         <lg.version lg="por" gender.grammar="F">outra</lg.version>
+         <lg.version lg="por" gender.grammar="M">outro</lg.version>
+         <lg.version lg="ron">altele</lg.version>
+         <lg.version lg="slk">ostatné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">ostala</lg.version>
+         <lg.version lg="slv" gender.grammar="M">ostali</lg.version>
+         <lg.version lg="slv" gender.grammar="N">ostalo</lg.version>
+         <lg.version lg="spa" gender.grammar="F">otra</lg.version>
+         <lg.version lg="spa" gender.grammar="M">otro</lg.version>
+         <lg.version lg="swe">andra</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="hrv">ostali</lg.version>
+            <lg.version lg="slv">ostalo</lg.version>
+         </alternative.name>
+      </name>
+      <op-mapped-code source="PUB" affected.table="PUB_FREQ">Z</op-mapped-code>
+      <op-mapped-code source="OP_MARC21">z</op-mapped-code>
+      <use.context>CDM</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>PUB</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-03-06" lg="eng">
+            <description>The event occurs with another type of regularity (for instance, every leap year).</description>
+            <provenance>ISSN</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ020"
+           deprecated="false"
+           IMMC.approval.date="2014-11-19"
+           IMMC.proposal.date="2014-11-05"
+           adm.status="current"
+           date.creation="2014-10-29">
+      <authority-code>DAILY_2</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">два пъти на ден</lg.version>
+         <lg.version lg="ces">dvakrát denně</lg.version>
+         <lg.version lg="dan">to gange om dagen</lg.version>
+         <lg.version lg="deu">zweimal täglich</lg.version>
+         <lg.version lg="ell" script="Greek">δύο φορές την ημέρα</lg.version>
+         <lg.version lg="eng">twice a day</lg.version>
+         <lg.version lg="est">kaks korda päevas</lg.version>
+         <lg.version lg="fin">kahdesti päivässä</lg.version>
+         <lg.version lg="fra">deux fois par jour</lg.version>
+         <lg.version lg="gle">dhá uair sa lá</lg.version>
+         <lg.version lg="hrv">dvaput dnevno</lg.version>
+         <lg.version lg="hun">naponta kétszeri</lg.version>
+         <lg.version lg="ita">due volte al giorno</lg.version>
+         <lg.version lg="lav">divreiz dienā</lg.version>
+         <lg.version lg="lit">dukart per dieną</lg.version>
+         <lg.version lg="mlt">darbtejn kuljum</lg.version>
+         <lg.version lg="nld">tweemaal per dag</lg.version>
+         <lg.version lg="nno">to gongar per dag</lg.version>
+         <lg.version lg="nob">to ganger per dag</lg.version>
+         <lg.version lg="nor">to ganger per dag</lg.version>
+         <lg.version lg="pol">dwa razy dziennie</lg.version>
+         <lg.version lg="por">duas vezes por dia</lg.version>
+         <lg.version lg="ron">de două ori pe zi</lg.version>
+         <lg.version lg="slk">dvakrát denne</lg.version>
+         <lg.version lg="slv">dvakrat dnevno</lg.version>
+         <lg.version lg="spa">dos veces al día</lg.version>
+         <lg.version lg="swe">två gånger per dag</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2014-10-29" lg="eng">
+            <description>The event occurs twice a day.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ021"
+           deprecated="false"
+           IMMC.approval.date="2015-06-05"
+           IMMC.proposal.date="2015-06-05"
+           adm.status="current"
+           date.creation="2015-03-11">
+      <authority-code>CONT</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="F">постоянна</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="M">постоянен</lg.version>
+         <lg.version lg="bul" script="Cyrillic" gender.grammar="N">постоянно</lg.version>
+         <lg.version lg="ces" gender.grammar="F">průběžná</lg.version>
+         <lg.version lg="ces" gender.grammar="M">průběžný</lg.version>
+         <lg.version lg="ces" gender.grammar="N">průběžné</lg.version>
+         <lg.version lg="dan" gender.grammar="N">kontinuerligt</lg.version>
+         <lg.version lg="dan" gender.grammar="U">kontinuerlig</lg.version>
+         <lg.version lg="deu" gender.grammar="F">kontinuierliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">kontinuierlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">kontinuierliches</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="M">συνεχής</lg.version>
+         <lg.version lg="ell" script="Greek" gender.grammar="N">συνεχές</lg.version>
+         <lg.version lg="eng">continuous</lg.version>
+         <lg.version lg="est">pidev</lg.version>
+         <lg.version lg="fin">jatkuva</lg.version>
+         <lg.version lg="fra" gender.grammar="F">continuelle</lg.version>
+         <lg.version lg="fra" gender.grammar="M">continuel</lg.version>
+         <lg.version lg="gle">leanúnach</lg.version>
+         <lg.version lg="hrv" gender.grammar="F">stalna</lg.version>
+         <lg.version lg="hrv" gender.grammar="M">stalan</lg.version>
+         <lg.version lg="hrv" gender.grammar="N">stalno</lg.version>
+         <lg.version lg="hun">folyamatos</lg.version>
+         <lg.version lg="ita" gender.grammar="F">continua</lg.version>
+         <lg.version lg="ita" gender.grammar="M">continuo</lg.version>
+         <lg.version lg="lav">pastāvīgi</lg.version>
+         <lg.version lg="lit">nenutrūkstamas</lg.version>
+         <lg.version lg="mlt">kontinwu</lg.version>
+         <lg.version lg="nld">voortdurend</lg.version>
+         <lg.version lg="nno">kontinuerleg</lg.version>
+         <lg.version lg="nob">kontinuerlig</lg.version>
+         <lg.version lg="nor">kontinuerlig</lg.version>
+         <lg.version lg="pol" gender.grammar="F">ciągła</lg.version>
+         <lg.version lg="pol" gender.grammar="M">ciągły</lg.version>
+         <lg.version lg="pol" gender.grammar="N">ciągłe</lg.version>
+         <lg.version lg="por" gender.grammar="F">contínua</lg.version>
+         <lg.version lg="por" gender.grammar="M">contínuo</lg.version>
+         <lg.version lg="ron">continuu</lg.version>
+         <lg.version lg="slk" gender.grammar="F">priebežná</lg.version>
+         <lg.version lg="slk" gender.grammar="M">priebežný</lg.version>
+         <lg.version lg="slk" gender.grammar="N">priebežné</lg.version>
+         <lg.version lg="slv" gender.grammar="F">nenehna</lg.version>
+         <lg.version lg="slv" gender.grammar="M">nenehen</lg.version>
+         <lg.version lg="slv" gender.grammar="N">nenehno</lg.version>
+         <lg.version lg="spa" gender.grammar="F">continua</lg.version>
+         <lg.version lg="spa" gender.grammar="M">continuo</lg.version>
+         <lg.version lg="swe">kontinuerlig</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2015-03-11" lg="eng">
+            <description>The item is updated more frequent than daily.</description>
+            <provenance>ISSN</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ022"
+           deprecated="false"
+           IMMC.approval.date="2016-01-20"
+           IMMC.proposal.date="2016-01-06"
+           adm.status="current"
+           date.creation="2015-04-17">
+      <authority-code>NEVER</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">никога</lg.version>
+         <lg.version lg="ces">nikdy</lg.version>
+         <lg.version lg="dan">aldrig</lg.version>
+         <lg.version lg="deu">niemals</lg.version>
+         <lg.version lg="ell" script="Greek">ποτέ</lg.version>
+         <lg.version lg="eng">never</lg.version>
+         <lg.version lg="est">mitte kunagi</lg.version>
+         <lg.version lg="fin">ei koskaan</lg.version>
+         <lg.version lg="fra">jamais</lg.version>
+         <lg.version lg="gle">riamh</lg.version>
+         <lg.version lg="hrv">nikada</lg.version>
+         <lg.version lg="hun">soha</lg.version>
+         <lg.version lg="ita">mai</lg.version>
+         <lg.version lg="lav">nekad</lg.version>
+         <lg.version lg="lit">niekada</lg.version>
+         <lg.version lg="mlt">qatt</lg.version>
+         <lg.version lg="nld">nooit</lg.version>
+         <lg.version lg="nno">aldri</lg.version>
+         <lg.version lg="nob">aldri</lg.version>
+         <lg.version lg="nor">aldri</lg.version>
+         <lg.version lg="pol">nigdy</lg.version>
+         <lg.version lg="por">nunca</lg.version>
+         <lg.version lg="ron">niciodată</lg.version>
+         <lg.version lg="slk">nikdy</lg.version>
+         <lg.version lg="slv">nikoli</lg.version>
+         <lg.version lg="spa">nunca</lg.version>
+         <lg.version lg="swe">aldrig</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="hrv">nikad</lg.version>
+            <lg.version lg="spa">jamás</lg.version>
+         </alternative.name>
+      </name>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2015-04-16" lg="eng">
+            <description>The item is never updated.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ023"
+           deprecated="false"
+           IMMC.approval.date="2019-02-07"
+           IMMC.proposal.date="2019-01-23"
+           adm.status="current"
+           date.creation="2019-01-14">
+      <authority-code>QUADRENNIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на четири години</lg.version>
+         <lg.version lg="ces" gender.grammar="F">čtyřletá</lg.version>
+         <lg.version lg="ces" gender.grammar="M">čtyřletý</lg.version>
+         <lg.version lg="ces" gender.grammar="N">čtyřleté</lg.version>
+         <lg.version lg="dan">hvert fjerde år</lg.version>
+         <lg.version lg="deu" gender.grammar="F">vierjährliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">vierjährlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">vierjährliches</lg.version>
+         <lg.version lg="ell" script="Greek">ανά τετραετία</lg.version>
+         <lg.version lg="eng">quadrennial</lg.version>
+         <lg.version lg="est">iga nelja aasta järel</lg.version>
+         <lg.version lg="fin">joka neljäs vuosi</lg.version>
+         <lg.version lg="fra">tous les quatre ans</lg.version>
+         <lg.version lg="gle">uair sna ceithre bliana</lg.version>
+         <lg.version lg="hrv">svake četiri godine</lg.version>
+         <lg.version lg="hun">négyévenkénti</lg.version>
+         <lg.version lg="ita">ogni quattro anni</lg.version>
+         <lg.version lg="lav">reizi četros gados</lg.version>
+         <lg.version lg="lit">kas ketverius metus</lg.version>
+         <lg.version lg="mlt">kwadriennali</lg.version>
+         <lg.version lg="nld">om de vier jaar</lg.version>
+         <lg.version lg="nno">kvart fjerde år</lg.version>
+         <lg.version lg="nob">hvert fjerde år</lg.version>
+         <lg.version lg="nor">hvert fjerde år</lg.version>
+         <lg.version lg="pol">co cztery lata</lg.version>
+         <lg.version lg="por">quadrienal</lg.version>
+         <lg.version lg="ron">o dată la patru ani</lg.version>
+         <lg.version lg="slk">každé štyri roky</lg.version>
+         <lg.version lg="slv">vsaka štiri leta</lg.version>
+         <lg.version lg="spa">cada cuatro años</lg.version>
+         <lg.version lg="swe">vart fjärde år</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2019-01-14" lg="eng">
+            <description>The event occurs every four years.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ024"
+           deprecated="false"
+           IMMC.approval.date="2019-02-07"
+           IMMC.proposal.date="2019-01-23"
+           adm.status="current"
+           date.creation="2019-01-14">
+      <authority-code>QUINQUENNIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на пет години</lg.version>
+         <lg.version lg="ces" gender.grammar="F">pětiletá</lg.version>
+         <lg.version lg="ces" gender.grammar="M">pětiletý</lg.version>
+         <lg.version lg="ces" gender.grammar="N">pětileté</lg.version>
+         <lg.version lg="dan">hvert femte år</lg.version>
+         <lg.version lg="deu" gender.grammar="F">fünfjährliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">fünfjährlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">fünfjährliches</lg.version>
+         <lg.version lg="ell" script="Greek">ανά πενταετία</lg.version>
+         <lg.version lg="eng">quinquennial</lg.version>
+         <lg.version lg="est">iga viie aasta järel</lg.version>
+         <lg.version lg="fin">joka viides vuosi</lg.version>
+         <lg.version lg="fra">tous les cinq ans</lg.version>
+         <lg.version lg="gle">uair sna cúig bliana</lg.version>
+         <lg.version lg="hrv">svakih pet godina</lg.version>
+         <lg.version lg="hun">ötévenkénti</lg.version>
+         <lg.version lg="ita">ogni cinque anni</lg.version>
+         <lg.version lg="lav">reizi piecos gados</lg.version>
+         <lg.version lg="lit">kas penkerius metus</lg.version>
+         <lg.version lg="mlt">kwinkwennali</lg.version>
+         <lg.version lg="nld">om de vijf jaar</lg.version>
+         <lg.version lg="nno">kvart femte år</lg.version>
+         <lg.version lg="nob">hvert femte år</lg.version>
+         <lg.version lg="nor">hvert femte år</lg.version>
+         <lg.version lg="pol">co pięć lat</lg.version>
+         <lg.version lg="por">quinquenal</lg.version>
+         <lg.version lg="ron">o dată la cinci ani</lg.version>
+         <lg.version lg="slk">každých päť rokov</lg.version>
+         <lg.version lg="slv">vsakih pet let</lg.version>
+         <lg.version lg="spa">cada cinco años</lg.version>
+         <lg.version lg="swe">vart femte år</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2019-01-14" lg="eng">
+            <description>The event occurs every five years.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ025"
+           deprecated="false"
+           IMMC.approval.date="2019-02-07"
+           IMMC.proposal.date="2019-01-23"
+           adm.status="current"
+           date.creation="2019-01-14">
+      <authority-code>HOURLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на всеки час</lg.version>
+         <lg.version lg="ces">každou hodinu</lg.version>
+         <lg.version lg="dan">hver time</lg.version>
+         <lg.version lg="deu" gender.grammar="F">stündliche</lg.version>
+         <lg.version lg="deu" gender.grammar="M">stündlich</lg.version>
+         <lg.version lg="deu" gender.grammar="N">stündliches</lg.version>
+         <lg.version lg="ell" script="Greek">ανά ώρα</lg.version>
+         <lg.version lg="eng">hourly</lg.version>
+         <lg.version lg="est">kord tunnis</lg.version>
+         <lg.version lg="fin">joka tunti</lg.version>
+         <lg.version lg="fra">toutes les heures</lg.version>
+         <lg.version lg="gle">gach uair an chloig</lg.version>
+         <lg.version lg="hrv">svaki sat</lg.version>
+         <lg.version lg="hun">óránkénti</lg.version>
+         <lg.version lg="ita">ogni ora</lg.version>
+         <lg.version lg="lav">reizi stundā</lg.version>
+         <lg.version lg="lit">kas valandą</lg.version>
+         <lg.version lg="mlt">kull siegħa</lg.version>
+         <lg.version lg="nld">om het uur</lg.version>
+         <lg.version lg="nno">kvar time</lg.version>
+         <lg.version lg="nob">hver time</lg.version>
+         <lg.version lg="nor">hver time</lg.version>
+         <lg.version lg="pol">co godzinę</lg.version>
+         <lg.version lg="por">hora a hora</lg.version>
+         <lg.version lg="ron">la fiecare oră</lg.version>
+         <lg.version lg="slk">každú hodinu</lg.version>
+         <lg.version lg="slv">vsako uro</lg.version>
+         <lg.version lg="spa">cada hora</lg.version>
+         <lg.version lg="swe">en gång i timmen</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">1 час</lg.version>
+            <lg.version lg="ces">jednou za hodinu</lg.version>
+            <lg.version lg="dan">en gang i timen</lg.version>
+            <lg.version lg="deu">stündlich</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 1 ώρα</lg.version>
+            <lg.version lg="eng">1 hour</lg.version>
+            <lg.version lg="eng">every hour</lg.version>
+            <lg.version lg="est">kord tunnis</lg.version>
+            <lg.version lg="fra">toutes les heures</lg.version>
+            <lg.version lg="gle">1 uair an chloig</lg.version>
+            <lg.version lg="hrv">svaki sat</lg.version>
+            <lg.version lg="hun">1 óránkénti</lg.version>
+            <lg.version lg="ita">1 ora</lg.version>
+            <lg.version lg="lav">reizi stundā</lg.version>
+            <lg.version lg="lit">kas 1 val.</lg.version>
+            <lg.version lg="mlt">siegħa</lg.version>
+            <lg.version lg="nld">1 uur</lg.version>
+            <lg.version lg="por">1 hora</lg.version>
+            <lg.version lg="ron">1 oră</lg.version>
+            <lg.version lg="slv">vsako uro</lg.version>
+            <lg.version lg="spa">una hora</lg.version>
+            <lg.version lg="swe">en gång i timmen</lg.version>
+         </alternative.name>
+      </name>
+      <use.context>IMMC</use.context>
+      <start.use>1952-07-25</start.use>
+      <comments>
+         <comment date="2024-09-26">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to one hour.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2019-01-14" lg="eng">
+            <description>The event occurs every hour.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ026"
+           deprecated="false"
+           IMMC.approval.date="2019-02-07"
+           IMMC.proposal.date="2019-01-23"
+           adm.status="current"
+           date.creation="2019-01-14">
+      <authority-code>DECENNIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на десет години</lg.version>
+         <lg.version lg="ces">každých 10 let</lg.version>
+         <lg.version lg="dan">hvert tiende år</lg.version>
+         <lg.version lg="deu">alle zehn Jahre</lg.version>
+         <lg.version lg="ell" script="Greek">ανά δέκα έτη</lg.version>
+         <lg.version lg="eng">decennial</lg.version>
+         <lg.version lg="est">iga 10 aasta tagant</lg.version>
+         <lg.version lg="fin">joka kymmenes vuosi</lg.version>
+         <lg.version lg="fra">tous les dix ans</lg.version>
+         <lg.version lg="gle">gach deich mbliana</lg.version>
+         <lg.version lg="hrv">svakih deset godina</lg.version>
+         <lg.version lg="hun">tízévenkénti</lg.version>
+         <lg.version lg="ita">decennale</lg.version>
+         <lg.version lg="lav">reizi 10 gados</lg.version>
+         <lg.version lg="lit">kas dešimt metų</lg.version>
+         <lg.version lg="mlt">deċennali</lg.version>
+         <lg.version lg="nld">om de tien jaar</lg.version>
+         <lg.version lg="nno">kvart tiande år</lg.version>
+         <lg.version lg="nob">hvert tiende år</lg.version>
+         <lg.version lg="nor">hvert tiende år</lg.version>
+         <lg.version lg="pol">co dziesięć lat</lg.version>
+         <lg.version lg="por">de dez em dez anos</lg.version>
+         <lg.version lg="ron">la fiecare zece ani</lg.version>
+         <lg.version lg="slk">každých desať rokov</lg.version>
+         <lg.version lg="slv">vsakih deset let</lg.version>
+         <lg.version lg="spa">cada diez años</lg.version>
+         <lg.version lg="swe">vart 10:e år</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="eng">every ten years</lg.version>
+         </alternative.name>
+      </name>
+      <use.context>IMMC</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2019-01-14" lg="eng">
+            <description>The event occurs every ten years.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ027"
+           deprecated="false"
+           IMMC.approval.date="2019-06-04"
+           IMMC.proposal.date="2019-05-20"
+           adm.status="current"
+           date.creation="2019-05-15">
+      <authority-code>BIHOURLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на два часа</lg.version>
+         <lg.version lg="ces">každé 2 hodiny</lg.version>
+         <lg.version lg="dan">hver anden time</lg.version>
+         <lg.version lg="deu">alle zwei Stunden</lg.version>
+         <lg.version lg="ell" script="Greek">ανά δύο ώρες</lg.version>
+         <lg.version lg="eng">bihourly</lg.version>
+         <lg.version lg="est">iga kahe tunni tagant</lg.version>
+         <lg.version lg="fin">joka toinen tunti</lg.version>
+         <lg.version lg="fra">toutes les deux heures</lg.version>
+         <lg.version lg="gle">gach dhá uair an chloig</lg.version>
+         <lg.version lg="hrv">svaka dva sata</lg.version>
+         <lg.version lg="hun">kétóránkénti</lg.version>
+         <lg.version lg="ita">ogni due ore</lg.version>
+         <lg.version lg="lav">reizi divās stundās</lg.version>
+         <lg.version lg="lit">dvi valandas</lg.version>
+         <lg.version lg="mlt">kull sagħtejn</lg.version>
+         <lg.version lg="nld">om de twee uur</lg.version>
+         <lg.version lg="nno">annakvar time</lg.version>
+         <lg.version lg="nob">annenhver time</lg.version>
+         <lg.version lg="nor">annenhver time</lg.version>
+         <lg.version lg="pol">co dwie godziny</lg.version>
+         <lg.version lg="por">de duas em duas horas</lg.version>
+         <lg.version lg="ron">la fiecare două ore</lg.version>
+         <lg.version lg="slk">každé 2 hodiny</lg.version>
+         <lg.version lg="slv">vsaki dve uri</lg.version>
+         <lg.version lg="spa">cada dos horas</lg.version>
+         <lg.version lg="swe">varannan timme</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">2 часа</lg.version>
+            <lg.version lg="ces">jednou za 2 hodiny</lg.version>
+            <lg.version lg="dan">en gang hver anden time</lg.version>
+            <lg.version lg="deu">alle 2 Stunden</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 2 ώρες</lg.version>
+            <lg.version lg="eng">2 hours</lg.version>
+            <lg.version lg="eng">every two hours</lg.version>
+            <lg.version lg="est">iga 2 tunni järel</lg.version>
+            <lg.version lg="fra">toutes les deux heures</lg.version>
+            <lg.version lg="gle">2 uair an chloig</lg.version>
+            <lg.version lg="hrv">svaka dva sata</lg.version>
+            <lg.version lg="hun">2 óránkénti</lg.version>
+            <lg.version lg="ita">2 ore</lg.version>
+            <lg.version lg="lav">reizi 2 stundās</lg.version>
+            <lg.version lg="lit">kas 2 val.</lg.version>
+            <lg.version lg="mlt">sagħtejn</lg.version>
+            <lg.version lg="nld">2 uur</lg.version>
+            <lg.version lg="por">2 horas</lg.version>
+            <lg.version lg="ron">2 ore</lg.version>
+            <lg.version lg="slv">vsaki dve uri</lg.version>
+            <lg.version lg="spa">dos horas</lg.version>
+            <lg.version lg="swe">varannan timme</lg.version>
+         </alternative.name>
+      </name>
+      <use.context>IMMC</use.context>
+      <start.use>1952-07-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to two hours.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2019-05-15" lg="eng">
+            <description>The event occurs every two hours.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ028"
+           deprecated="false"
+           IMMC.approval.date="2019-06-04"
+           IMMC.proposal.date="2019-05-20"
+           adm.status="current"
+           date.creation="2019-05-15">
+      <authority-code>TRIHOURLY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на три часа</lg.version>
+         <lg.version lg="ces">každé 3 hodiny</lg.version>
+         <lg.version lg="dan">hver tredje time</lg.version>
+         <lg.version lg="deu">alle drei Stunden</lg.version>
+         <lg.version lg="ell" script="Greek">ανά τρεις ώρες</lg.version>
+         <lg.version lg="eng">trihourly</lg.version>
+         <lg.version lg="est">iga kolme tunni tagant</lg.version>
+         <lg.version lg="fin">joka kolmas tunti</lg.version>
+         <lg.version lg="fra">toutes les trois heures</lg.version>
+         <lg.version lg="gle">gach trí uair an chloig</lg.version>
+         <lg.version lg="hrv">svaka tri sata</lg.version>
+         <lg.version lg="hun">háromóránkénti</lg.version>
+         <lg.version lg="ita">ogni tre ore</lg.version>
+         <lg.version lg="lav">reizi trīs stundās</lg.version>
+         <lg.version lg="lit">tris valandas</lg.version>
+         <lg.version lg="mlt">kull tliet sigħat</lg.version>
+         <lg.version lg="nld">om de drie uur</lg.version>
+         <lg.version lg="nno">kvar tredje time</lg.version>
+         <lg.version lg="nob">hver tredje time</lg.version>
+         <lg.version lg="nor">hver tredje time</lg.version>
+         <lg.version lg="pol">co trzy godziny</lg.version>
+         <lg.version lg="por">de três em três horas</lg.version>
+         <lg.version lg="ron">la fiecare trei ore</lg.version>
+         <lg.version lg="slk">každé 3 hodiny</lg.version>
+         <lg.version lg="slv">vsake tri ure</lg.version>
+         <lg.version lg="spa">cada tres horas</lg.version>
+         <lg.version lg="swe">var tredje timme</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">3 часа</lg.version>
+            <lg.version lg="ces">jednou za 3 hodiny</lg.version>
+            <lg.version lg="dan">en gang hver tredje time</lg.version>
+            <lg.version lg="deu">alle 3 Stunden</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 3 ώρες</lg.version>
+            <lg.version lg="eng">3 hours</lg.version>
+            <lg.version lg="eng">every three hours</lg.version>
+            <lg.version lg="est">iga 3 tunni järel</lg.version>
+            <lg.version lg="fra">toutes les trois heures</lg.version>
+            <lg.version lg="gle">3 uair an chloig</lg.version>
+            <lg.version lg="hrv">svaka 3 sata</lg.version>
+            <lg.version lg="hun">3 óránkénti</lg.version>
+            <lg.version lg="ita">3 ore</lg.version>
+            <lg.version lg="lav">reizi 3 stundās</lg.version>
+            <lg.version lg="lit">kas 3 val.</lg.version>
+            <lg.version lg="mlt">3 sigħat</lg.version>
+            <lg.version lg="nld">3 uur</lg.version>
+            <lg.version lg="por">3 horas</lg.version>
+            <lg.version lg="ron">3 ore</lg.version>
+            <lg.version lg="slv">vsake tri ure</lg.version>
+            <lg.version lg="spa">tres horas</lg.version>
+            <lg.version lg="swe">var tredje timme</lg.version>
+         </alternative.name>
+      </name>
+      <use.context>IMMC</use.context>
+      <start.use>1952-07-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to three hours.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2019-05-15" lg="eng">
+            <description>The event occurs every three hours.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ029"
+           deprecated="false"
+           IMMC.approval.date="2019-06-04"
+           IMMC.proposal.date="2019-05-20"
+           adm.status="current"
+           date.creation="2019-05-15">
+      <authority-code>BIDECENNIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на двадесет години</lg.version>
+         <lg.version lg="ces">každých 20 let</lg.version>
+         <lg.version lg="dan">hvert tyvende år</lg.version>
+         <lg.version lg="deu">alle zwanzig Jahre</lg.version>
+         <lg.version lg="ell" script="Greek">ανά είκοσι έτη</lg.version>
+         <lg.version lg="eng">bidecennial</lg.version>
+         <lg.version lg="est">iga 20 aasta tagant</lg.version>
+         <lg.version lg="fin">joka kahdeskymmenes vuosi</lg.version>
+         <lg.version lg="fra">tous les vingt ans</lg.version>
+         <lg.version lg="gle">gach fiche bliain</lg.version>
+         <lg.version lg="hrv">svakih dvadeset godina</lg.version>
+         <lg.version lg="hun">húszévenkénti</lg.version>
+         <lg.version lg="ita">bidecennale</lg.version>
+         <lg.version lg="lav">reizi 20 gados</lg.version>
+         <lg.version lg="lit">kas dvidešimt metų</lg.version>
+         <lg.version lg="mlt">bideċennali</lg.version>
+         <lg.version lg="nld">om de twintig jaar</lg.version>
+         <lg.version lg="nno">kvart tjuande år</lg.version>
+         <lg.version lg="nob">hvert tjuende år</lg.version>
+         <lg.version lg="nor">hvert tjuende år</lg.version>
+         <lg.version lg="pol">co dwadzieścia lat</lg.version>
+         <lg.version lg="por">de vinte em vinte anos</lg.version>
+         <lg.version lg="ron">la fiecare douăzeci de ani</lg.version>
+         <lg.version lg="slk">každých dvadsať rokov</lg.version>
+         <lg.version lg="slv">vsakih dvajset let</lg.version>
+         <lg.version lg="spa">cada veinte años</lg.version>
+         <lg.version lg="swe">vart 20:e år</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="eng">every twenty years</lg.version>
+         </alternative.name>
+      </name>
+      <use.context>IMMC</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2019-05-15" lg="eng">
+            <description>The event occurs every twenty years.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ030"
+           deprecated="false"
+           IMMC.approval.date="2019-06-04"
+           IMMC.proposal.date="2019-05-20"
+           adm.status="current"
+           date.creation="2019-05-15">
+      <authority-code>TRIDECENNIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на тридесет години</lg.version>
+         <lg.version lg="ces">každých 30 let</lg.version>
+         <lg.version lg="dan">hvert tredivte år</lg.version>
+         <lg.version lg="deu">alle dreißig Jahre</lg.version>
+         <lg.version lg="ell" script="Greek">ανά τριάντα έτη</lg.version>
+         <lg.version lg="eng">tridecennial</lg.version>
+         <lg.version lg="est">iga 30 aasta tagant</lg.version>
+         <lg.version lg="fin">joka kolmaskymmenes vuosi</lg.version>
+         <lg.version lg="fra">tous les trente ans</lg.version>
+         <lg.version lg="gle">gach tríocha bliain</lg.version>
+         <lg.version lg="hrv">svakih trideset godina</lg.version>
+         <lg.version lg="hun">harmincévenkénti</lg.version>
+         <lg.version lg="ita">tridecennale</lg.version>
+         <lg.version lg="lav">reizi 30 gados</lg.version>
+         <lg.version lg="lit">kas trisdešimt metų</lg.version>
+         <lg.version lg="mlt">trideċennali</lg.version>
+         <lg.version lg="nld">om de dertig jaar</lg.version>
+         <lg.version lg="nno">kvart trettiande år</lg.version>
+         <lg.version lg="nob">hvert trettiende år</lg.version>
+         <lg.version lg="nor">hvert trettiende år</lg.version>
+         <lg.version lg="pol">co trzydzieści lat</lg.version>
+         <lg.version lg="por">de trinta em trinta anos</lg.version>
+         <lg.version lg="ron">la fiecare treizeci de ani</lg.version>
+         <lg.version lg="slk">každých tridsať rokov</lg.version>
+         <lg.version lg="slv">vsakih trideset let</lg.version>
+         <lg.version lg="spa">cada treinta años</lg.version>
+         <lg.version lg="swe">vart 30:e år</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="eng">every thirty years</lg.version>
+         </alternative.name>
+      </name>
+      <use.context>IMMC</use.context>
+      <start.use>1952-07-25</start.use>
+      <sources>
+         <source date="2019-05-15" lg="eng">
+            <description>The event occurs every thirty years.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ031"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-04-26">
+      <authority-code>NOT_PLANNED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">непланирано</lg.version>
+         <lg.version lg="ces">neplánuje se</lg.version>
+         <lg.version lg="dan">ikke planlagt</lg.version>
+         <lg.version lg="deu">nicht geplant</lg.version>
+         <lg.version lg="ell" script="Greek">δεν έχει προγραμματιστεί</lg.version>
+         <lg.version lg="eng">not planned</lg.version>
+         <lg.version lg="est">ei ole kavas</lg.version>
+         <lg.version lg="fin">ei suunnitteilla</lg.version>
+         <lg.version lg="fra">non planifié</lg.version>
+         <lg.version lg="gle">níl beartaithe</lg.version>
+         <lg.version lg="hrv">nije planirano</lg.version>
+         <lg.version lg="hun">nem tervezzük</lg.version>
+         <lg.version lg="ita">non previsto</lg.version>
+         <lg.version lg="lav">nav plānots</lg.version>
+         <lg.version lg="lit">neplanuota</lg.version>
+         <lg.version lg="mlt">mhux ippjanat</lg.version>
+         <lg.version lg="nld">niet gepland</lg.version>
+         <lg.version lg="pol">nieplanowane</lg.version>
+         <lg.version lg="por">não previsto </lg.version>
+         <lg.version lg="ron">neplanificat</lg.version>
+         <lg.version lg="slk">neplánovaný</lg.version>
+         <lg.version lg="slv">ni načrtovano</lg.version>
+         <lg.version lg="spa">no previsto</lg.version>
+         <lg.version lg="swe">har inte planerats</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <start.use>2021-04-07</start.use>
+      <sources url="https://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequency/notPlanned">
+         <source date="2024-05-22" lg="eng">
+            <description>There are no plans to update the item.</description>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ032"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-04-26">
+      <authority-code>AS_NEEDED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">според необходимостта </lg.version>
+         <lg.version lg="ces">podle potřeby</lg.version>
+         <lg.version lg="dan">efter behov </lg.version>
+         <lg.version lg="deu">im Bedarfsfall </lg.version>
+         <lg.version lg="ell" script="Greek">ανάλογα με τις ανάγκες </lg.version>
+         <lg.version lg="eng">as needed</lg.version>
+         <lg.version lg="est">vastavalt vajadusele </lg.version>
+         <lg.version lg="fin">tarvittaessa</lg.version>
+         <lg.version lg="fra">en fonction des besoins</lg.version>
+         <lg.version lg="gle">de réir mar is gá</lg.version>
+         <lg.version lg="hrv">prema potrebi</lg.version>
+         <lg.version lg="hun">szükség szerint</lg.version>
+         <lg.version lg="ita">in base alla necessità</lg.version>
+         <lg.version lg="lav">pēc vajadzības</lg.version>
+         <lg.version lg="lit">jei reikia</lg.version>
+         <lg.version lg="mlt">kif meħtieġ</lg.version>
+         <lg.version lg="nld">voor zover nodig</lg.version>
+         <lg.version lg="pol">w razie potrzeby</lg.version>
+         <lg.version lg="por">conforme necessário</lg.version>
+         <lg.version lg="ron">după caz</lg.version>
+         <lg.version lg="slk">podľa potreby</lg.version>
+         <lg.version lg="slv">po potrebi</lg.version>
+         <lg.version lg="spa">en función de las necesidades</lg.version>
+         <lg.version lg="swe">efter behov</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <start.use>2021-04-07</start.use>
+      <sources url="https://inspire.ec.europa.eu/metadata-codelist/MaintenanceFrequency/asNeeded">
+         <source date="2024-04-26" lg="eng">
+            <description>Item is updated as deemed necessary.</description>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ033"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-07-08">
+      <authority-code>15MIN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">през петнадесет минути</lg.version>
+         <lg.version lg="ces">každých patnáct minut</lg.version>
+         <lg.version lg="dan">hvert kvarter</lg.version>
+         <lg.version lg="deu">viertelstündlich</lg.version>
+         <lg.version lg="ell" script="Greek">ανά δεκαπέντε λεπτά</lg.version>
+         <lg.version lg="eng">every fifteen minutes</lg.version>
+         <lg.version lg="est">iga 15 minuti järel</lg.version>
+         <lg.version lg="fra">toutes les 15 minutes</lg.version>
+         <lg.version lg="gle">gach 15 nóiméad</lg.version>
+         <lg.version lg="hrv">svakih petnaest minuta</lg.version>
+         <lg.version lg="hun">tizenöt percenkénti</lg.version>
+         <lg.version lg="ita">ogni quindici minuti</lg.version>
+         <lg.version lg="lav">ik pēc piecpadsmit minūtēm</lg.version>
+         <lg.version lg="lit">kas penkiolika minučių</lg.version>
+         <lg.version lg="mlt">kull ħmistax-il minuta</lg.version>
+         <lg.version lg="nld">om de vijftien minuten</lg.version>
+         <lg.version lg="pol">co piętnaście minut</lg.version>
+         <lg.version lg="por">a cada 15 minutos</lg.version>
+         <lg.version lg="ron">la fiecare 15 minute</lg.version>
+         <lg.version lg="slk">každých 15 minút</lg.version>
+         <lg.version lg="slk">každých pätnásť minút</lg.version>
+         <lg.version lg="slv">vsakih petnajst minut</lg.version>
+         <lg.version lg="spa">cada quince minutos</lg.version>
+         <lg.version lg="swe">var femtonde minut</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">15 минути</lg.version>
+            <lg.version lg="ces">každých 15 minut</lg.version>
+            <lg.version lg="dan">hvert femtende minut</lg.version>
+            <lg.version lg="deu">alle 15 Minuten</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 15 λεπτά</lg.version>
+            <lg.version lg="eng">15 minutes</lg.version>
+            <lg.version lg="est">15 minutit</lg.version>
+            <lg.version lg="fra">toutes les 15 minutes</lg.version>
+            <lg.version lg="gle">15 nóiméad</lg.version>
+            <lg.version lg="hrv">svakih 15 minuta</lg.version>
+            <lg.version lg="hun">15 percenkénti</lg.version>
+            <lg.version lg="ita">15 minuti</lg.version>
+            <lg.version lg="lav">reizi 15 minūtēs</lg.version>
+            <lg.version lg="lit">kas 15 min.</lg.version>
+            <lg.version lg="mlt">15-il minuta</lg.version>
+            <lg.version lg="nld">15 minuten</lg.version>
+            <lg.version lg="por">15 minutos</lg.version>
+            <lg.version lg="ron">15 minute</lg.version>
+            <lg.version lg="slv">vsakih 15 minut</lg.version>
+            <lg.version lg="spa">quince minutos</lg.version>
+            <lg.version lg="swe">var femtonde minut</lg.version>
+         </alternative.name>
+      </name>
+      <start.use>2024-09-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to fifteen minutes.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2024-07-08" lg="eng">
+            <description>The event occurs at intervals of every fifteen minutes.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ034"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-07-08">
+      <authority-code>30MIN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на всеки тридесет минути</lg.version>
+         <lg.version lg="ces">každých třicet minut</lg.version>
+         <lg.version lg="dan">hver halve time</lg.version>
+         <lg.version lg="deu">halbstündlich</lg.version>
+         <lg.version lg="ell" script="Greek">ανά τριάντα λεπτά</lg.version>
+         <lg.version lg="eng">every thirty minutes</lg.version>
+         <lg.version lg="est">iga 30 minuti järel</lg.version>
+         <lg.version lg="fra">toutes les 30 minutes</lg.version>
+         <lg.version lg="gle">gach 30 nóiméad</lg.version>
+         <lg.version lg="hrv">svakih trideset minuta</lg.version>
+         <lg.version lg="hun">harmincpercenkénti</lg.version>
+         <lg.version lg="ita">ogni trenta minuti</lg.version>
+         <lg.version lg="lav">ik pēc trīsdesmit minūtēm</lg.version>
+         <lg.version lg="lit">kas trisdešimt minučių</lg.version>
+         <lg.version lg="mlt">kull tletin minuta</lg.version>
+         <lg.version lg="nld">om de dertig minuten</lg.version>
+         <lg.version lg="pol">co trzydzieści minut</lg.version>
+         <lg.version lg="por">a cada 30 minutos</lg.version>
+         <lg.version lg="ron">la fiecare 30 de minute</lg.version>
+         <lg.version lg="slk">každých 30 minút</lg.version>
+         <lg.version lg="slk">každých tridsať minút</lg.version>
+         <lg.version lg="slv">vsakih trideset minut</lg.version>
+         <lg.version lg="spa">cada treinta minutos</lg.version>
+         <lg.version lg="swe">en gång i halvtimmen</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">30 минути</lg.version>
+            <lg.version lg="ces">každých 30 minut</lg.version>
+            <lg.version lg="dan">hvert tredivte minut</lg.version>
+            <lg.version lg="deu">alle 30 Minuten</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 30 λεπτά</lg.version>
+            <lg.version lg="eng">30 minutes</lg.version>
+            <lg.version lg="est">30 minutit</lg.version>
+            <lg.version lg="fra">toutes les 30 minutes</lg.version>
+            <lg.version lg="gle">30 nóiméad</lg.version>
+            <lg.version lg="hrv">svakih 30 minuta</lg.version>
+            <lg.version lg="hun">30 percenkénti</lg.version>
+            <lg.version lg="ita">30 minuti</lg.version>
+            <lg.version lg="lav">reizi 30 minūtēs</lg.version>
+            <lg.version lg="lit">kas 30 min.</lg.version>
+            <lg.version lg="mlt">30 minuta</lg.version>
+            <lg.version lg="nld">30 minuten</lg.version>
+            <lg.version lg="por">30 minutos</lg.version>
+            <lg.version lg="ron">30 minute</lg.version>
+            <lg.version lg="slv">vsakih 30 minut</lg.version>
+            <lg.version lg="spa">treinta minutos</lg.version>
+            <lg.version lg="swe">varje halvtimme</lg.version>
+         </alternative.name>
+      </name>
+      <start.use>2024-09-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to thirty minutes.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2024-07-08" lg="eng">
+            <description>The event occurs at intervals of every thirty minutes.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ035"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-07-08">
+      <authority-code>12HRS</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">през дванадесет часа</lg.version>
+         <lg.version lg="ces">každých dvanáct hodin</lg.version>
+         <lg.version lg="dan">hver tolvte time</lg.version>
+         <lg.version lg="deu">alle zwölf Stunden</lg.version>
+         <lg.version lg="ell" script="Greek">ανά δώδεκα ώρες</lg.version>
+         <lg.version lg="eng">every twelve hours</lg.version>
+         <lg.version lg="est">iga 12 tunni järel</lg.version>
+         <lg.version lg="fra">toutes les 12 heures</lg.version>
+         <lg.version lg="gle">gach 12 uair an chloig</lg.version>
+         <lg.version lg="hrv">svakih dvanaest sati</lg.version>
+         <lg.version lg="hun">tizenkét óránkénti</lg.version>
+         <lg.version lg="ita">ogni dodici ore</lg.version>
+         <lg.version lg="lav">ik pēc divpadsmit stundām</lg.version>
+         <lg.version lg="lit">kas dvylika valandų</lg.version>
+         <lg.version lg="mlt">kull tnax-il siegħa</lg.version>
+         <lg.version lg="nld">om de twaalf uur</lg.version>
+         <lg.version lg="pol">co dwanaście godzin</lg.version>
+         <lg.version lg="por">a cada 12 horas</lg.version>
+         <lg.version lg="ron">la fiecare 12 ore</lg.version>
+         <lg.version lg="slk">každých 12 hodín</lg.version>
+         <lg.version lg="slk">každých dvanásť hodín</lg.version>
+         <lg.version lg="slv">vsakih dvanajst ur</lg.version>
+         <lg.version lg="spa">cada doce horas</lg.version>
+         <lg.version lg="swe">var tolfte timme</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">12 часа</lg.version>
+            <lg.version lg="ces">každých 12 hodin</lg.version>
+            <lg.version lg="dan">en gang hver tolvte time</lg.version>
+            <lg.version lg="deu">alle 12 Stunden</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 12 ώρες</lg.version>
+            <lg.version lg="eng">12 hours</lg.version>
+            <lg.version lg="est">12 tundi</lg.version>
+            <lg.version lg="fra">toutes les 12 heures</lg.version>
+            <lg.version lg="gle">12 uair an chloig</lg.version>
+            <lg.version lg="hrv">svakih 12 sati</lg.version>
+            <lg.version lg="hun">12 óránkénti</lg.version>
+            <lg.version lg="ita">12 ore</lg.version>
+            <lg.version lg="lav">reizi 12 stundās</lg.version>
+            <lg.version lg="lit">kas 12 val.</lg.version>
+            <lg.version lg="mlt">12-il siegħa</lg.version>
+            <lg.version lg="nld">12 uur</lg.version>
+            <lg.version lg="por">12 horas</lg.version>
+            <lg.version lg="ron">12 ore</lg.version>
+            <lg.version lg="slv">vsakih dvanajst ur</lg.version>
+            <lg.version lg="spa">doce horas</lg.version>
+            <lg.version lg="swe">var tolfte timme</lg.version>
+         </alternative.name>
+      </name>
+      <start.use>2024-09-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to twelve hours.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2024-07-08" lg="eng">
+            <description>The event occurs at intervals of every twelve hours.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ036"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-07-08">
+      <authority-code>10MIN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">през десет минути</lg.version>
+         <lg.version lg="ces">každých deset minut</lg.version>
+         <lg.version lg="dan">hvert tiende minut</lg.version>
+         <lg.version lg="deu">alle zehn Minuten</lg.version>
+         <lg.version lg="ell" script="Greek">ανά δέκα λεπτά</lg.version>
+         <lg.version lg="eng">every ten minutes</lg.version>
+         <lg.version lg="est">iga 10 minuti järel</lg.version>
+         <lg.version lg="fra">toutes les 10 minutes</lg.version>
+         <lg.version lg="gle">gach 10 nóiméad</lg.version>
+         <lg.version lg="hrv">svakih deset minuta</lg.version>
+         <lg.version lg="hun">tízpercenkénti</lg.version>
+         <lg.version lg="ita">ogni dieci minuti</lg.version>
+         <lg.version lg="lav">ik pēc desmit minūtēm</lg.version>
+         <lg.version lg="lit">kas dešimt minučių</lg.version>
+         <lg.version lg="mlt">kull għaxar minuti</lg.version>
+         <lg.version lg="nld">om de tien minuten</lg.version>
+         <lg.version lg="pol">co dziesięć minut</lg.version>
+         <lg.version lg="por">a cada 10 minutos</lg.version>
+         <lg.version lg="ron">la fiecare 10 minute</lg.version>
+         <lg.version lg="slk">každých 10 minút</lg.version>
+         <lg.version lg="slk">každých desať minút</lg.version>
+         <lg.version lg="slv">vsakih deset minut</lg.version>
+         <lg.version lg="spa">cada diez minutos</lg.version>
+         <lg.version lg="swe">var tionde minut</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">10 минути</lg.version>
+            <lg.version lg="ces">každých 10 minut</lg.version>
+            <lg.version lg="dan">en gang hvert tiende minut</lg.version>
+            <lg.version lg="deu">alle 10 Minuten</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 10 λεπτά</lg.version>
+            <lg.version lg="eng">10 minutes</lg.version>
+            <lg.version lg="est">10 minutit</lg.version>
+            <lg.version lg="fra">toutes les 10 minutes</lg.version>
+            <lg.version lg="gle">10 nóiméad</lg.version>
+            <lg.version lg="hrv">svakih 10 minuta</lg.version>
+            <lg.version lg="hun">10 percenkénti</lg.version>
+            <lg.version lg="ita">10 minuti</lg.version>
+            <lg.version lg="lav">reizi 10 minūtēs</lg.version>
+            <lg.version lg="lit">kas 10 min.</lg.version>
+            <lg.version lg="mlt">10 minuti</lg.version>
+            <lg.version lg="nld">10 minuten</lg.version>
+            <lg.version lg="por">10 minutos</lg.version>
+            <lg.version lg="ron">10 minute</lg.version>
+            <lg.version lg="slv">vsakih deset minut</lg.version>
+            <lg.version lg="spa">diez minutos</lg.version>
+            <lg.version lg="swe">var tionde minut</lg.version>
+         </alternative.name>
+      </name>
+      <start.use>2024-09-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to ten minutes.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2024-07-08" lg="eng">
+            <description>The event occurs at intervals of every ten minutes.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ037"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-07-08">
+      <authority-code>1MIN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">ежеминутно</lg.version>
+         <lg.version lg="ces">každou minutu</lg.version>
+         <lg.version lg="dan">hvert minut</lg.version>
+         <lg.version lg="deu">minütlich</lg.version>
+         <lg.version lg="ell" script="Greek">ανά ένα λεπτό</lg.version>
+         <lg.version lg="eng">every minute</lg.version>
+         <lg.version lg="est">iga minuti järel</lg.version>
+         <lg.version lg="fra">toutes les minutes</lg.version>
+         <lg.version lg="gle">gach nóiméad</lg.version>
+         <lg.version lg="hrv">svake minute</lg.version>
+         <lg.version lg="hun">percenkénti</lg.version>
+         <lg.version lg="ita">ogni minuto</lg.version>
+         <lg.version lg="lav">ik pēc minūtes</lg.version>
+         <lg.version lg="lit">kas minutę</lg.version>
+         <lg.version lg="mlt">kull minuta</lg.version>
+         <lg.version lg="nld">elke minuut</lg.version>
+         <lg.version lg="pol">co minutę</lg.version>
+         <lg.version lg="por">a cada minuto</lg.version>
+         <lg.version lg="ron">în fiecare minut</lg.version>
+         <lg.version lg="slk">každú minútu</lg.version>
+         <lg.version lg="slv">vsako minuto</lg.version>
+         <lg.version lg="spa">cada minuto</lg.version>
+         <lg.version lg="swe">en gång i minuten</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">1 минута</lg.version>
+            <lg.version lg="ces">každou minutu</lg.version>
+            <lg.version lg="dan">en gang i minuttet</lg.version>
+            <lg.version lg="deu">jede Minute</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 1 λεπτό</lg.version>
+            <lg.version lg="eng">1 minute</lg.version>
+            <lg.version lg="est">1 minut</lg.version>
+            <lg.version lg="fra">toutes les minutes</lg.version>
+            <lg.version lg="gle">1 nóiméad</lg.version>
+            <lg.version lg="hrv">svake minute</lg.version>
+            <lg.version lg="hun">1 percenkénti</lg.version>
+            <lg.version lg="ita">1 minuto</lg.version>
+            <lg.version lg="lav">reizi minūtē</lg.version>
+            <lg.version lg="lit">kas 1 min.</lg.version>
+            <lg.version lg="mlt">minuta</lg.version>
+            <lg.version lg="nld">1 minuut</lg.version>
+            <lg.version lg="por">1 minuto</lg.version>
+            <lg.version lg="ron">1 minut</lg.version>
+            <lg.version lg="slv">vsako minuto</lg.version>
+            <lg.version lg="spa">un minuto</lg.version>
+            <lg.version lg="swe">varje minut</lg.version>
+         </alternative.name>
+      </name>
+      <start.use>2024-09-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to one minute.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2024-07-08" lg="eng">
+            <description>The event occurs at intervals of every minute.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ038"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2024-07-08">
+      <authority-code>5MIN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">на всеки пет минути</lg.version>
+         <lg.version lg="ces">každých pět minut</lg.version>
+         <lg.version lg="dan">hvert femte minut</lg.version>
+         <lg.version lg="deu">alle fünf Minuten</lg.version>
+         <lg.version lg="ell" script="Greek">ανά πέντε λεπτά</lg.version>
+         <lg.version lg="eng">every five minutes</lg.version>
+         <lg.version lg="est">iga 5 minuti järel</lg.version>
+         <lg.version lg="fra">toutes les cinq minutes</lg.version>
+         <lg.version lg="gle">gach 5 nóiméad</lg.version>
+         <lg.version lg="hrv">svakih pet minuta</lg.version>
+         <lg.version lg="hun">ötpercenkénti</lg.version>
+         <lg.version lg="ita">ogni cinque minuti</lg.version>
+         <lg.version lg="lav">ik pēc piecām minūtēm</lg.version>
+         <lg.version lg="lit">kas penkias minutes</lg.version>
+         <lg.version lg="mlt">kull ħames minuti</lg.version>
+         <lg.version lg="nld">om de vijf minuten</lg.version>
+         <lg.version lg="pol">co pięć minut</lg.version>
+         <lg.version lg="por">a cada 5 minutos</lg.version>
+         <lg.version lg="ron">la fiecare 5 minute</lg.version>
+         <lg.version lg="slk">každých 5 minút</lg.version>
+         <lg.version lg="slk">každých päť minút</lg.version>
+         <lg.version lg="slv">vsakih pet minut</lg.version>
+         <lg.version lg="spa">cada cinco minutos</lg.version>
+         <lg.version lg="swe">var femte minut</lg.version>
+      </label>
+      <name>
+         <alternative.name>
+            <lg.version lg="bul" script="Cyrillic">5 минути</lg.version>
+            <lg.version lg="ces">každých 5 minut</lg.version>
+            <lg.version lg="dan">en gang hvert femte minut</lg.version>
+            <lg.version lg="deu">alle 5 Minuten</lg.version>
+            <lg.version lg="ell" script="Greek">ανά 5 λεπτά</lg.version>
+            <lg.version lg="eng">5 minutes</lg.version>
+            <lg.version lg="est">5 minutit</lg.version>
+            <lg.version lg="fra">toutes les cinq minutes</lg.version>
+            <lg.version lg="gle">5 nóiméad</lg.version>
+            <lg.version lg="hrv">svakih 5 minuta</lg.version>
+            <lg.version lg="hun">5 percenkénti</lg.version>
+            <lg.version lg="ita">5 minuti</lg.version>
+            <lg.version lg="lav">reizi 5 minūtēs</lg.version>
+            <lg.version lg="lit">kas 5 min.</lg.version>
+            <lg.version lg="mlt">5 minuti</lg.version>
+            <lg.version lg="nld">5 minuten</lg.version>
+            <lg.version lg="por">5 minutos</lg.version>
+            <lg.version lg="ron">5 minute</lg.version>
+            <lg.version lg="slv">vsakih 5 minut</lg.version>
+            <lg.version lg="spa">cinco minutos</lg.version>
+            <lg.version lg="swe">var femte minut</lg.version>
+         </alternative.name>
+      </name>
+      <start.use>2024-09-25</start.use>
+      <comments>
+         <comment date="2024-07-23">
+            <lg.version lg="eng">In the mobility DCAT-AP specific context the definition refers to an event that is updated at intervals of up to five minutes.</lg.version>
+         </comment>
+      </comments>
+      <sources>
+         <source date="2024-07-08" lg="eng">
+            <description>The event occurs at intervals of every five minutes.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="FRQ040"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2025-02-26">
+      <authority-code>WEEKLY_5</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">пет пъти на седмица</lg.version>
+         <lg.version lg="ces">pětkrát týdně</lg.version>
+         <lg.version lg="dan">fem gange ugentligt</lg.version>
+         <lg.version lg="deu">fünfmal pro Woche</lg.version>
+         <lg.version lg="ell" script="Greek">πέντε φορές την εβδομαδα</lg.version>
+         <lg.version lg="eng">five times a week</lg.version>
+         <lg.version lg="est">viis korda nädalas</lg.version>
+         <lg.version lg="fin">viisi kertaa viikossa</lg.version>
+         <lg.version lg="fra">cinq fois par semaine</lg.version>
+         <lg.version lg="gle">cúig uair in aghaidh na seachtaine</lg.version>
+         <lg.version lg="hrv">pet puta tjedno</lg.version>
+         <lg.version lg="hun">hetente ötször</lg.version>
+         <lg.version lg="ita">cinque volte a settimana</lg.version>
+         <lg.version lg="lav">piecreiz nedēļā</lg.version>
+         <lg.version lg="lit">penkis kartus per savaitę</lg.version>
+         <lg.version lg="mlt">ħames darbiet fil-ġimgħa</lg.version>
+         <lg.version lg="nld">vijf keer per week</lg.version>
+         <lg.version lg="nno">fem gongar i veka</lg.version>
+         <lg.version lg="nob">fem ganger i uken</lg.version>
+         <lg.version lg="nor">fem ganger i uken</lg.version>
+         <lg.version lg="pol">pięć razy w tygodniu</lg.version>
+         <lg.version lg="por">cinco vezes por semana</lg.version>
+         <lg.version lg="ron">de cinci ori pe săptămână</lg.version>
+         <lg.version lg="slk">päťkrát týždenne</lg.version>
+         <lg.version lg="slv">petkrat tedensko</lg.version>
+         <lg.version lg="spa">cinco veces por semana</lg.version>
+         <lg.version lg="swe">fem gånger i veckan</lg.version>
+      </label>
+      <start.use>2025-03-19</start.use>
+      <sources>
+         <source date="2025-02-26" lg="eng">
+            <description>The event occurs five times a week.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+</frequencies>

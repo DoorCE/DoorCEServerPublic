@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<distribution-status table.id="distribution-status"
+                     original.entries.date="2022-02-23"
+                     current.entries.date="2022-05-26"
+                     ref.administration="cat.admin.xml"
+                     table.structure.version="01-02.63-20220613"
+                     version="20220615-0">
+   <record deprecated="false"
+           id="DISTA001"
+           date.creation="2022-02-26"
+           adm.status="current"
+           IMMC.proposal.date="2022-03-11"
+           IMMC.approval.date="2022-04-06">
+      <authority-code>WITHDRAWN</authority-code>
+      <label>
+         <lg.version lg="bul">оттеглен</lg.version>
+         <lg.version lg="ces">obsah stažen</lg.version>
+         <lg.version lg="dan">trukket tilbage</lg.version>
+         <lg.version lg="deu">eingestellt</lg.version>
+         <lg.version lg="ell">έχει αποσυρθεί</lg.version>
+         <lg.version lg="eng">withdrawn</lg.version>
+         <lg.version lg="est">tagasi võetud</lg.version>
+         <lg.version lg="fin">peruutettu</lg.version>
+         <lg.version lg="fra">retiré</lg.version>
+         <lg.version lg="gle">aistarraingthe</lg.version>
+         <lg.version lg="hrv">povučeno</lg.version>
+         <lg.version lg="hun">visszavonva</lg.version>
+         <lg.version lg="ita">ritirato</lg.version>
+         <lg.version lg="lav">atsaukts</lg.version>
+         <lg.version lg="lit">atšauktas</lg.version>
+         <lg.version lg="mlt">irtirat</lg.version>
+         <lg.version lg="nld">ingetrokken</lg.version>
+         <lg.version lg="nno">trekt tilbake</lg.version>
+         <lg.version lg="nob">trukket tilbake</lg.version>
+         <lg.version lg="nor">trukket tilbake</lg.version>
+         <lg.version lg="pol">wycofany</lg.version>
+         <lg.version lg="por">retirado</lg.version>
+         <lg.version lg="ron">conținut retras</lg.version>
+         <lg.version lg="slk">stiahnutý</lg.version>
+         <lg.version lg="slv">umaknjeno</lg.version>
+         <lg.version lg="spa">retirado</lg.version>
+         <lg.version lg="swe">har återkallats</lg.version>
+      </label>
+      <start.use>2015-10-23</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+   <record deprecated="false"
+           id="DISTA002"
+           date.creation="2015-06-18"
+           adm.status="current"
+           IMMC.proposal.date="2015-10-09"
+           IMMC.approval.date="2015-10-09">
+      <authority-code>DEVELOP</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">в процес на създаване</lg.version>
+         <lg.version lg="ces">ve fázi vývoje</lg.version>
+         <lg.version lg="dan">under udvikling</lg.version>
+         <lg.version lg="deu">im Aufbau</lg.version>
+         <lg.version lg="ell" script="Greek">υπό κατασκευή</lg.version>
+         <lg.version lg="eng">under development</lg.version>
+         <lg.version lg="est">töös</lg.version>
+         <lg.version lg="fin">kehitteillä</lg.version>
+         <lg.version lg="fra">en cours d’élaboration</lg.version>
+         <lg.version lg="gle">á fhorbairt</lg.version>
+         <lg.version lg="hrv">u izradi</lg.version>
+         <lg.version lg="hun">kidolgozás alatt</lg.version>
+         <lg.version lg="ita">in corso di sviluppo</lg.version>
+         <lg.version lg="lav">izstrādes stadijā</lg.version>
+         <lg.version lg="lit">sudaromas</lg.version>
+         <lg.version lg="mlt">qed jiġi żviluppat</lg.version>
+         <lg.version lg="nld">in ontwikkeling</lg.version>
+         <lg.version lg="nno">under utvikling</lg.version>
+         <lg.version lg="nob">under utvikling</lg.version>
+         <lg.version lg="nor">under utvikling</lg.version>
+         <lg.version lg="pol">prace w toku</lg.version>
+         <lg.version lg="por">em desenvolvimento</lg.version>
+         <lg.version lg="ron">în curs de pregătire</lg.version>
+         <lg.version lg="slk">vo fáze vývoja</lg.version>
+         <lg.version lg="slv">v pripravi</lg.version>
+         <lg.version lg="spa">en fase de elaboración</lg.version>
+         <lg.version lg="swe">arbete pågår</lg.version>
+      </label>
+      <start.use>2015-10-23</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+   <record deprecated="false"
+           id="DISTA003"
+           date.creation="2015-06-18"
+           adm.status="current"
+           IMMC.proposal.date="2015-10-09"
+           IMMC.approval.date="2015-10-09">
+      <authority-code>DEPRECATED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">непрепоръчителен</lg.version>
+         <lg.version lg="ces">zastaralý</lg.version>
+         <lg.version lg="dan">frarådet</lg.version>
+         <lg.version lg="deu">veraltet</lg.version>
+         <lg.version lg="ell" script="Greek">παρωχημένα δεδομένα</lg.version>
+         <lg.version lg="eng">deprecated</lg.version>
+         <lg.version lg="est">taunitav</lg.version>
+         <lg.version lg="fin">hylättävä</lg.version>
+         <lg.version lg="fra">déconseillé</lg.version>
+         <lg.version lg="gle">dímholta</lg.version>
+         <lg.version lg="hrv">nevažeći</lg.version>
+         <lg.version lg="hun">elavult</lg.version>
+         <lg.version lg="ita">sconsigliato</lg.version>
+         <lg.version lg="lav">novecojis</lg.version>
+         <lg.version lg="lit">nerekomenduojamas</lg.version>
+         <lg.version lg="mlt">mhux aktar fl-użu</lg.version>
+         <lg.version lg="nld">verouderd</lg.version>
+         <lg.version lg="nno">frarådd</lg.version>
+         <lg.version lg="nob">frarådet</lg.version>
+         <lg.version lg="nor">frarådet</lg.version>
+         <lg.version lg="pol">nieaktualny</lg.version>
+         <lg.version lg="por">desaconselhado</lg.version>
+         <lg.version lg="ron">nerecomandat</lg.version>
+         <lg.version lg="slk">zastaraný</lg.version>
+         <lg.version lg="slv">odsvetovano</lg.version>
+         <lg.version lg="spa">desaconsejado</lg.version>
+         <lg.version lg="swe">bör ej användas</lg.version>
+      </label>
+      <start.use>2015-10-23</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+   <record deprecated="false"
+           id="DISTA004"
+           date.creation="2015-06-18"
+           adm.status="current"
+           IMMC.proposal.date="2015-10-09"
+           IMMC.approval.date="2015-10-09">
+      <authority-code>COMPLETED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">пълен</lg.version>
+         <lg.version lg="ces">dokončen</lg.version>
+         <lg.version lg="dan">færdiggjort</lg.version>
+         <lg.version lg="deu">vollständig</lg.version>
+         <lg.version lg="ell" script="Greek">πλήρη δεδομένα</lg.version>
+         <lg.version lg="eng">completed</lg.version>
+         <lg.version lg="est">täielik</lg.version>
+         <lg.version lg="fin">valmis</lg.version>
+         <lg.version lg="fra">complété</lg.version>
+         <lg.version lg="gle">lánchríochnaithe</lg.version>
+         <lg.version lg="hrv">potpun</lg.version>
+         <lg.version lg="hun">kész</lg.version>
+         <lg.version lg="ita">completato</lg.version>
+         <lg.version lg="lav">pabeigts</lg.version>
+         <lg.version lg="lit">baigtas</lg.version>
+         <lg.version lg="mlt">komplut</lg.version>
+         <lg.version lg="nld">voltooid</lg.version>
+         <lg.version lg="nno">ferdigstilt</lg.version>
+         <lg.version lg="nob">ferdigstilt</lg.version>
+         <lg.version lg="nor">ferdigstilt</lg.version>
+         <lg.version lg="pol">ukończony</lg.version>
+         <lg.version lg="por">completado</lg.version>
+         <lg.version lg="ron">finalizat</lg.version>
+         <lg.version lg="slk">dokončený</lg.version>
+         <lg.version lg="slv">dokončano</lg.version>
+         <lg.version lg="spa">completo</lg.version>
+         <lg.version lg="swe">fullständig</lg.version>
+      </label>
+      <start.use>2015-10-23</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+   </record>
+</distribution-status>

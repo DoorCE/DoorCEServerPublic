@@ -1,0 +1,3 @@
+namespace DoorCEGenerator.Application.IntermediateModel.StructuralUnitRepresentations;
+
+public abstract class UCCallableOperation(CodeGenerationProfile codeGenerationProfile) : Operation(codeGenerationProfile);

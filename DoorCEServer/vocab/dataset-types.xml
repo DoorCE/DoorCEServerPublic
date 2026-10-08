@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset-types table.id="dataset-type"
+               original.entries.date="2015-07-23"
+               current.entries.date="2024-09-06"
+               ref.administration="cat.admin.xml"
+               table.structure.version="01-02.89-20240912"
+               version="20240925-0">
+   <record id="DTST001"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>CODE_LIST</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Списък на кодовете</lg.version>
+         <lg.version lg="ces">Seznam kódů</lg.version>
+         <lg.version lg="dan">Kodeliste</lg.version>
+         <lg.version lg="deu">Codeliste</lg.version>
+         <lg.version lg="ell" script="Greek">Κατάλογος κωδικών</lg.version>
+         <lg.version lg="eng">Code list</lg.version>
+         <lg.version lg="est">Koodiloend</lg.version>
+         <lg.version lg="fin">Koodiluettelo</lg.version>
+         <lg.version lg="fra">Liste de codes</lg.version>
+         <lg.version lg="gle">Liosta cód</lg.version>
+         <lg.version lg="hrv">Popis kodova</lg.version>
+         <lg.version lg="hun">Kódlista</lg.version>
+         <lg.version lg="ita">Elenco dei codici</lg.version>
+         <lg.version lg="lav">Kodu saraksts</lg.version>
+         <lg.version lg="lit">Kodų sąrašas</lg.version>
+         <lg.version lg="mlt">Lista ta’ kodiċijiet</lg.version>
+         <lg.version lg="nld">Codelijst</lg.version>
+         <lg.version lg="nno">Kodeliste</lg.version>
+         <lg.version lg="nob">Kodeliste</lg.version>
+         <lg.version lg="nor">Kodeliste</lg.version>
+         <lg.version lg="pol">Wykaz kodów</lg.version>
+         <lg.version lg="por">Lista de códigos</lg.version>
+         <lg.version lg="ron">Listă de coduri</lg.version>
+         <lg.version lg="slk">Zoznam kódov</lg.version>
+         <lg.version lg="slv">Seznam kod</lg.version>
+         <lg.version lg="spa">Lista de códigos</lg.version>
+         <lg.version lg="swe">Kodlista</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">ISO 9735-1:2002, 4.14</lg.version>
+            <lg.version lg="eng">https://www.iso.org/obp/ui#iso:std:iso:9735:-1:ed-2:v1:en</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A code list is a complete set of data element values of a coded simple data element.</description>
+            <provenance>ISO 9735-1:2002</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST002"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>CORE_COMP</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Базов елемент</lg.version>
+         <lg.version lg="ces">Základní prvek</lg.version>
+         <lg.version lg="dan">Hovedkomponent</lg.version>
+         <lg.version lg="deu">Kernbestandteil</lg.version>
+         <lg.version lg="ell" script="Greek">Βασικό συστατικό</lg.version>
+         <lg.version lg="eng">Core component</lg.version>
+         <lg.version lg="est">Tuumikelement</lg.version>
+         <lg.version lg="fin">Ydinkomponentti</lg.version>
+         <lg.version lg="fra">Composant de base</lg.version>
+         <lg.version lg="gle">Comhpháirt lárnach</lg.version>
+         <lg.version lg="hrv">Osnovna komponenta</lg.version>
+         <lg.version lg="hun">Alapkomponens</lg.version>
+         <lg.version lg="ita">Componente centrale</lg.version>
+         <lg.version lg="lav">Pamatsastāvdaļa</lg.version>
+         <lg.version lg="lit">Pagrindinis komponentas</lg.version>
+         <lg.version lg="mlt">Komponent ċentrali</lg.version>
+         <lg.version lg="nld">Kerncomponent</lg.version>
+         <lg.version lg="nno">Kjernekomponent</lg.version>
+         <lg.version lg="nob">Kjernekomponent</lg.version>
+         <lg.version lg="nor">Kjernekomponent</lg.version>
+         <lg.version lg="pol">Element podstawowy</lg.version>
+         <lg.version lg="por">Componente fundamental</lg.version>
+         <lg.version lg="ron">Componentă centrală</lg.version>
+         <lg.version lg="slk">Hlavná zložka</lg.version>
+         <lg.version lg="slv">Osnovna komponenta</lg.version>
+         <lg.version lg="spa">Componente básico</lg.version>
+         <lg.version lg="swe">Kärnkomponent</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A core component is a context-free semantic building block for creating clear and meaningful data models, vocabularies and information exchange packages.</description>
+            <provenance>Core Components Technical Specification – Version 3.0 29 – September 2009</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST003"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>DOMAIN_MODEL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Модел на област</lg.version>
+         <lg.version lg="ces">Model domény</lg.version>
+         <lg.version lg="dan">Domænemodel</lg.version>
+         <lg.version lg="deu">Domänenmodell</lg.version>
+         <lg.version lg="ell" script="Greek">Υπόδειγμα πεδίου</lg.version>
+         <lg.version lg="eng">Domain model</lg.version>
+         <lg.version lg="est">Domeenimudel</lg.version>
+         <lg.version lg="fin">Käsitemalli</lg.version>
+         <lg.version lg="fra">Modèle de domaine</lg.version>
+         <lg.version lg="gle">Samhail fearainn</lg.version>
+         <lg.version lg="hrv">Model domene</lg.version>
+         <lg.version lg="hun">Tartománymodell</lg.version>
+         <lg.version lg="ita">Modello di dominio</lg.version>
+         <lg.version lg="lav">Domēna modelis</lg.version>
+         <lg.version lg="lit">Domeno modelis</lg.version>
+         <lg.version lg="mlt">Mudell ta’ dominju</lg.version>
+         <lg.version lg="nld">Domeinmodel</lg.version>
+         <lg.version lg="nno">Domenemodell</lg.version>
+         <lg.version lg="nob">Domenemodell</lg.version>
+         <lg.version lg="nor">Domenemodell</lg.version>
+         <lg.version lg="pol">Model domeny</lg.version>
+         <lg.version lg="por">Modelo de domínio</lg.version>
+         <lg.version lg="ron">Model de domeniu</lg.version>
+         <lg.version lg="slk">Model domény</lg.version>
+         <lg.version lg="slv">Model domene</lg.version>
+         <lg.version lg="spa">Modelo de dominio</lg.version>
+         <lg.version lg="swe">Domänmodell</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">NIEM Glossary</lg.version>
+            <lg.version lg="eng">https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=D</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A domain model is a conceptual view of a system or an information exchange that identifies the entities involved and their relationships.</description>
+            <provenance>National Information Exchange Model Glossary</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST004"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>IEPD</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Описание на пакет за обмен на информация</lg.version>
+         <lg.version lg="ces">Popis balíčku pro výměnu informací</lg.version>
+         <lg.version lg="dan">Beskrivelse af informationsudveksling</lg.version>
+         <lg.version lg="deu">Beschreibung des informationsaustauschpakets</lg.version>
+         <lg.version lg="ell" script="Greek">Περιγραφή δέσμης ανταλλαγής πληροφοριών</lg.version>
+         <lg.version lg="eng">Information exchange package description</lg.version>
+         <lg.version lg="est">Teabevahetuspaketi kirjeldus</lg.version>
+         <lg.version lg="fin">Tiedonvaihtopaketin kuvaus</lg.version>
+         <lg.version lg="fra">Description de paquet d’échange d’information</lg.version>
+         <lg.version lg="gle">Tuairisc ar mhalartú faisnéise</lg.version>
+         <lg.version lg="hrv">Opis paketa informacijske razmjene</lg.version>
+         <lg.version lg="hun">Információcsere-csomag (IEP) leírása</lg.version>
+         <lg.version lg="ita">Descrizione del pacchetto «scambio di informazioni»</lg.version>
+         <lg.version lg="lav">Informācijas apmaiņas paketes apraksts</lg.version>
+         <lg.version lg="lit">Informacijos mainų paketo aprašas</lg.version>
+         <lg.version lg="mlt">Deskrizzjoni ta’ pakkett ta’ skambju ta’ informazzjoni</lg.version>
+         <lg.version lg="nld">Omschrijving informatie-uitwisselingspakket</lg.version>
+         <lg.version lg="nno">Beskriving av informasjonsutvekslingspakke</lg.version>
+         <lg.version lg="nob">Beskrivelse av informasjonsutveksling</lg.version>
+         <lg.version lg="nor">Beskrivelse av informasjonsutveksling</lg.version>
+         <lg.version lg="pol">Opis struktury i treści wymiany informacji</lg.version>
+         <lg.version lg="por">Descrição de pacote de intercâmbio de informação</lg.version>
+         <lg.version lg="ron">Descrierea pachetului de schimb de informații</lg.version>
+         <lg.version lg="slk">Opis balíka výmeny informácií</lg.version>
+         <lg.version lg="slv">Opis paketa za izmenjavo podatkov</lg.version>
+         <lg.version lg="spa">Descripción de un paquete de intercambio de información</lg.version>
+         <lg.version lg="swe">Beskrivning av informationsutbyte</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">NIEM Glossary</lg.version>
+            <lg.version lg="eng">https://www.niem.gov/glossary/Pages/Glossary.aspx?alpha=I</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-07-17" lg="eng">
+            <description>An information exchange package (IEP) description is a collection of artefacts that define and describe the structure and content of an IEP. An Information Exchange Package Documentation has a specific information exchange context and may refer to other semantic assets.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST005"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>MAPPING</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Карта на връзките</lg.version>
+         <lg.version lg="ces">Mapování</lg.version>
+         <lg.version lg="dan">Tilknytning</lg.version>
+         <lg.version lg="deu">Mapping</lg.version>
+         <lg.version lg="ell" script="Greek">Αντιστοιχία</lg.version>
+         <lg.version lg="eng">Mapping</lg.version>
+         <lg.version lg="est">Vastendus</lg.version>
+         <lg.version lg="fin">Mappaus</lg.version>
+         <lg.version lg="fra">Mappage</lg.version>
+         <lg.version lg="gle">Mapáil</lg.version>
+         <lg.version lg="hrv">Mapiranje</lg.version>
+         <lg.version lg="hun">Megfeleltetés</lg.version>
+         <lg.version lg="ita">Mappatura</lg.version>
+         <lg.version lg="lav">Kartēšana</lg.version>
+         <lg.version lg="lit">Priskyrimas</lg.version>
+         <lg.version lg="mlt">Immappjar</lg.version>
+         <lg.version lg="nld">Mapping</lg.version>
+         <lg.version lg="nno">Mapping</lg.version>
+         <lg.version lg="nob">Mapping</lg.version>
+         <lg.version lg="nor">Mapping</lg.version>
+         <lg.version lg="pol">Mapowanie</lg.version>
+         <lg.version lg="por">Mapeamento</lg.version>
+         <lg.version lg="ron">Cartografiere</lg.version>
+         <lg.version lg="slk">Priradenie</lg.version>
+         <lg.version lg="slv">Evidenca</lg.version>
+         <lg.version lg="spa">Correspondencia</lg.version>
+         <lg.version lg="swe">Mappning</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">ISO/DIS 25964-2</lg.version>
+            <lg.version lg="eng">https://www.iso.org/obp/ui/#iso:std:iso:25964:-2:ed-1:v1:en</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A mapping is a relationship between a concept in one vocabulary and one or more concepts in another.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST006"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>NAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Проверен списък с имена</lg.version>
+         <lg.version lg="ces">Seznam názvů orgánů</lg.version>
+         <lg.version lg="dan">Liste over myndighedsnavne</lg.version>
+         <lg.version lg="deu">Liste zugelassener Namen</lg.version>
+         <lg.version lg="ell" script="Greek">Κατάλογος εγκεκριμένων ονομάτων</lg.version>
+         <lg.version lg="eng">Name authority list</lg.version>
+         <lg.version lg="est">Lubatud nimede loend</lg.version>
+         <lg.version lg="fin">Hyväksyttyjen nimien luettelo</lg.version>
+         <lg.version lg="fra">Liste d’autorité de noms</lg.version>
+         <lg.version lg="gle">Liosta ainmneacha údaraithe</lg.version>
+         <lg.version lg="hrv">Popis zadanih naziva</lg.version>
+         <lg.version lg="hun">Jóváhagyott névlista</lg.version>
+         <lg.version lg="ita">Elenco dei nomi autorizzati</lg.version>
+         <lg.version lg="lav">Vārdu un nosaukumu saraksts</lg.version>
+         <lg.version lg="lit">Institucijų pavadinimų sąrašas</lg.version>
+         <lg.version lg="mlt">Lista ta’ ismijiet awtorizzati</lg.version>
+         <lg.version lg="nld">Standaardnamenlijst</lg.version>
+         <lg.version lg="nno">Autoritetsliste for entitetsnamn</lg.version>
+         <lg.version lg="nob">Autoritetsliste for entitetsnavn</lg.version>
+         <lg.version lg="nor">Autoritetsliste for entitetsnavn</lg.version>
+         <lg.version lg="pol">Wykaz nazw organów</lg.version>
+         <lg.version lg="por">Lista autorizada de nomes</lg.version>
+         <lg.version lg="ron">Listă cu numele autorităților</lg.version>
+         <lg.version lg="slk">Zoznam názvov orgánov</lg.version>
+         <lg.version lg="slv">Seznam imen organov</lg.version>
+         <lg.version lg="spa">Lista autorizada de nombres</lg.version>
+         <lg.version lg="swe">Auktoritetsregister</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">ISO/DIS 25964-2</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A name authority list is a controlled vocabulary for use in naming particular entities consistently.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST007"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>ONTOLOGY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Онтология</lg.version>
+         <lg.version lg="ces">Ontologie</lg.version>
+         <lg.version lg="dan">Ontologi</lg.version>
+         <lg.version lg="deu">Ontologie</lg.version>
+         <lg.version lg="ell" script="Greek">Οντολογία</lg.version>
+         <lg.version lg="eng">Ontology</lg.version>
+         <lg.version lg="est">Ontoloogia</lg.version>
+         <lg.version lg="fin">Ontologia</lg.version>
+         <lg.version lg="fra">Ontologie</lg.version>
+         <lg.version lg="gle">Ointeolaíocht</lg.version>
+         <lg.version lg="hrv">Ontologija</lg.version>
+         <lg.version lg="hun">Ontológia</lg.version>
+         <lg.version lg="ita">Ontologia</lg.version>
+         <lg.version lg="lav">Ontoloģija</lg.version>
+         <lg.version lg="lit">Ontologija</lg.version>
+         <lg.version lg="mlt">Ontoloġija</lg.version>
+         <lg.version lg="nld">Ontologie</lg.version>
+         <lg.version lg="nno">Ontologi</lg.version>
+         <lg.version lg="nob">Ontologi</lg.version>
+         <lg.version lg="nor">Ontologi</lg.version>
+         <lg.version lg="pol">Struktura pojęciowa</lg.version>
+         <lg.version lg="por">Ontologia</lg.version>
+         <lg.version lg="ron">Ontologie</lg.version>
+         <lg.version lg="slk">Ontológia</lg.version>
+         <lg.version lg="slv">Ontologija</lg.version>
+         <lg.version lg="spa">Ontología</lg.version>
+         <lg.version lg="swe">Ontologi</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">ISO/DIS 25964-2</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>An ontology is a formal, explicit specification of a shared conceptualisation.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST008"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>SCHEMA</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Схема</lg.version>
+         <lg.version lg="ces">Schéma</lg.version>
+         <lg.version lg="dan">Skema</lg.version>
+         <lg.version lg="deu">Schema</lg.version>
+         <lg.version lg="ell" script="Greek">Σύστημα</lg.version>
+         <lg.version lg="eng">Schema</lg.version>
+         <lg.version lg="est">Skeem</lg.version>
+         <lg.version lg="fin">Skeema</lg.version>
+         <lg.version lg="fra">Schéma</lg.version>
+         <lg.version lg="gle">Scéimre</lg.version>
+         <lg.version lg="hrv">Nacrt</lg.version>
+         <lg.version lg="hun">Séma</lg.version>
+         <lg.version lg="ita">Schema</lg.version>
+         <lg.version lg="lav">Shēma</lg.version>
+         <lg.version lg="lit">Schema</lg.version>
+         <lg.version lg="mlt">Skema</lg.version>
+         <lg.version lg="nld">Schema</lg.version>
+         <lg.version lg="nno">Skjema</lg.version>
+         <lg.version lg="nob">Skjema</lg.version>
+         <lg.version lg="nor">Skjema</lg.version>
+         <lg.version lg="pol">Schemat</lg.version>
+         <lg.version lg="por">Esquema</lg.version>
+         <lg.version lg="ron">Schemă</lg.version>
+         <lg.version lg="slk">Schéma</lg.version>
+         <lg.version lg="slv">Shema</lg.version>
+         <lg.version lg="spa">Esquema</lg.version>
+         <lg.version lg="swe">Schema</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A schema is a concrete view on a system or information exchange, describing the structure, content and semantics of data.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST009"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>DSCRP_SERV</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Описание на услуга</lg.version>
+         <lg.version lg="ces">Popis služby</lg.version>
+         <lg.version lg="dan">Beskrivelse af tjenesten</lg.version>
+         <lg.version lg="deu">Dienstbeschreibung</lg.version>
+         <lg.version lg="ell" script="Greek">Περιγραφή υπηρεσίας</lg.version>
+         <lg.version lg="eng">Service description</lg.version>
+         <lg.version lg="est">Teenusekirjeldus</lg.version>
+         <lg.version lg="fin">Palvelun kuvaus</lg.version>
+         <lg.version lg="fra">Description de service</lg.version>
+         <lg.version lg="gle">Tuairisc seirbhíse</lg.version>
+         <lg.version lg="hrv">Opis usluge</lg.version>
+         <lg.version lg="hun">Szolgáltatás leírása</lg.version>
+         <lg.version lg="ita">Descrizione del servizio</lg.version>
+         <lg.version lg="lav">Pakalpojuma apraksts</lg.version>
+         <lg.version lg="lit">Paslaugos aprašas</lg.version>
+         <lg.version lg="mlt">Deskrizzjoni tas-servizz</lg.version>
+         <lg.version lg="nld">Servicebeschrijving</lg.version>
+         <lg.version lg="nno">Tenestebeskriving</lg.version>
+         <lg.version lg="nob">Tjenestebeskrivelse</lg.version>
+         <lg.version lg="nor">Tjenestebeskrivelse</lg.version>
+         <lg.version lg="pol">Opis usługi</lg.version>
+         <lg.version lg="por">Descrição do serviço</lg.version>
+         <lg.version lg="ron">Descrierea serviciului</lg.version>
+         <lg.version lg="slk">Schéma služby</lg.version>
+         <lg.version lg="slv">Opis storitve</lg.version>
+         <lg.version lg="spa">Descripción del servicio</lg.version>
+         <lg.version lg="swe">Tjänstebeskrivning</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">W3C WS-GLOSS</lg.version>
+            <lg.version lg="eng">http://www.w3.org/TR/ws-gloss/</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A service description is a set of documents that describe the interface to and semantics of a service.</description>
+            <provenance>Web Services Glossary – W3C Working Group Note – 11 February 2004</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST010"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>STATISTICAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Статистически данни</lg.version>
+         <lg.version lg="ces">Statistické údaje</lg.version>
+         <lg.version lg="dan">Statistiske data</lg.version>
+         <lg.version lg="deu">Statistische Daten</lg.version>
+         <lg.version lg="ell" script="Greek">Στατιστικά δεδομένα</lg.version>
+         <lg.version lg="eng">Statistical data</lg.version>
+         <lg.version lg="est">Statistilised andmed</lg.version>
+         <lg.version lg="fin">Tilastotiedot</lg.version>
+         <lg.version lg="fra">Données statistiques</lg.version>
+         <lg.version lg="gle">Sonraí staidrimh</lg.version>
+         <lg.version lg="hrv">Statistički podaci</lg.version>
+         <lg.version lg="hun">Statisztikai adat</lg.version>
+         <lg.version lg="ita">Dati statistici</lg.version>
+         <lg.version lg="lav">Statistikas dati</lg.version>
+         <lg.version lg="lit">Statistiniai duomenys</lg.version>
+         <lg.version lg="mlt">Data dwar l-istatistika</lg.version>
+         <lg.version lg="nld">Statistische gegevens</lg.version>
+         <lg.version lg="nno">Statistiske data</lg.version>
+         <lg.version lg="nob">Statistiske data</lg.version>
+         <lg.version lg="nor">Statistiske data</lg.version>
+         <lg.version lg="pol">Dane statystyczne</lg.version>
+         <lg.version lg="por">Dados estatísticos</lg.version>
+         <lg.version lg="ron">Date statistice</lg.version>
+         <lg.version lg="slk">Štatistické údaje</lg.version>
+         <lg.version lg="slv">Statistični podatki</lg.version>
+         <lg.version lg="spa">Datos estadísticos</lg.version>
+         <lg.version lg="swe">Statistiska data</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2020-11-25" lg="eng">
+            <description>Statistical data is data which holds information that is of a statistical nature.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST011"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>SYNTAX_ECD_SCHEME</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Схема на кодиране със синтаксис</lg.version>
+         <lg.version lg="ces">Kódovací schéma skladby</lg.version>
+         <lg.version lg="dan">Kodeskema for syntaks</lg.version>
+         <lg.version lg="deu">Codierungssystem mit Syntax</lg.version>
+         <lg.version lg="ell" script="Greek">Σύστημα συντακτικής κωδικοποίησης</lg.version>
+         <lg.version lg="eng">Syntax encoding scheme</lg.version>
+         <lg.version lg="est">Süntaktiline kodeerimisskeem</lg.version>
+         <lg.version lg="fin">Syntaktinen koodausskeema</lg.version>
+         <lg.version lg="fra">Schème d’encodage de syntaxe</lg.version>
+         <lg.version lg="gle">Scéim ionchódaithe comhréire</lg.version>
+         <lg.version lg="hrv">Zadana pravila kodiranja</lg.version>
+         <lg.version lg="hun">Szintaxiskódolási séma</lg.version>
+         <lg.version lg="ita">Sistema di codifica basato sulla sintassi</lg.version>
+         <lg.version lg="lav">Sintakses kodējumu shēma</lg.version>
+         <lg.version lg="lit">Sintaksės kodavimo schema</lg.version>
+         <lg.version lg="mlt">Skema ta’ konverżjoni tas-sintassi</lg.version>
+         <lg.version lg="nld">Syntaxiscoderingsschema</lg.version>
+         <lg.version lg="nno">Kodeskjema for syntaks</lg.version>
+         <lg.version lg="nob">Kodeskjema for syntaks</lg.version>
+         <lg.version lg="nor">Kodeskjema for syntaks</lg.version>
+         <lg.version lg="pol">System kodowania składniowego</lg.version>
+         <lg.version lg="por">Esquema de codificação sintática</lg.version>
+         <lg.version lg="ron">Sistem de codificare a sintaxei</lg.version>
+         <lg.version lg="slk">Syntaktická schéma kódovania</lg.version>
+         <lg.version lg="slv">Shema kodiranja sintakse</lg.version>
+         <lg.version lg="spa">Esquema de codificación sintáctica</lg.version>
+         <lg.version lg="swe">Syntaxschema</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">DCMI Glossary</lg.version>
+            <lg.version lg="eng">The glossary was last updated on 23 April 2004.</lg.version>
+            <lg.version lg="eng">http://dublincore.org/documents/usageguide/glossary.shtml#S</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>Syntax Encoding Schemes indicate that the value is a string formatted in accordance with a formal notation, such as "2000-01-01" as the standard expression of a date.</description>
+            <provenance>Dublin Core Metadata Initiative (DCMI) Glossary</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST012"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>TAXONOMY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Таксономия</lg.version>
+         <lg.version lg="ces">Taxonomie</lg.version>
+         <lg.version lg="dan">Taksonomi</lg.version>
+         <lg.version lg="deu">Taxonomie</lg.version>
+         <lg.version lg="ell" script="Greek">Ταξονομία</lg.version>
+         <lg.version lg="eng">Taxonomy</lg.version>
+         <lg.version lg="est">Taksonoomia</lg.version>
+         <lg.version lg="fin">Taksonomia</lg.version>
+         <lg.version lg="fra">Taxonomie</lg.version>
+         <lg.version lg="gle">Tacsanomaíocht</lg.version>
+         <lg.version lg="hrv">Taksonomija</lg.version>
+         <lg.version lg="hun">Taxonómia</lg.version>
+         <lg.version lg="ita">Tassonomia</lg.version>
+         <lg.version lg="lav">Taksonomija</lg.version>
+         <lg.version lg="lit">Sistematika</lg.version>
+         <lg.version lg="mlt">Tassonomija</lg.version>
+         <lg.version lg="nld">Taxonomie</lg.version>
+         <lg.version lg="nno">Taksonomi</lg.version>
+         <lg.version lg="nob">Taksonomi</lg.version>
+         <lg.version lg="nor">Taksonomi</lg.version>
+         <lg.version lg="pol">Klasyfikacja</lg.version>
+         <lg.version lg="por">Taxonomia</lg.version>
+         <lg.version lg="ron">Taxonomie</lg.version>
+         <lg.version lg="slk">Taxonómia</lg.version>
+         <lg.version lg="slv">Taksonomija</lg.version>
+         <lg.version lg="spa">Taxonomía</lg.version>
+         <lg.version lg="swe">Taxonomi</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">ISO/DIS 25964-2</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A taxonomy is a scheme of categories and subcategories that can be used to sort and otherwise organise items of knowledge or information.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST013"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>THESAURUS</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Тезаурус</lg.version>
+         <lg.version lg="ces">Tezaurus</lg.version>
+         <lg.version lg="dan">Tesaurus</lg.version>
+         <lg.version lg="deu">Thesaurus</lg.version>
+         <lg.version lg="ell" script="Greek">Θησαυρός</lg.version>
+         <lg.version lg="eng">Thesaurus</lg.version>
+         <lg.version lg="est">Tesaurus</lg.version>
+         <lg.version lg="fin">Tesaurus</lg.version>
+         <lg.version lg="fra">Thésaurus</lg.version>
+         <lg.version lg="gle">Teasáras</lg.version>
+         <lg.version lg="hrv">Pojmovnik</lg.version>
+         <lg.version lg="hun">Tezaurusz</lg.version>
+         <lg.version lg="ita">Tesauro</lg.version>
+         <lg.version lg="lav">Tēzaurs</lg.version>
+         <lg.version lg="lit">Tezauras</lg.version>
+         <lg.version lg="mlt">Teżawru</lg.version>
+         <lg.version lg="nld">Thesaurus</lg.version>
+         <lg.version lg="nno">Tesaurus</lg.version>
+         <lg.version lg="nob">Tesaurus</lg.version>
+         <lg.version lg="nor">Tesaurus</lg.version>
+         <lg.version lg="pol">Tezaurus</lg.version>
+         <lg.version lg="por">Tesauro</lg.version>
+         <lg.version lg="ron">Tezaur</lg.version>
+         <lg.version lg="slk">Synonymický slovník</lg.version>
+         <lg.version lg="slv">Tezaver</lg.version>
+         <lg.version lg="spa">Tesauro</lg.version>
+         <lg.version lg="swe">Tesaurus</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <annotations>
+         <annotation date="2015-06-12">
+            <lg.version lg="eng">ISO 25964-1:2011</lg.version>
+            <lg.version lg="eng">http://www.iso.org/iso/catalogue_detail.htm?csnumber=53657</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A thesaurus is a controlled and structured vocabulary in which concepts are represented by terms, organised so that relationships between concepts are made explicit, and preferred terms are accompanied by lead-in entries for synonyms or quasi-synonyms.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST014"
+           deprecated="false"
+           IMMC.approval.date="2017-11-20"
+           IMMC.proposal.date="2017-11-13"
+           adm.status="current"
+           date.creation="2017-10-30">
+      <authority-code>APROF</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Профил за приложение</lg.version>
+         <lg.version lg="ces">Profil aplikace</lg.version>
+         <lg.version lg="dan">Anvendelsesprofil</lg.version>
+         <lg.version lg="deu">Anwendungsprofil</lg.version>
+         <lg.version lg="ell" script="Greek">Προφίλ εφαρμογής</lg.version>
+         <lg.version lg="eng">Application profile</lg.version>
+         <lg.version lg="est">Rakendusprofiil</lg.version>
+         <lg.version lg="fin">Sovellusprofiili</lg.version>
+         <lg.version lg="fra">Profil d’application</lg.version>
+         <lg.version lg="gle">Próifíl feidhmchláir</lg.version>
+         <lg.version lg="hrv">Aplikacijski profil</lg.version>
+         <lg.version lg="hun">Alkalmazásprofil</lg.version>
+         <lg.version lg="ita">Profilo applicazione</lg.version>
+         <lg.version lg="lav">Lietotnes profils</lg.version>
+         <lg.version lg="lit">Programos profilis</lg.version>
+         <lg.version lg="mlt">Profil tal-applikazzjoni</lg.version>
+         <lg.version lg="nld">Applicatieprofiel</lg.version>
+         <lg.version lg="nno">Applikasjonsprofil</lg.version>
+         <lg.version lg="nob">Applikasjonsprofil</lg.version>
+         <lg.version lg="nor">Applikasjonsprofil</lg.version>
+         <lg.version lg="pol">Profil aplikacji</lg.version>
+         <lg.version lg="por">Perfil de aplicação</lg.version>
+         <lg.version lg="ron">Profil aplicație</lg.version>
+         <lg.version lg="slk">Profil aplikácie</lg.version>
+         <lg.version lg="slv">Profil aplikacije</lg.version>
+         <lg.version lg="spa">Perfil de aplicación</lg.version>
+         <lg.version lg="swe">Applikationsprofil</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2017-10-30</start.use>
+      <sources>
+         <source date="2017-10-30" lg="eng">
+            <description>An application profile is a profile which specifies and describes the metadata used in a particular application.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST015"
+           deprecated="false"
+           IMMC.approval.date="2017-11-20"
+           IMMC.proposal.date="2017-11-13"
+           adm.status="current"
+           date.creation="2017-10-30">
+      <authority-code>STYLES</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Набори от стилове</lg.version>
+         <lg.version lg="ces">Pravidla pro úpravu</lg.version>
+         <lg.version lg="dan">Standardformularer</lg.version>
+         <lg.version lg="deu">Formatvorlagen</lg.version>
+         <lg.version lg="ell" script="Greek">Φύλλα στυλ</lg.version>
+         <lg.version lg="eng">Style sheets</lg.version>
+         <lg.version lg="est">Laadilehed</lg.version>
+         <lg.version lg="fin">Tyyliohjeet</lg.version>
+         <lg.version lg="fra">Feuilles de style</lg.version>
+         <lg.version lg="gle">Stílbhileoga</lg.version>
+         <lg.version lg="hrv">Stilski obrasci</lg.version>
+         <lg.version lg="hun">Stíluslapok</lg.version>
+         <lg.version lg="ita">Fogli di stile</lg.version>
+         <lg.version lg="lav">Stila lapas</lg.version>
+         <lg.version lg="lit">Stilių aprašai</lg.version>
+         <lg.version lg="mlt">Style sheets</lg.version>
+         <lg.version lg="nld">Opmaakmodellen</lg.version>
+         <lg.version lg="nno">Stilark</lg.version>
+         <lg.version lg="nob">Stilark</lg.version>
+         <lg.version lg="nor">Stilark</lg.version>
+         <lg.version lg="pol">Arkusze stylów</lg.version>
+         <lg.version lg="por">Folhas de estilo</lg.version>
+         <lg.version lg="ron">Foi de stil</lg.version>
+         <lg.version lg="slk">Listy so štýlmi</lg.version>
+         <lg.version lg="slv">Slogovne datoteke</lg.version>
+         <lg.version lg="spa">Hojas de estilo</lg.version>
+         <lg.version lg="swe">Formatmallar</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2017-10-30</start.use>
+      <sources>
+         <source date="2017-10-30" lg="eng">
+            <description>Style sheets are a set of rules which describes the presentation of a document written in a markup language.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST016"
+           deprecated="false"
+           IMMC.approval.date="2017-11-20"
+           IMMC.proposal.date="2017-11-13"
+           adm.status="current"
+           date.creation="2017-10-30">
+      <authority-code>ATTO_LEX</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Таблица ATTO – домейн EUR-Lex</lg.version>
+         <lg.version lg="ces">Tabulka ATTO – doména EUR-Lex</lg.version>
+         <lg.version lg="dan">ATTO-tabel – Eur-Lex-domæne</lg.version>
+         <lg.version lg="deu">ATTO-Tabelle – EUR-Lex-Domain</lg.version>
+         <lg.version lg="ell" script="Greek">Πίνακας ATTO – Τομέας EUR-Lex</lg.version>
+         <lg.version lg="eng">ATTO table – EUR-Lex domain</lg.version>
+         <lg.version lg="est">ATTO tabel – EUR-Lexi domeen</lg.version>
+         <lg.version lg="fin">ATTO-taulukko – EUR-Lex-aihealue</lg.version>
+         <lg.version lg="fra">Tableau ATTO – domaine EUR-Lex</lg.version>
+         <lg.version lg="gle">Tábla ATTO – fearann EUR-Lex</lg.version>
+         <lg.version lg="hrv">ATTO tablica – domena EUR-Lexa</lg.version>
+         <lg.version lg="hun">ATTO-táblázat – EUR-Lex-tartomány</lg.version>
+         <lg.version lg="ita">Tabella ATTO – dominio EUR-Lex</lg.version>
+         <lg.version lg="lav">ATTO tabula – “EUR-Lex” domēns</lg.version>
+         <lg.version lg="lit">ATTO lentelė – „EUR-Lex“ sritis</lg.version>
+         <lg.version lg="mlt">Tabella ATTO – dominju EUR-Lex</lg.version>
+         <lg.version lg="nld">ATTO-tabel – EUR-Lex</lg.version>
+         <lg.version lg="nno">ATTO-tabell – EUR-Lex-domene</lg.version>
+         <lg.version lg="nob">ATTO-tabell – EUR-Lex-domene</lg.version>
+         <lg.version lg="nor">ATTO-tabell – EUR-Lex-domene</lg.version>
+         <lg.version lg="pol">Tablica ATTO – domena EUR-Lex</lg.version>
+         <lg.version lg="por">Tabela ATTO — Domínio EUR-Lex</lg.version>
+         <lg.version lg="ron">Tabel ATTO – domeniul EUR-Lex</lg.version>
+         <lg.version lg="slk">Tabuľka ATTO – doména EUR-Lex</lg.version>
+         <lg.version lg="slv">Tabela ATTO – domena EUR-Lex</lg.version>
+         <lg.version lg="spa">Cuadro ATTO – dominio EUR-Lex</lg.version>
+         <lg.version lg="swe">ATTO-tabell – EUR-Lex-domän</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <start.use>2017-10-30</start.use>
+      <sources>
+         <source date="2017-10-30" lg="eng">
+            <description>Table of EUR-Lex domain in ATTO, internal translation manager application of the Publications Office of the European Union.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST017"
+           deprecated="false"
+           IMMC.approval.date="2017-11-20"
+           IMMC.proposal.date="2017-11-13"
+           adm.status="current"
+           date.creation="2017-10-30">
+      <authority-code>ATTO_PUB</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Таблица ATTO – домейн Публикации</lg.version>
+         <lg.version lg="ces">Tabulka ATTO – doména publikací</lg.version>
+         <lg.version lg="dan">ATTO-tabel – publikationsdomæne</lg.version>
+         <lg.version lg="deu">ATTO-Tabelle – Domain „Veröffentlichungen“</lg.version>
+         <lg.version lg="ell" script="Greek">Πίνακας ATTO – Τομέας εκδόσεων</lg.version>
+         <lg.version lg="eng">ATTO table – Publications domain</lg.version>
+         <lg.version lg="est">ATTO tabel – Väljaannete domeen</lg.version>
+         <lg.version lg="fin">ATTO-taulukko – Julkaisut-aihealue</lg.version>
+         <lg.version lg="fra">Tableau ATTO – domaine Publications</lg.version>
+         <lg.version lg="gle">Tábla ATTO – fearann na bhFoilseachán</lg.version>
+         <lg.version lg="hrv">ATTO tablica – domena publikacija</lg.version>
+         <lg.version lg="hun">ATTO-táblázat – Kiadványtartomány</lg.version>
+         <lg.version lg="ita">Tabella ATTO – dominio Pubblicazioni</lg.version>
+         <lg.version lg="lav">ATTO tabula – “Publikāciju” domēns</lg.version>
+         <lg.version lg="lit">ATTO lentelė – leidinių sritis</lg.version>
+         <lg.version lg="mlt">Tabella ATTO – dominju tal-Pubblikazzjonijiet</lg.version>
+         <lg.version lg="nld">ATTO-tabel – Publicatiedomein</lg.version>
+         <lg.version lg="nno">ATTO-tabell – publikasjonsdomene</lg.version>
+         <lg.version lg="nob">ATTO-tabell – publikasjonsdomene</lg.version>
+         <lg.version lg="nor">ATTO-tabell – publikasjonsdomene</lg.version>
+         <lg.version lg="pol">Tablica ATTO – domena publikacji</lg.version>
+         <lg.version lg="por">Tabela ATTO — Domínio Publicações</lg.version>
+         <lg.version lg="ron">Tabel ATTO – domeniul Publicații</lg.version>
+         <lg.version lg="slk">Tabuľka ATTO – doména Publikácií</lg.version>
+         <lg.version lg="slv">Tabela ATTO – domena publikacij</lg.version>
+         <lg.version lg="spa">Cuadro ATTO – dominio Publicaciones</lg.version>
+         <lg.version lg="swe">ATTO-tabell – Publikationsdomän</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <start.use>2017-10-30</start.use>
+      <sources>
+         <source date="2017-10-30" lg="eng">
+            <description>Table of Publications domain in ATTO, internal translation manager application of the Publications Office of the European Union.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST018"
+           deprecated="false"
+           IMMC.approval.date="2019-02-07"
+           IMMC.proposal.date="2019-01-23"
+           adm.status="current"
+           date.creation="2019-01-30">
+      <authority-code>GEOSPATIAL</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Геопространствени данни</lg.version>
+         <lg.version lg="ces">Geoprostorová data</lg.version>
+         <lg.version lg="dan">Geospatiale data</lg.version>
+         <lg.version lg="deu">Geodaten</lg.version>
+         <lg.version lg="ell" script="Greek">Γεωχωρικά δεδομένα</lg.version>
+         <lg.version lg="eng">Geospatial data</lg.version>
+         <lg.version lg="est">Ruumiandmed</lg.version>
+         <lg.version lg="fin">Paikkatiedot</lg.version>
+         <lg.version lg="fra">Données géospatiales</lg.version>
+         <lg.version lg="gle">Sonraí geospásúla</lg.version>
+         <lg.version lg="hrv">Geoprostorni podaci</lg.version>
+         <lg.version lg="hun">Térinformatikai adat</lg.version>
+         <lg.version lg="ita">Dati geospaziali</lg.version>
+         <lg.version lg="lav">Ģeotelpiskie dati</lg.version>
+         <lg.version lg="lit">Geoerdviniai duomenys</lg.version>
+         <lg.version lg="mlt">Data ġeospazjali</lg.version>
+         <lg.version lg="nld">Georuimtelijke gegevens</lg.version>
+         <lg.version lg="nno">Geodata</lg.version>
+         <lg.version lg="nob">Geodata</lg.version>
+         <lg.version lg="nor">Geodata</lg.version>
+         <lg.version lg="pol">Dane geoprzestrzenne</lg.version>
+         <lg.version lg="por">Dados geoespaciais</lg.version>
+         <lg.version lg="ron">Date geospațiale</lg.version>
+         <lg.version lg="slk">Geopriestorové údaje</lg.version>
+         <lg.version lg="slv">Geoprostorski podatki</lg.version>
+         <lg.version lg="spa">Datos geoespaciales</lg.version>
+         <lg.version lg="swe">Geospatiala data</lg.version>
+      </label>
+      <use.context>ODP</use.context>
+      <start.use>2019-01-30</start.use>
+      <sources url="https://datacatalog.worldbank.org/#data-types">
+         <source date="2019-01-30" lg="eng">
+            <description>Geospatial data is data that has explicit geographic positioning information included within it in either vector or raster format.</description>
+            <provenance>The World Bank – Data Catalog</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST019"
+           deprecated="false"
+           IMMC.approval.date="2020-06-04"
+           IMMC.proposal.date="2020-05-19"
+           adm.status="current"
+           date.creation="2020-05-19">
+      <authority-code>TEST_DATA</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Данни от изпитването</lg.version>
+         <lg.version lg="ces">Testovací data</lg.version>
+         <lg.version lg="dan">Testdata</lg.version>
+         <lg.version lg="deu">Testdaten</lg.version>
+         <lg.version lg="ell" script="Greek">Δεδομένα δοκιμής</lg.version>
+         <lg.version lg="eng">Test data</lg.version>
+         <lg.version lg="est">Testandmed</lg.version>
+         <lg.version lg="fin">Testitiedot</lg.version>
+         <lg.version lg="fra">Données d’essai</lg.version>
+         <lg.version lg="gle">Sonraí tástála</lg.version>
+         <lg.version lg="hrv">Ispitni podaci</lg.version>
+         <lg.version lg="hun">Tesztadat</lg.version>
+         <lg.version lg="ita">Dati di prova</lg.version>
+         <lg.version lg="lav">Dati testēšanai</lg.version>
+         <lg.version lg="lit">Bandymo duomenys</lg.version>
+         <lg.version lg="mlt">Data tal-ittestjar</lg.version>
+         <lg.version lg="nld">Testgegevens</lg.version>
+         <lg.version lg="nno">Testdata</lg.version>
+         <lg.version lg="nob">Testdata</lg.version>
+         <lg.version lg="nor">Testdata</lg.version>
+         <lg.version lg="pol">Dane testowe</lg.version>
+         <lg.version lg="por">Dados de testes</lg.version>
+         <lg.version lg="ron">Date test</lg.version>
+         <lg.version lg="slk">Fiktívne údaje na účely skúšok</lg.version>
+         <lg.version lg="slv">Podatki o preskusu</lg.version>
+         <lg.version lg="spa">Datos de prueba</lg.version>
+         <lg.version lg="swe">Testdata</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <start.use>2020-05-19</start.use>
+      <sources>
+         <source date="2020-05-19" lg="eng">
+            <description>Test data is data which is created for use in tests, which should be syntactically correct but which may not necessarily represent any real-world phenomena, e.g. datasets with ‘dummy data’, typically used in system integration.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST020"
+           deprecated="false"
+           IMMC.approval.date="2020-06-04"
+           IMMC.proposal.date="2020-05-19"
+           adm.status="current"
+           date.creation="2020-05-19">
+      <authority-code>SYNTHETIC_DATA</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Синтетични данни</lg.version>
+         <lg.version lg="ces">Syntetická data</lg.version>
+         <lg.version lg="dan">Syntetiske data</lg.version>
+         <lg.version lg="deu">Synthetische Daten</lg.version>
+         <lg.version lg="ell" script="Greek">Συνθετικά δεδομένα</lg.version>
+         <lg.version lg="eng">Synthetic data</lg.version>
+         <lg.version lg="est">Sünteetilised andmed</lg.version>
+         <lg.version lg="fin">Synteettiset tiedot</lg.version>
+         <lg.version lg="fra">Données synthétiques</lg.version>
+         <lg.version lg="gle">Sonraí sintéiseacha</lg.version>
+         <lg.version lg="hrv">Sintetički podaci</lg.version>
+         <lg.version lg="hun">Szintetikus adat</lg.version>
+         <lg.version lg="ita">Dati sintetici</lg.version>
+         <lg.version lg="lav">Sintētiskie dati</lg.version>
+         <lg.version lg="lit">Dirbtiniai duomenys</lg.version>
+         <lg.version lg="mlt">Data sintetika</lg.version>
+         <lg.version lg="nld">Synthetische gegevens</lg.version>
+         <lg.version lg="nno">Syntetiske data</lg.version>
+         <lg.version lg="nob">Syntetiske data</lg.version>
+         <lg.version lg="nor">Syntetiske data</lg.version>
+         <lg.version lg="pol">Dane syntetyczne</lg.version>
+         <lg.version lg="por">Dados sintéticos</lg.version>
+         <lg.version lg="ron">Date sintetice</lg.version>
+         <lg.version lg="slk">Syntetické údaje</lg.version>
+         <lg.version lg="slv">Sintetični podatki</lg.version>
+         <lg.version lg="spa">Datos sintéticos</lg.version>
+         <lg.version lg="swe">Syntetiska data</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <start.use>2020-05-19</start.use>
+      <sources>
+         <source date="2020-05-19" lg="eng">
+            <description>Synthetic data is data which is (artificially) created entirely or partially for use in tests, and to meet specific needs or conditions in the real-world that (existing) real-world data may not represent, e.g. anonymised datasets, typically used for proof of concept or simulation.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST021"
+           deprecated="false"
+           IMMC.approval.date="2020-12-04"
+           IMMC.proposal.date="2020-11-23"
+           adm.status="current"
+           date.creation="2020-11-25">
+      <authority-code>GLOSSARY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Речник</lg.version>
+         <lg.version lg="ces">Glosář</lg.version>
+         <lg.version lg="dan">Glossar</lg.version>
+         <lg.version lg="deu">Glossar</lg.version>
+         <lg.version lg="ell" script="Greek">Γλωσσάριο</lg.version>
+         <lg.version lg="eng">Glossary</lg.version>
+         <lg.version lg="est">Sõnastik</lg.version>
+         <lg.version lg="fin">Sanasto</lg.version>
+         <lg.version lg="fra">Glossaire</lg.version>
+         <lg.version lg="gle">Gluais</lg.version>
+         <lg.version lg="hrv">Pojmovnik</lg.version>
+         <lg.version lg="hun">Glosszárium</lg.version>
+         <lg.version lg="ita">Glossario</lg.version>
+         <lg.version lg="lav">Glosārijs</lg.version>
+         <lg.version lg="lit">Žodynėlis</lg.version>
+         <lg.version lg="mlt">Glossarju</lg.version>
+         <lg.version lg="nld">Woordenlijst</lg.version>
+         <lg.version lg="nno">Ordliste</lg.version>
+         <lg.version lg="nob">Ordliste</lg.version>
+         <lg.version lg="nor">Ordliste</lg.version>
+         <lg.version lg="pol">Glosariusz</lg.version>
+         <lg.version lg="por">Glossário</lg.version>
+         <lg.version lg="ron">Glosar</lg.version>
+         <lg.version lg="slk">Glosár</lg.version>
+         <lg.version lg="slv">Glosar</lg.version>
+         <lg.version lg="spa">Glosario</lg.version>
+         <lg.version lg="swe">Ordlista</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <start.use>2020-11-25</start.use>
+      <sources>
+         <source date="2020-11-25" lg="eng">
+            <description>A glossary is a simple list of terms and their definitions. A glossary focuses on creating a complete list of the terminology of domain-specific terms and acronyms.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST022"
+           deprecated="false"
+           IMMC.approval.date="2021-05-27"
+           IMMC.proposal.date="2021-05-12"
+           adm.status="current"
+           date.creation="2021-05-12">
+      <authority-code>DIRECTORY</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Директория</lg.version>
+         <lg.version lg="ces">Seznam</lg.version>
+         <lg.version lg="dan">Adresseliste</lg.version>
+         <lg.version lg="deu">Verzeichnis</lg.version>
+         <lg.version lg="ell" script="Greek">Αποθετήριο</lg.version>
+         <lg.version lg="eng">Directory</lg.version>
+         <lg.version lg="est">Kataloog</lg.version>
+         <lg.version lg="fin">Hakemisto</lg.version>
+         <lg.version lg="fra">Répertoire</lg.version>
+         <lg.version lg="gle">Eolaire</lg.version>
+         <lg.version lg="hrv">Direktorij</lg.version>
+         <lg.version lg="hun">Jegyzék</lg.version>
+         <lg.version lg="ita">Directory</lg.version>
+         <lg.version lg="lav">Direktorijs</lg.version>
+         <lg.version lg="lit">Žinynas</lg.version>
+         <lg.version lg="mlt">Direttorju</lg.version>
+         <lg.version lg="nld">Lijst</lg.version>
+         <lg.version lg="nno">Katalog</lg.version>
+         <lg.version lg="nob">Katalog</lg.version>
+         <lg.version lg="nor">Katalog</lg.version>
+         <lg.version lg="pol">Katalog</lg.version>
+         <lg.version lg="por">Lista</lg.version>
+         <lg.version lg="ron">Anuar</lg.version>
+         <lg.version lg="slk">Adresár</lg.version>
+         <lg.version lg="slv">Register</lg.version>
+         <lg.version lg="spa">Directorio</lg.version>
+         <lg.version lg="swe">Katalog</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>1981-01-10</start.use>
+      <sources>
+         <source date="2021-05-12" lg="eng">
+            <description>A directory contains information about individual entities (e.g. persons) and their (probably) hierarchical organisation and related entities. It is used to browse individuals in their organisational context.</description>
+            <provenance>Publications Office</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST024"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2022-11-17">
+      <authority-code>HVD</authority-code>
+      <label>
+         <lg.version lg="bul">Набор от данни с висока стойност</lg.version>
+         <lg.version lg="ces">Datový soubor s vysokou hodnotou</lg.version>
+         <lg.version lg="dan">Datasæt af høj værdi</lg.version>
+         <lg.version lg="deu">Hochwertiger Datensatz</lg.version>
+         <lg.version lg="ell">Σύνολo δεδομένων υψηλής αξίας</lg.version>
+         <lg.version lg="eng">High-value dataset</lg.version>
+         <lg.version lg="est">Väärtuslik andmestik</lg.version>
+         <lg.version lg="fin">Arvokas tietoaineisto</lg.version>
+         <lg.version lg="fra">Ensemble de données de forte valeur</lg.version>
+         <lg.version lg="gle">Tacar sonraí ardluacha</lg.version>
+         <lg.version lg="hrv">Visokovrijedni skup podataka</lg.version>
+         <lg.version lg="hun">Nagy értékű adatkészletek</lg.version>
+         <lg.version lg="ita">Serie di dati di elevato valore</lg.version>
+         <lg.version lg="lav">Vērtīga datkopa</lg.version>
+         <lg.version lg="lit">Didelės vertės duomenų rinkinys</lg.version>
+         <lg.version lg="mlt">Sett tad-data ta’ valur għoli</lg.version>
+         <lg.version lg="nld">Hoogwaardige dataset</lg.version>
+         <lg.version lg="pol">Zbiór danych o wysokiej wartości</lg.version>
+         <lg.version lg="por">Conjunto de dados de elevado valor</lg.version>
+         <lg.version lg="ron">Set de date cu valoare ridicată</lg.version>
+         <lg.version lg="slk">Súbor údajov s vysokou hodnotou</lg.version>
+         <lg.version lg="slv">Nabor podatkov velike vrednosti</lg.version>
+         <lg.version lg="spa">Conjunto de datos de alto valor</lg.version>
+         <lg.version lg="swe">Värdefulla dataset</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2019-06-26</start.use>
+      <sources url="https://eur-lex.europa.eu/eli/dir/2019/1024/oj">
+         <source date="2022-11-17" lg="eng">
+            <description>Dataset whose re-use is associated with important benefits for society, the environment and the economy, in particular because of its suitability for the creation of value-added services, applications and new, high-quality and decent jobs, and of the number of potential beneficiaries of the value-added services and applications based on this dataset.</description>
+            <provenance>EU</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTST025"
+           deprecated="false"
+           adm.status="current"
+           date.creation="2023-02-19">
+      <authority-code>RELEASE</authority-code>
+      <label>
+         <lg.version lg="bul">Публикация</lg.version>
+         <lg.version lg="ces">Zveřejnění</lg.version>
+         <lg.version lg="dan">Publikation</lg.version>
+         <lg.version lg="deu">Veröffentlichung</lg.version>
+         <lg.version lg="ell">Δημοσίευση</lg.version>
+         <lg.version lg="eng">Release</lg.version>
+         <lg.version lg="est">Väljalase</lg.version>
+         <lg.version lg="fin">Julkaisuversio</lg.version>
+         <lg.version lg="fra">Publication</lg.version>
+         <lg.version lg="gle">Eisiúint</lg.version>
+         <lg.version lg="hrv">Izdanje</lg.version>
+         <lg.version lg="hun">Kiadás</lg.version>
+         <lg.version lg="ita">Pubblicazione</lg.version>
+         <lg.version lg="lav">Laidiens</lg.version>
+         <lg.version lg="lit">Laida</lg.version>
+         <lg.version lg="mlt">Rilaxx</lg.version>
+         <lg.version lg="nld">Release</lg.version>
+         <lg.version lg="pol">Wydanie</lg.version>
+         <lg.version lg="por">Publicação</lg.version>
+         <lg.version lg="ron">Publicare</lg.version>
+         <lg.version lg="slk">Uverejnenie</lg.version>
+         <lg.version lg="slv">Izdaja</lg.version>
+         <lg.version lg="spa">Publicación</lg.version>
+         <lg.version lg="swe">Version</lg.version>
+      </label>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2023-01-01</start.use>
+      <sources url="https://op.europa.eu/en/web/eu-vocabularies/releases">
+         <source date="2023-02-19" lg="eng">
+            <description>dataset that accompanies and describes other published datasets, for instance in the scope of the EU Vocabularies publications; it may contain information about differences between the state of the concerned dataset on last publication and on current publication</description>
+            <provenance>EU</provenance>
+         </source>
+      </sources>
+   </record>
+</dataset-types>

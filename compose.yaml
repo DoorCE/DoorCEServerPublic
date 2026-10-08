@@ -1,0 +1,6 @@
+﻿services:
+  doorceserver:
+    image: doorceserver
+    build:
+      context: .
+      dockerfile: Dockerfile

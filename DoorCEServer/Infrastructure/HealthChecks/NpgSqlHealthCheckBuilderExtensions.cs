@@ -1,0 +1,121 @@
+using DoorCEServer.Utils.Extensions;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
+using Npgsql;
+
+namespace DoorCEServer.Infrastructure.HealthChecks;
+
+public static class NpgSqlHealthCheckBuilderExtensions
+{
+    private const string NAME = "postgres";
+    internal const string HEALTH_QUERY = "SELECT 1;";
+
+    public static IHealthChecksBuilder AddNpgSql(
+        this IHealthChecksBuilder builder,
+        string connectionString,
+        string healthQuery = HEALTH_QUERY,
+        Action<NpgsqlConnection>? configure = null,
+        string? name = default,
+        HealthStatus? failureStatus = default,
+        IEnumerable<string>? tags = default,
+        TimeSpan? timeout = default)
+    {
+        Guard.ThrowIfNull(connectionString, throwOnEmptyString: true);
+
+        return builder.AddNpgSql(new NpgSqlHealthCheckOptions(connectionString)
+        {
+            CommandText = healthQuery,
+            Configure = configure
+        }, name, failureStatus, tags, timeout);
+    }
+
+    public static IHealthChecksBuilder AddNpgSql(
+        this IHealthChecksBuilder builder,
+        Func<IServiceProvider, string> connectionStringFactory,
+        string healthQuery = HEALTH_QUERY,
+        Action<NpgsqlConnection>? configure = null,
+        string? name = default,
+        HealthStatus? failureStatus = default,
+        IEnumerable<string>? tags = default,
+        TimeSpan? timeout = default)
+    {
+        // This instance is captured in lambda closure, so it can be reused (perf)
+        NpgSqlHealthCheckOptions options = new()
+        {
+            CommandText = healthQuery,
+            Configure = configure,
+        };
+
+        return builder.Add(new HealthCheckRegistration(
+            name ?? NAME,
+            sp =>
+            {
+                options.ConnectionString ??= Guard.ThrowIfNull(connectionStringFactory.Invoke(sp), throwOnEmptyString: true, paramName: nameof(connectionStringFactory));
+
+                return new NpgSqlHealthCheck(options);
+            },
+            failureStatus,
+            tags,
+            timeout));
+    }
+
+    public static IHealthChecksBuilder AddNpgSql(
+        this IHealthChecksBuilder builder,
+        Func<IServiceProvider, NpgsqlDataSource>? dbDataSourceFactory = null,
+        string healthQuery = HEALTH_QUERY,
+        Action<NpgsqlConnection>? configure = null,
+        string? name = default,
+        HealthStatus? failureStatus = default,
+        IEnumerable<string>? tags = default,
+        TimeSpan? timeout = default)
+    {
+        // This instance is captured in lambda closure, so it can be reused (perf)
+        NpgSqlHealthCheckOptions options = new()
+        {
+            CommandText = healthQuery,
+            Configure = configure,
+        };
+
+        return builder.Add(new HealthCheckRegistration(
+            name ?? NAME,
+            sp =>
+            {
+                options.DataSource ??= dbDataSourceFactory?.Invoke(sp) ?? sp.GetRequiredService<NpgsqlDataSource>();
+
+                return new NpgSqlHealthCheck(options);
+            },
+            failureStatus,
+            tags,
+            timeout));
+    }
+
+    /// <summary>
+    /// Add a health check for Postgres databases.
+    /// </summary>
+    /// <param name="builder">The <see cref="IHealthChecksBuilder"/>.</param>
+    /// <param name="options">Options for health check.</param>
+    /// <param name="name">The health check name. Optional. If <c>null</c> the type name 'npgsql' will be used for the name.</param>
+    /// <param name="failureStatus">
+    /// The <see cref="HealthStatus"/> that should be reported when the health check fails. Optional. If <c>null</c> then
+    /// the default status of <see cref="HealthStatus.Unhealthy"/> will be reported.
+    /// </param>
+    /// <param name="tags">A list of tags that can be used to filter sets of health checks. Optional.</param>
+    /// <param name="timeout">An optional <see cref="TimeSpan"/> representing the timeout of the check.</param>
+    /// <returns>The specified <paramref name="builder"/>.</returns>
+    public static IHealthChecksBuilder AddNpgSql(
+        this IHealthChecksBuilder builder,
+        NpgSqlHealthCheckOptions options,
+        string? name = default,
+        HealthStatus? failureStatus = default,
+        IEnumerable<string>? tags = default,
+        TimeSpan? timeout = default)
+    {
+        Guard.ThrowIfNull(options);
+
+        return builder.Add(new HealthCheckRegistration(
+            name ?? NAME,
+            _ => new NpgSqlHealthCheck(options),
+            failureStatus,
+            tags,
+            timeout));
+    }
+}

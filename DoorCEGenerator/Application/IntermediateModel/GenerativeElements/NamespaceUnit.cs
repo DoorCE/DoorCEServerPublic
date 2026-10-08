@@ -1,0 +1,3 @@
+namespace DoorCEGenerator.Application.IntermediateModel.GenerativeElements;
+
+public abstract class NamespaceUnit(CodeGenerationProfile codeGenerationProfile) : CodeUnit(codeGenerationProfile);

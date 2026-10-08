@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<access-right table.id="access-right"
+              original.entries.date="2016-07-21"
+              current.entries.date="2024-05-30"
+              ref.administration="cat.admin.xml"
+              table.structure.version="01-02.85-20240306"
+              version="20240612-0">
+   <record id="ACCESSR001"
+           deprecated="false"
+           IMMC.approval.date="2016-08-31"
+           IMMC.proposal.date="2016-08-31"
+           adm.status="current"
+           date.creation="2016-07-21">
+      <authority-code>PUBLIC</authority-code>
+      <label>
+         <lg.version lg="bul">публичен</lg.version>
+         <lg.version lg="ces">veřejné</lg.version>
+         <lg.version lg="dan">offentlig</lg.version>
+         <lg.version lg="deu">öffentlich</lg.version>
+         <lg.version lg="ell">δημόσιο</lg.version>
+         <lg.version lg="eng">public</lg.version>
+         <lg.version lg="est">avalik</lg.version>
+         <lg.version lg="fin">julkinen</lg.version>
+         <lg.version lg="fra">public</lg.version>
+         <lg.version lg="gle">poiblí</lg.version>
+         <lg.version lg="hrv">za javnu objavu</lg.version>
+         <lg.version lg="hun">nyilvános</lg.version>
+         <lg.version lg="ita">pubblico</lg.version>
+         <lg.version lg="lav">publiski pieejams</lg.version>
+         <lg.version lg="lit">viešas</lg.version>
+         <lg.version lg="mlt">pubbliku</lg.version>
+         <lg.version lg="nld">openbaar</lg.version>
+         <lg.version lg="pol">publiczny</lg.version>
+         <lg.version lg="por">público</lg.version>
+         <lg.version lg="ron">public</lg.version>
+         <lg.version lg="slk">verejné</lg.version>
+         <lg.version lg="slv">javno</lg.version>
+         <lg.version lg="spa">público</lg.version>
+         <lg.version lg="swe">offentligt</lg.version>
+      </label>
+      <sources>
+         <source date="2016-08-31" lg="eng">
+            <description>Publicly accessible by everyone. Usage note: Permissible obstacles include registration and request for API keys, as long as anyone can request such registration and/or API keys.</description>
+            <provenance>DCAT-AP / Join Up</provenance>
+         </source>
+      </sources>
+      <start.use>2013-01-01</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>ESPD</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+   </record>
+   <record id="ACCESSR002"
+           deprecated="false"
+           IMMC.approval.date="2016-08-31"
+           IMMC.proposal.date="2016-08-31"
+           adm.status="current"
+           date.creation="2016-07-21">
+      <authority-code>RESTRICTED</authority-code>
+      <label>
+         <lg.version lg="bul">с ограничен достъп</lg.version>
+         <lg.version lg="ces">vyhrazeno</lg.version>
+         <lg.version lg="dan">begrænset</lg.version>
+         <lg.version lg="deu">eingeschränkt</lg.version>
+         <lg.version lg="ell">περιορισμένης χρήσης</lg.version>
+         <lg.version lg="eng">restricted</lg.version>
+         <lg.version lg="est">piiratud</lg.version>
+         <lg.version lg="fin">rajoitettu</lg.version>
+         <lg.version lg="fra">restreint</lg.version>
+         <lg.version lg="gle">teoranta</lg.version>
+         <lg.version lg="hrv">ograničen pristup</lg.version>
+         <lg.version lg="hun">korlátozott terjesztésű</lg.version>
+         <lg.version lg="ita">limitato</lg.version>
+         <lg.version lg="lav">ierobežotas pieejamības</lg.version>
+         <lg.version lg="lit">taikomi ribojimai</lg.version>
+         <lg.version lg="mlt">ristrett</lg.version>
+         <lg.version lg="nld">beperkt</lg.version>
+         <lg.version lg="pol">zastrzeżony</lg.version>
+         <lg.version lg="por">restrito</lg.version>
+         <lg.version lg="ron">cu acces restricționat</lg.version>
+         <lg.version lg="slk">vyhradené</lg.version>
+         <lg.version lg="slv">interno</lg.version>
+         <lg.version lg="spa">restringido</lg.version>
+         <lg.version lg="swe">begränsad åtkomst</lg.version>
+      </label>
+      <sources>
+         <source date="2016-08-31" lg="eng">
+            <description>Only available under certain conditions. Usage note: This category may include resources that require payment, resources shared under non-disclosure agreements, resources for which the publisher or owner has not yet decided if they can be publicly released.</description>
+            <provenance>DCAT-AP / Join Up</provenance>
+         </source>
+      </sources>
+      <start.use>2013-01-01</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>ODP</use.context>
+   </record>
+   <record id="ACCESSR003"
+           deprecated="false"
+           IMMC.approval.date="2016-08-31"
+           IMMC.proposal.date="2016-08-31"
+           adm.status="current"
+           date.creation="2016-07-21">
+      <authority-code>NON_PUBLIC</authority-code>
+      <label>
+         <lg.version lg="bul">непубличен</lg.version>
+         <lg.version lg="ces">neveřejné</lg.version>
+         <lg.version lg="dan">ikke-offentlig</lg.version>
+         <lg.version lg="deu">nicht öffentlich</lg.version>
+         <lg.version lg="ell">μη δημόσιο</lg.version>
+         <lg.version lg="eng">non-public</lg.version>
+         <lg.version lg="est">mitteavalik</lg.version>
+         <lg.version lg="fin">ei-julkinen</lg.version>
+         <lg.version lg="fra">non public</lg.version>
+         <lg.version lg="gle">neamhphoiblí</lg.version>
+         <lg.version lg="hrv">nije za javnu objavu</lg.version>
+         <lg.version lg="hun">nem nyilvános</lg.version>
+         <lg.version lg="ita">non pubblico</lg.version>
+         <lg.version lg="lav">nav publisks</lg.version>
+         <lg.version lg="lit">neviešas</lg.version>
+         <lg.version lg="mlt">mhux pubbliku</lg.version>
+         <lg.version lg="nld">niet-openbaar</lg.version>
+         <lg.version lg="pol">niepubliczny</lg.version>
+         <lg.version lg="por">não público</lg.version>
+         <lg.version lg="ron">neaccesibil publicului</lg.version>
+         <lg.version lg="slk">neverejné</lg.version>
+         <lg.version lg="slv">nejavno</lg.version>
+         <lg.version lg="spa">no público</lg.version>
+         <lg.version lg="swe">icke-offentligt</lg.version>
+      </label>
+      <sources>
+         <source date="2016-08-31" lg="eng">
+            <description>Not publicly accessible for privacy, security or other reasons. Usage note: This category may include resources that contain sensitive or personal information.</description>
+            <provenance>DCAT-AP / Join Up</provenance>
+         </source>
+      </sources>
+      <start.use>2013-01-01</start.use>
+      <use.context>DCAT_AP</use.context>
+      <use.context>ODP</use.context>
+   </record>
+   <record id="ACCESSR004"
+           deprecated="false"
+           IMMC.approval.date="2020-03-11"
+           IMMC.proposal.date="2020-02-25"
+           adm.status="current"
+           date.creation="2020-02-25">
+      <authority-code>SENSITIVE</authority-code>
+      <label>
+         <lg.version lg="bul">чувствителен</lg.version>
+         <lg.version lg="ces">citlivé</lg.version>
+         <lg.version lg="dan">følsom</lg.version>
+         <lg.version lg="deu">sensibel</lg.version>
+         <lg.version lg="ell">ευαίσθητο</lg.version>
+         <lg.version lg="eng">sensitive</lg.version>
+         <lg.version lg="est">tundlik</lg.version>
+         <lg.version lg="fin">arkaluonteinen</lg.version>
+         <lg.version lg="fra">sensible</lg.version>
+         <lg.version lg="gle">íogair</lg.version>
+         <lg.version lg="hrv">osjetljivo</lg.version>
+         <lg.version lg="hun">érzékeny</lg.version>
+         <lg.version lg="ita">sensibile</lg.version>
+         <lg.version lg="lav">sensitīvs</lg.version>
+         <lg.version lg="lit">neskelbtinas</lg.version>
+         <lg.version lg="mlt">sensittiv</lg.version>
+         <lg.version lg="nld">gevoelig</lg.version>
+         <lg.version lg="pol">sensytywny</lg.version>
+         <lg.version lg="por">sensível</lg.version>
+         <lg.version lg="ron">sensibil</lg.version>
+         <lg.version lg="slk">citlivé</lg.version>
+         <lg.version lg="slv">občutljivo</lg.version>
+         <lg.version lg="spa">sensible</lg.version>
+         <lg.version lg="swe">känsligt</lg.version>
+      </label>
+      <sources>
+         <source date="2020-02-26" lg="eng">
+            <description>Sensitive non-classified (SNC) information, information whose unauthorised disclosure could cause damage to the Commission or other interested parties such as businesses, companies, intellectual property or personal data but which is not EU classified information.</description>
+            <provenance>Secretariat-General of the European Commission</provenance>
+         </source>
+         <source date="2020-02-26" lg="fra">
+            <description>Informations «sensibles non classifiées» (SNC), informations dont la divulgation non autorisée pourrait causer un préjudice à la Commission ou à d’autres parties intéressées telles que les entreprises, les sociétés, la propriété intellectuelle ou les données à caractère personnel, mais qui ne sont pas des informations classifiées de l’UE.</description>
+            <provenance>Secretariat-General of the European Commission</provenance>
+         </source>
+      </sources>
+      <start.use>2020-03-18</start.use>
+      <use.context>IMMC</use.context>
+   </record>
+   <record id="ACCESSR005"
+           deprecated="false"
+           IMMC.approval.date="2021-03-03"
+           IMMC.proposal.date="2021-02-17"
+           adm.status="current"
+           date.creation="2021-02-25">
+      <authority-code>CONFIDENTIAL</authority-code>
+      <label>
+         <lg.version lg="bul">поверителен</lg.version>
+         <lg.version lg="ces">důvěrné</lg.version>
+         <lg.version lg="dan">fortrolig</lg.version>
+         <lg.version lg="deu">vertraulich</lg.version>
+         <lg.version lg="ell">εμπιστευτικό</lg.version>
+         <lg.version lg="eng">confidential</lg.version>
+         <lg.version lg="est">konfidentsiaalne</lg.version>
+         <lg.version lg="fin">luottamuksellinen</lg.version>
+         <lg.version lg="fra">confidentiel</lg.version>
+         <lg.version lg="gle">rúnda</lg.version>
+         <lg.version lg="hrv">povjerljivo</lg.version>
+         <lg.version lg="hun">bizalmas</lg.version>
+         <lg.version lg="ita">riservato</lg.version>
+         <lg.version lg="lav">konfidenciāls</lg.version>
+         <lg.version lg="lit">konfidencialus</lg.version>
+         <lg.version lg="mlt">kunfidenzjali</lg.version>
+         <lg.version lg="nld">vertrouwelijk</lg.version>
+         <lg.version lg="pol">poufny</lg.version>
+         <lg.version lg="por">confidencial</lg.version>
+         <lg.version lg="ron">confidențial</lg.version>
+         <lg.version lg="slk">dôverné</lg.version>
+         <lg.version lg="slv">zaupno</lg.version>
+         <lg.version lg="spa">confidencial</lg.version>
+         <lg.version lg="swe">konfidentiellt</lg.version>
+      </label>
+      <sources>
+         <source date="2021-02-25" lg="eng">
+            <description>Information that is not disclosed. Usage note: Disclosure of this data could cause damage to interested parties such as public administrations and businesses. It may refer to personal and professional information as well as to information in the context of business, commerce or trade.</description>
+            <provenance>Publications Office / DG GROW</provenance>
+         </source>
+      </sources>
+      <start.use>2021-03-17</start.use>
+      <use.context>ESPD</use.context>
+   </record>
+   <record id="ACCESSR006"
+           deprecated="true"
+           IMMC.approval.date="2022-03-16"
+           IMMC.proposal.date="2022-03-16"
+           adm.status="deprecated"
+           date.creation="2022-02-27">
+      <authority-code>NORMAL</authority-code>
+      <end.use>2022-03-16</end.use>
+      <label>
+         <lg.version lg="bul">нормален</lg.version>
+         <lg.version lg="ces">obvyklé</lg.version>
+         <lg.version lg="dan">normal</lg.version>
+         <lg.version lg="deu">normal</lg.version>
+         <lg.version lg="ell">κανονικό</lg.version>
+         <lg.version lg="eng">normal</lg.version>
+         <lg.version lg="est">tavaline</lg.version>
+         <lg.version lg="fin">tavanomainen</lg.version>
+         <lg.version lg="fra">normal</lg.version>
+         <lg.version lg="gle">normálta</lg.version>
+         <lg.version lg="hrv">tipično</lg.version>
+         <lg.version lg="hun">normál</lg.version>
+         <lg.version lg="ita">normale</lg.version>
+         <lg.version lg="lav">parasts</lg.version>
+         <lg.version lg="lit">normalus</lg.version>
+         <lg.version lg="mlt">normali</lg.version>
+         <lg.version lg="nld">normaal</lg.version>
+         <lg.version lg="pol">zwykły</lg.version>
+         <lg.version lg="por">normal</lg.version>
+         <lg.version lg="ron">normal</lg.version>
+         <lg.version lg="slk">normálne</lg.version>
+         <lg.version lg="slv">običajno</lg.version>
+         <lg.version lg="spa">normal</lg.version>
+         <lg.version lg="swe">normal åtkomst</lg.version>
+      </label>
+      <sources>
+         <source date="2022-02-27" lg="eng">
+            <description>Publicly accessible. This concept has been used in the schemas of IMMC, the Interinstitutional Metadata Maintenance Committee, as the predecessor of the current concept ‘public’.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+      <start.use>2009-12-01</start.use>
+      <use.context>IMMC</use.context>
+   </record>
+</access-right>

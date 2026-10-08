@@ -1,0 +1,26 @@
+﻿FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+USER $APP_UID
+WORKDIR /app
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+ARG BUILD_CONFIGURATION=Release
+ARG BUILD_TAG=unknown
+COPY ./DoorCEModel /src/DoorCEModel
+WORKDIR /src/DoorCEModel
+RUN dotnet restore "DoorCEModel.csproj"
+COPY ./DoorCEServer /src/DoorCEServer
+WORKDIR /src/DoorCEServer
+RUN dotnet restore "DoorCEServer.csproj"
+RUN dotnet build "DoorCEServer.csproj" -c $BUILD_CONFIGURATION -o /app/build /p:BUILD_TAG=$BUILD_TAG
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+ARG BUILD_TAG=unknown
+RUN dotnet publish "DoorCEServer.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false /p:BUILD_TAG=$BUILD_TAG
+
+FROM base AS final
+WORKDIR /app
+COPY aspnetcore.pfx /app
+COPY --from=publish /app/publish .
+COPY --from=publish /src/DoorCEServer/vocab/* ./vocab/
+ENTRYPOINT ["dotnet", "DoorCEServer.dll"]

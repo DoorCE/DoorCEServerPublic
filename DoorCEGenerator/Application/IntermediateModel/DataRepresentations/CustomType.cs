@@ -1,0 +1,5 @@
+using DoorCEGenerator.Application.IntermediateModel.GenerativeElements;
+
+namespace DoorCEGenerator.Application.IntermediateModel.DataRepresentations;
+
+public abstract class CustomType(CodeGenerationProfile codeGenerationProfile) : DistinguishableCodeUnit(codeGenerationProfile), DataItemType;

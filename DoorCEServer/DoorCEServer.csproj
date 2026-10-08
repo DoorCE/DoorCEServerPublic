@@ -1,0 +1,137 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <UserSecretsId>8a5ecfba-eef1-4cd7-9b93-7d989de18490</UserSecretsId> <!-- trufflehog:ignore -->
+        <noWarn>1591</noWarn>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\DoorCEServer.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\DoorCEServer.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <InformationalVersion Condition="'$(BUILD_TAG)' != ''">$([System.DateTime]::Now.ToString("yyyyMMdd"))-$(BUILD_TAG)</InformationalVersion>
+        <InformationalVersion Condition="'$(BUILD_TAG)' == ''">$([System.DateTime]::Now.ToString("yyyyMMdd"))$(BuildNumber)</InformationalVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
+        <PackageReference Include="ClosedXML" Version="0.105.0" />
+        <PackageReference Include="CsvHelper" Version="33.1.0" />
+        <PackageReference Include="ExcelDataReader" Version="3.8.0" />
+        <PackageReference Include="ExcelDataReader.DataSet" Version="3.8.0" />
+        <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+        <PackageReference Include="JsonSchema.Net" Version="7.4.0" />
+        <PackageReference Include="Keycloak.AuthServices.Authentication" Version="2.6.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="9.0.1" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.3" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="9.0.3" />
+        <PackageReference Include="Scalar.AspNetCore" Version="2.0.11" />
+        <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+        <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+        <PackageReference Include="Serilog.Exceptions.EntityFrameworkCore" Version="8.4.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Application\AppGenProxy\Dtos\" />
+      <Folder Include="Application\AppGenProxy\Interfaces\" />
+      <Folder Include="Infrastructure\Middleware\" />
+      <Folder Include="Installation\doorce-mware\" />
+      <Folder Include="Installation\doorce-portal\" />
+      <Folder Include="Logs\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\data\flex\indexes\pages.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\themes\grav\package-lock.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\themes\grav\package.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\vendor\laminas\laminas-xml\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\vendor\laminas\laminas-zendframework-bridge\.laminas-ci.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\vendor\laminas\laminas-zendframework-bridge\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\admin\vendor\scssphp\scssphp\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\breadcrumbs\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\breadcrumbs\hebe.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\breadcrumbs\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\clockwork-web\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\clockwork-web\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\custom-translate-widget\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\custom-translate-widget\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\hebe.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\doctrine\deprecations\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\doctrine\lexer\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\egulias\email-validator\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\psr\container\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\psr\event-dispatcher\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\amqp-messenger\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\deprecation-contracts\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\doctrine-messenger\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\event-dispatcher-contracts\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\event-dispatcher\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\mailer\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\messenger\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\mime\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\polyfill-intl-idn\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\polyfill-intl-normalizer\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\polyfill-php80\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\redis-messenger\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\email\vendor\symfony\service-contracts\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\error\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\error\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\flex-objects\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\flex-objects\data\flex-objects\contacts.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\flex-objects\package-lock.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\flex-objects\package.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\flex-objects\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\form\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\form\package-lock.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\form\package.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\form\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\form\vendor\google\recaptcha\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\langswitcher\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\langswitcher\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\login\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\login\vendor\bacon\bacon-qr-code\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\login\vendor\birke\rememberme\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\login\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\login\vendor\dasprid\enum\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\login\vendor\paragonie\random_compat\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\login\vendor\robthree\twofactorauth\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\markdown-notices\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\markdown-notices\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\orestbida-cookie-consent\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\problems\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\problems\hebe.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\problems\package.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\problems\vendor\composer\installed.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\taxonomylist\composer.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\taxonomylist\hebe.json" />
+      <_ContentIncludedByDefault Remove="Installation\doorce-portal2\plugins\taxonomylist\vendor\composer\installed.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DoorCEModel\DoorCEModel.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentation-types table.id="documentation-type"
+                     original.entries.date="2015-07-23"
+                     current.entries.date="2022-06-22"
+                     ref.administration="cat.admin.xml"
+                     table.structure.version="01-02.64-20220706"
+                     version="20220715-0">
+   <record id="DCMT001"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>DOCUMENTATION_MAIN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Основна документация</lg.version>
+         <lg.version lg="ces">Hlavní dokumentace</lg.version>
+         <lg.version lg="dan">Hoveddokumentation</lg.version>
+         <lg.version lg="deu">Zentrale Unterlagen</lg.version>
+         <lg.version lg="ell" script="Greek">Κύρια τεκμηρίωση</lg.version>
+         <lg.version lg="eng">Main documentation</lg.version>
+         <lg.version lg="est">Põhidokumendid</lg.version>
+         <lg.version lg="fin">Päädokumentaatio</lg.version>
+         <lg.version lg="fra">Documentation principale</lg.version>
+         <lg.version lg="gle">Doiciméadacht phríomha</lg.version>
+         <lg.version lg="hrv">Glavna dokumentacija</lg.version>
+         <lg.version lg="hun">Alapdokumentáció</lg.version>
+         <lg.version lg="ita">Documentazione principale</lg.version>
+         <lg.version lg="lav">Galvenā dokumentācija</lg.version>
+         <lg.version lg="lit">Pagrindinė dokumentacija</lg.version>
+         <lg.version lg="mlt">Dokumentazzjoni ewlenija</lg.version>
+         <lg.version lg="nld">Hoofddocumentatie</lg.version>
+         <lg.version lg="nno">Houvuddokumentasjon</lg.version>
+         <lg.version lg="nob">Hoveddokumentasjon</lg.version>
+         <lg.version lg="nor">Hoveddokumentasjon</lg.version>
+         <lg.version lg="pol">Dokumenty główne</lg.version>
+         <lg.version lg="por">Documentação principal</lg.version>
+         <lg.version lg="ron">Documentație principală</lg.version>
+         <lg.version lg="slk">Hlavná dokumentácia</lg.version>
+         <lg.version lg="slv">Glavna dokumentacija</lg.version>
+         <lg.version lg="spa">Documentación principal</lg.version>
+         <lg.version lg="swe">Dokumentation</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A resource that holds the main documentation for this item.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DCMT002"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>DOCUMENTATION_RELATED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Свързана документация</lg.version>
+         <lg.version lg="ces">Související dokumentace</lg.version>
+         <lg.version lg="dan">Relateret dokumentation</lg.version>
+         <lg.version lg="deu">Unterstützende Unterlagen</lg.version>
+         <lg.version lg="ell" script="Greek">Σχετική τεκμηρίωση</lg.version>
+         <lg.version lg="eng">Related documentation</lg.version>
+         <lg.version lg="est">Seotud dokumendid</lg.version>
+         <lg.version lg="fin">Asiaan liittyvä dokumentaatio</lg.version>
+         <lg.version lg="fra">Documentation correspondante</lg.version>
+         <lg.version lg="gle">Doiciméadacht ghaolmhar</lg.version>
+         <lg.version lg="hrv">Povezana dokumentacija</lg.version>
+         <lg.version lg="hun">Kapcsolódó dokumentáció</lg.version>
+         <lg.version lg="ita">Documentazione correlata</lg.version>
+         <lg.version lg="lav">Saistītā dokumentācija</lg.version>
+         <lg.version lg="lit">Susijusi dokumentacija</lg.version>
+         <lg.version lg="mlt">Dokumentazzjoni relatata</lg.version>
+         <lg.version lg="nld">Verwante documentatie</lg.version>
+         <lg.version lg="nno">Tilhøyrande dokumentasjon</lg.version>
+         <lg.version lg="nob">Tilhørende dokumentasjon</lg.version>
+         <lg.version lg="nor">Tilhørende dokumentasjon</lg.version>
+         <lg.version lg="pol">Dokumenty powiązane</lg.version>
+         <lg.version lg="por">Documentação conexa</lg.version>
+         <lg.version lg="ron">Documentație conexă</lg.version>
+         <lg.version lg="slk">Súvisiaca dokumentácia</lg.version>
+         <lg.version lg="slv">Povezana dokumentacija</lg.version>
+         <lg.version lg="spa">Documentación relacionada</lg.version>
+         <lg.version lg="swe">Tillhörande dokumentation</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A resource that holds documentation that is related to this item.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DCMT003"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-12">
+      <authority-code>WEBPAGE_RELATED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Свързана интернет страница</lg.version>
+         <lg.version lg="ces">Související internetová stránka</lg.version>
+         <lg.version lg="dan">Relateret webside</lg.version>
+         <lg.version lg="deu">Einschlägige Webseite</lg.version>
+         <lg.version lg="ell" script="Greek">Σχετική ιστοσελίδα</lg.version>
+         <lg.version lg="eng">Related webpage</lg.version>
+         <lg.version lg="est">Seotud veebileht</lg.version>
+         <lg.version lg="fin">Asiaan liittyvä verkkosivusto</lg.version>
+         <lg.version lg="fra">Page web correspondante</lg.version>
+         <lg.version lg="gle">Leathanach gréasáin gaolmhar</lg.version>
+         <lg.version lg="hrv">Povezana web-stranica</lg.version>
+         <lg.version lg="hun">Kapcsolódó weboldal</lg.version>
+         <lg.version lg="ita">Pagina web collegata</lg.version>
+         <lg.version lg="lav">Saistītā vietne</lg.version>
+         <lg.version lg="lit">Susijęs tinklalapis</lg.version>
+         <lg.version lg="mlt">Paġna Web relatata</lg.version>
+         <lg.version lg="nld">Verwante webpagina</lg.version>
+         <lg.version lg="nno">Tilhørende nettside</lg.version>
+         <lg.version lg="nob">Tilhørende nettside</lg.version>
+         <lg.version lg="nor">Tilhørende nettside</lg.version>
+         <lg.version lg="pol">Powiązane strony internetowe</lg.version>
+         <lg.version lg="por">Página web conexa</lg.version>
+         <lg.version lg="ron">Pagină de internet asociată</lg.version>
+         <lg.version lg="slk">Súvisiaca webová stránka</lg.version>
+         <lg.version lg="slv">Povezana spletna stran</lg.version>
+         <lg.version lg="spa">Página web relacionada</lg.version>
+         <lg.version lg="swe">Webbsida</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A web page that holds information on this item.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DCMT004"
+           deprecated="true"
+           adm.status="retired"
+           date.creation="2015-06-12">
+      <authority-code>VISUALIZATION</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">Визуализация</lg.version>
+         <lg.version lg="ces">Vizualizace</lg.version>
+         <lg.version lg="dan">Visualisering</lg.version>
+         <lg.version lg="deu">Visualisierung</lg.version>
+         <lg.version lg="ell" script="Greek">Οπτική εμφάνιση</lg.version>
+         <lg.version lg="eng">Visualization</lg.version>
+         <lg.version lg="est">Visuaalne kuju</lg.version>
+         <lg.version lg="fin">Visualisointi</lg.version>
+         <lg.version lg="fra">Visualisation</lg.version>
+         <lg.version lg="hrv">Vizualizacija</lg.version>
+         <lg.version lg="hun">Megjelenítés</lg.version>
+         <lg.version lg="ita">Visualizzazione</lg.version>
+         <lg.version lg="lav">Vizualizācija</lg.version>
+         <lg.version lg="lit">Vizualizacija</lg.version>
+         <lg.version lg="mlt">Viżwalizzazzjoni</lg.version>
+         <lg.version lg="nld">Visualisatie</lg.version>
+         <lg.version lg="nno">Visualisering</lg.version>
+         <lg.version lg="nob">Visualisering</lg.version>
+         <lg.version lg="nor">Visualisering</lg.version>
+         <lg.version lg="pol">Wizualizacja</lg.version>
+         <lg.version lg="por">Visualização</lg.version>
+         <lg.version lg="ron">Vizualizare</lg.version>
+         <lg.version lg="slk">Vizualizácia</lg.version>
+         <lg.version lg="slv">Vizualizacija</lg.version>
+         <lg.version lg="spa">Visualización</lg.version>
+         <lg.version lg="swe">Visualisering</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <start.use>2013-01-01</start.use>
+      <end.use>2013-01-02</end.use>
+      <comments>
+         <comment>
+            <lg.version lg="eng">ODP needed this concept as a distribution type instead of a documentation type.</lg.version>
+         </comment>
+      </comments>
+      <annotations>
+         <annotation>
+            <lg.version lg="eng">See email sent by Agnieszka ZAJAC on 20160527.</lg.version>
+         </annotation>
+      </annotations>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>A visualization of the dataset.</description>
+            <provenance>ODP</provenance>
+         </source>
+      </sources>
+   </record>
+</documentation-types>

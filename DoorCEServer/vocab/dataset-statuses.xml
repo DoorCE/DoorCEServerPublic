@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasetstatus table.id="dataset-status"
+               original.entries.date="2015-07-23"
+               current.entries.date="2022-06-21"
+               ref.administration="cat.admin.xml"
+               table.structure.version="01-02.64-20220706"
+               version="20220715-0">
+   <record id="DTSS001"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-18">
+      <authority-code>COMPLETED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">пълен</lg.version>
+         <lg.version lg="ces">dokončen</lg.version>
+         <lg.version lg="dan">færdiggjort</lg.version>
+         <lg.version lg="deu">vollständig</lg.version>
+         <lg.version lg="ell" script="Greek">πλήρη δεδομένα</lg.version>
+         <lg.version lg="eng">completed</lg.version>
+         <lg.version lg="est">täielik</lg.version>
+         <lg.version lg="fin">valmis</lg.version>
+         <lg.version lg="fra">complété</lg.version>
+         <lg.version lg="gle">lánchríochnaithe</lg.version>
+         <lg.version lg="hrv">potpun</lg.version>
+         <lg.version lg="hun">kész</lg.version>
+         <lg.version lg="ita">completato</lg.version>
+         <lg.version lg="lav">pabeigts</lg.version>
+         <lg.version lg="lit">baigtas</lg.version>
+         <lg.version lg="mlt">komplut</lg.version>
+         <lg.version lg="nld">voltooid</lg.version>
+         <lg.version lg="nno">ferdigstilt</lg.version>
+         <lg.version lg="nob">ferdigstilt</lg.version>
+         <lg.version lg="nor">ferdigstilt</lg.version>
+         <lg.version lg="pol">ukończony</lg.version>
+         <lg.version lg="por">completado</lg.version>
+         <lg.version lg="ron">finalizat</lg.version>
+         <lg.version lg="slk">dokončený</lg.version>
+         <lg.version lg="slv">dokončano</lg.version>
+         <lg.version lg="spa">completo</lg.version>
+         <lg.version lg="swe">fullständig</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>This dataset is considered to be complete, it holds all information that is intended.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTSS002"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-18">
+      <authority-code>DEPRECATED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">непрепоръчителен</lg.version>
+         <lg.version lg="ces">zastaralý</lg.version>
+         <lg.version lg="dan">frarådet</lg.version>
+         <lg.version lg="deu">veraltet</lg.version>
+         <lg.version lg="ell" script="Greek">παρωχημένα δεδομένα</lg.version>
+         <lg.version lg="eng">deprecated</lg.version>
+         <lg.version lg="est">taunitav</lg.version>
+         <lg.version lg="fin">hylättävä</lg.version>
+         <lg.version lg="fra">déconseillé</lg.version>
+         <lg.version lg="gle">dímholta</lg.version>
+         <lg.version lg="hrv">nevažeći</lg.version>
+         <lg.version lg="hun">elavult</lg.version>
+         <lg.version lg="ita">sconsigliato</lg.version>
+         <lg.version lg="lav">novecojis</lg.version>
+         <lg.version lg="lit">nerekomenduojamas</lg.version>
+         <lg.version lg="mlt">mhux aktar fl-użu</lg.version>
+         <lg.version lg="nld">verouderd</lg.version>
+         <lg.version lg="nno">frarådd</lg.version>
+         <lg.version lg="nob">frarådet</lg.version>
+         <lg.version lg="nor">frarådet</lg.version>
+         <lg.version lg="pol">nieaktualny</lg.version>
+         <lg.version lg="por">desaconselhado</lg.version>
+         <lg.version lg="ron">nerecomandat</lg.version>
+         <lg.version lg="slk">zastaraný</lg.version>
+         <lg.version lg="slv">odsvetovano</lg.version>
+         <lg.version lg="spa">desaconsejado</lg.version>
+         <lg.version lg="swe">bör ej användas</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>It is recommended that the contents of this dataset be no longer used.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTSS003"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-18">
+      <authority-code>DEVELOPED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">в процес на създаване</lg.version>
+         <lg.version lg="ces">ve fázi vývoje</lg.version>
+         <lg.version lg="dan">under udvikling</lg.version>
+         <lg.version lg="deu">im Aufbau</lg.version>
+         <lg.version lg="ell" script="Greek">υπό κατασκευή</lg.version>
+         <lg.version lg="eng">under development</lg.version>
+         <lg.version lg="est">töös</lg.version>
+         <lg.version lg="fin">kehitteillä</lg.version>
+         <lg.version lg="fra">en cours d’élaboration</lg.version>
+         <lg.version lg="gle">á fhorbairt</lg.version>
+         <lg.version lg="hrv">u izradi</lg.version>
+         <lg.version lg="hun">kidolgozás alatt</lg.version>
+         <lg.version lg="ita">in corso di sviluppo</lg.version>
+         <lg.version lg="lav">izstrādes stadijā</lg.version>
+         <lg.version lg="lit">sudaromas</lg.version>
+         <lg.version lg="mlt">qed jiġi żviluppat</lg.version>
+         <lg.version lg="nld">in ontwikkeling</lg.version>
+         <lg.version lg="nno">under utvikling</lg.version>
+         <lg.version lg="nob">under utvikling</lg.version>
+         <lg.version lg="nor">under utvikling</lg.version>
+         <lg.version lg="pol">prace w toku</lg.version>
+         <lg.version lg="por">em desenvolvimento</lg.version>
+         <lg.version lg="ron">în curs de pregătire</lg.version>
+         <lg.version lg="slk">vo fáze vývoja</lg.version>
+         <lg.version lg="slv">v pripravi</lg.version>
+         <lg.version lg="spa">en fase de elaboración</lg.version>
+         <lg.version lg="swe">arbete pågår</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>This dataset is currently being assembled. It may be in an incomplete or faulty state.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTSS004"
+           deprecated="false"
+           IMMC.approval.date="2015-10-09"
+           IMMC.proposal.date="2015-10-09"
+           adm.status="current"
+           date.creation="2015-06-18">
+      <authority-code>WITHDRAWN</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">оттеглен</lg.version>
+         <lg.version lg="ces">odstraněn</lg.version>
+         <lg.version lg="dan">trukket tilbage</lg.version>
+         <lg.version lg="deu">eingestellt</lg.version>
+         <lg.version lg="ell" script="Greek">αποσύρθηκε</lg.version>
+         <lg.version lg="eng">withdrawn</lg.version>
+         <lg.version lg="est">tühistatud</lg.version>
+         <lg.version lg="fin">vedetty pois</lg.version>
+         <lg.version lg="fra">retiré</lg.version>
+         <lg.version lg="gle">aistarraingthe</lg.version>
+         <lg.version lg="hrv">obustavljen</lg.version>
+         <lg.version lg="hun">visszavont</lg.version>
+         <lg.version lg="ita">ritirato</lg.version>
+         <lg.version lg="lav">atsaukts</lg.version>
+         <lg.version lg="lit">atsiimtas</lg.version>
+         <lg.version lg="mlt">irtirat</lg.version>
+         <lg.version lg="nld">ingetrokken</lg.version>
+         <lg.version lg="nno">trekt tilbake</lg.version>
+         <lg.version lg="nob">trukket tilbake</lg.version>
+         <lg.version lg="nor">trukket tilbake</lg.version>
+         <lg.version lg="pol">wycofany</lg.version>
+         <lg.version lg="por">retirado</lg.version>
+         <lg.version lg="ron">retras</lg.version>
+         <lg.version lg="slk">odstránený</lg.version>
+         <lg.version lg="slv">odstranjeno</lg.version>
+         <lg.version lg="spa">retirado</lg.version>
+         <lg.version lg="swe">indragen</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-04-15" lg="eng">
+            <description>This dataset is no longer meant to be published.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+   <record id="DTSS005"
+           deprecated="false"
+           IMMC.approval.date="2015-08-26"
+           IMMC.proposal.date="2015-10-21"
+           adm.status="current"
+           date.creation="2015-10-16">
+      <authority-code>DISCONTINUED</authority-code>
+      <label>
+         <lg.version lg="bul" script="Cyrillic">временно преустановено</lg.version>
+         <lg.version lg="ces">zastaveno</lg.version>
+         <lg.version lg="dan">ophørt</lg.version>
+         <lg.version lg="deu">unterbrochen</lg.version>
+         <lg.version lg="ell" script="Greek">διακοπή</lg.version>
+         <lg.version lg="eng">discontinued</lg.version>
+         <lg.version lg="est">lõpetatud</lg.version>
+         <lg.version lg="fin">keskeytetty</lg.version>
+         <lg.version lg="fra" gender.grammar="M">interrompu</lg.version>
+         <lg.version lg="fra" gender.grammar="F">interrompue</lg.version>
+         <lg.version lg="gle">scortha</lg.version>
+         <lg.version lg="hrv">obustavljeno</lg.version>
+         <lg.version lg="hun">szüneteltetve</lg.version>
+         <lg.version lg="ita">interrotta</lg.version>
+         <lg.version lg="lav">sagatavošana pārtraukta</lg.version>
+         <lg.version lg="lit">nebeatnaujinama</lg.version>
+         <lg.version lg="mlt">interrott</lg.version>
+         <lg.version lg="nld">stopgezet</lg.version>
+         <lg.version lg="nno">avvikla</lg.version>
+         <lg.version lg="nob">avviklet</lg.version>
+         <lg.version lg="nor">avviklet</lg.version>
+         <lg.version lg="pol">przerwano</lg.version>
+         <lg.version lg="por">interrompida</lg.version>
+         <lg.version lg="ron">întreruptă</lg.version>
+         <lg.version lg="slk">pozastavené</lg.version>
+         <lg.version lg="slv">začasno prekinjeno</lg.version>
+         <lg.version lg="spa">interrumpido</lg.version>
+         <lg.version lg="swe">har upphört</lg.version>
+      </label>
+      <use.context>DCAT_AP</use.context>
+      <use.context>IMMC</use.context>
+      <use.context>ODP</use.context>
+      <use.context>WHOISWHO</use.context>
+      <start.use>2013-01-01</start.use>
+      <sources>
+         <source date="2015-10-20" lg="eng">
+            <description>This dataset is no longer produced or updated.</description>
+            <provenance>Publications Office of the European Union</provenance>
+         </source>
+      </sources>
+   </record>
+</datasetstatus>
